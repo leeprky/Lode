@@ -1,3 +1,4 @@
+
 /*  ------------------------------------------
 
                  Lode Alt Colour
@@ -11,7 +12,7 @@
         --radio-group-dot-foreground: rgba(var(--alt-color));
     }
     .theme-light {
-        --logo-primary: rgba(var(--alt-color));
+        --logo-primary: rgba(var(F--alt-color));
       }
     .replying-1x3H0T:before,
     .ephemeral-1PsL1r:before,
@@ -26,7 +27,6 @@
     .ephemeralMessage-1fEWtQ a {
         color: rgba(var(--alt-color)) !important;
     }
-    div[class*="headerPlaying"],
     div[class*="headerStreaming"] {
         background-color: rgba(var(--alt-color)) !important;
     }
