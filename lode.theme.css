@@ -8,25 +8,39 @@
 /* ^ betterdiscord compatability ^ */
 
 /* Lode Source Import */
-@import url();
+@import url(https://raw.githack.com/leeprky/Lode/main/source/node.source.css);
 
 /*  ------------------------------------------
 
-           Lode Customisable Configuration
-                       v0.1
-                   leeprky#2063
+            Lode Customisable Configuration
+                        v0.1
+                  - leeprky#2063 -
 
     ------------------------------------------  */
+
+/* Extra Variables Import */
+/* blurple-alt-colour */ /* --blurple-alt-colour */
+@import url(https://raw.githack.com/leeprky/Lode/main/source/alt-color.css);
+/* Lode Variables */
+@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
 
 .theme-dark {
         
         /* Lode Specific Colors */
-    --blurple-alt-colour: #fff; 
+    --blurple-alt-colour: 114, 137, 218;
+
+        /* Keeping Consistancy With Discord */ 
     --serverlist-background: var(--background-secondary);
     --memberlist-background: var(--background-primary);
+    --win-titlebar: var(--background-tertiary);
 
-        /* Alt Colors */
-    --spotify-color: #1ed860;
+        /* Header Colours Colors */
+        
+    --modal-normal-colour: #202225;
+    --modal-normal-secondary-colour: #2F3136;
+    --spotify-colour: #1ed860;
+    --playing-colour: #7289DA;
+    --streaming-colour: #593695;
 
         /* Header Colors */
     --header-primary: #fff;
@@ -84,6 +98,9 @@
     --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
     --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+
+    /* Goosemod Support */
+    --goosemode-colours: #fff;
 }
 
 
@@ -93,3 +110,29 @@
 
 
 
+
+/* Source RealTime Updates */
+
+
+/* Lode Extras */
+.scroller-1Bvpku {
+    background-color: var(--serverlist-background);
+}
+.members-1998pB, .members-1998pB>div {
+    background-color: var(--memberlist-background);
+}
+
+/* Wndows Titlebar */
+.titleBar-AC4pGV, .withFrame-haYltI, .typeWindows-1za-n7, .horizontalReverse-3tRjY7 {
+    background-color: var(--win-titlebar);
+    margin-top: 0px;
+}
+.winButton-iRh8-Z {
+    top: 1px;
+}
+.withFrame-haYltI {
+    height: 21px;
+}
+.wordmarkWindows-1v0lYD {
+    top: -1px;
+}
