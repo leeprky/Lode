@@ -11,27 +11,27 @@
 /* Modal Colours */
 /* Spotify Colours */
 .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-    background: var(--spotify-colour);
+    background: var(--spotify-color);
 }
 /* spotify extra */
 .attachButtonPlay-3iJ0mf {
-    color: var(--spotify-colour);
+    color: var(--spotify-color);
 }
 /* Streaming Colours */
 .headerStreaming-2FjmG, .topSectionStreaming-1Tpf5X {
-    background: var(--streaming-colour)
+    background: var(--streaming-color)
 }
 /* Playing Colours */
 .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
-    background: var(--playing-colour)
+    background: var(--playing-color)
 }
 /* Normal Colours */
 .headerNormal-T_seeN, .topSectionNormal-2-vo2m {
-    background: var(--modal-normal-colour);
+    background: var(--modal-normal-color);
 }
 /* secondary modal */
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
-    background-color: var(--modal-normal-secondary-colour)
+    background-color: var(--modal-normal-secondary-color)
 }
 
 /* --- */
