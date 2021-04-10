@@ -1,0 +1,37 @@
+/*  ------------------------------------------
+
+               Lode Extra Variables
+                      v0.1
+                - leeprky#2063 -
+
+    ------------------------------------------  */
+
+/* Global Recolouring */
+
+/* Modal Colours */
+/* Spotify Colours */
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+    background: var(--spotify-colour);
+}
+/* spotify extra */
+.attachButtonPlay-3iJ0mf {
+    color: var(--spotify-colour);
+}
+/* Streaming Colours */
+.headerStreaming-2FjmG, .topSectionStreaming-1Tpf5X {
+    background: var(--streaming-colour)
+}
+/* Playing Colours */
+.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+    background: var(--playing-colour)
+}
+/* Normal Colours */
+.headerNormal-T_seeN, .topSectionNormal-2-vo2m {
+    background: var(--modal-normal-colour);
+}
+/* secondary modal */
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: var(--modal-normal-secondary-colour)
+}
+
+/* --- */
