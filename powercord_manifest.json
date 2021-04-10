@@ -1,0 +1,8 @@
+{
+    "name": "Lode v0.1 Testbuild",
+    "description": "Personal Discord Theme For leeprky#2063",
+    "version": "0.1",
+    "author": "Leeprky#2063",
+    "license": "MIT",
+    "theme": "lode.theme.css"
+}
