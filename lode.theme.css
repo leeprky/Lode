@@ -100,3 +100,11 @@
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
 
 }
+
+/* Lode Extras */
+.scroller-1Bvpku {
+    background-color: var(--serverlist-background);
+}
+.members-1998pB, .members-1998pB>div {
+    background-color: var(--memberlist-background);
+}
