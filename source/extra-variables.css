@@ -42,5 +42,9 @@
 .members-1998pB, .members-1998pB>div {
     background-color: var(--memberlist-background);
 }
+/* Mention Line */
+.mentioned-xhSam7:before {
+    background-color: var(--alt-color);
+}
 
 /* --- */
