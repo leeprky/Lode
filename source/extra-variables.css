@@ -44,7 +44,7 @@
 }
 /* Mention Line */
 .mentioned-xhSam7:before {
-    background-color: var(--alt-color);
+    background-color: var(--mentioned-line);
 }
 
 /* --- */
