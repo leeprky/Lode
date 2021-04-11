@@ -1,7 +1,7 @@
 /*  ------------------------------------------
 
                Lode Extra Variables
-                      v0.1
+                      v0.1.2
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -32,6 +32,15 @@
 /* secondary modal */
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
     background-color: var(--modal-normal-secondary-color)
+}
+
+/* My Discord Style */
+/* Lode Extras */
+.scroller-1Bvpku {
+    background-color: var(--serverlist-background);
+}
+.members-1998pB, .members-1998pB>div {
+    background-color: var(--memberlist-background);
 }
 
 /* --- */
