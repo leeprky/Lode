@@ -2,14 +2,42 @@
 
 /*  ------------------------------------------
              Lode Source Code
-                  v0.1
+                  v0.1.2
               leeprky#2063
 ------------------------------------------  */
 
 /* Imports */
-
+/*
 @import url();
 @import url();
 @import url();
 
 /* Source */
+
+/* WindowsInTopBar */
+.typeWindows-1za-n7{
+    width:calc(100% - calc(72px + 240px));
+    position: fixed;
+    right: 0px;
+    height:46px;
+    z-index: 2;
+    background: transparent!important;margin:0px;
+  }
+  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+    z-index:1;
+  }
+  .winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
+  .wordmarkWindows-1v0lYD{display: none;}
+  .platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
+  .platform-win .title-3qD0b-{
+    width:calc(100% - 80px);
+  }
+  .typeWindows-1za-n7 {!important;margin:1px;}
+
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent;
+}
+/* --- */
