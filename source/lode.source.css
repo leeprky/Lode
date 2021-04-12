@@ -91,3 +91,9 @@ color: var(--header-secondary);
   background-color: rgba(0, 0, 0, 0);
   padding: 16px;
 }
+
+/* Smaller Channel Text */
+.container-2ax-kl {font-size: 12px;margin-left: 2px; }
+.channelName-2YrOjO, .subtitle-3V1p2E {font-size: 14px; }
+.icon-1DeIlz {width: 17px; height: 16px; }
+.icon-2yIBmh {height: 12px;}
