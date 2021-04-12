@@ -45,6 +45,10 @@
     background-color: var(--mentioned-line);
 }
 
+/* Accent Tooltips */
+.theme-dark .tooltipPrimary-1d1ph4, .theme-light .tooltipPrimary-1d1ph4 {
+    background-color: var(--background-accent)
+}
 /* --- */
 
 /* Border Radius Things */
@@ -70,3 +74,4 @@
 .colorDefault-2K3EoJ.focused-3afm-j {border-radius: var(--hover-border-radius); }
 .theme-dark .option-96V44q.selected-rZcOL- {border-radius: var(--hover-border-radius); }
 .colorDefault-2K3EoJ.focused-3afm-j {border-radius: var(--hover-border-radius); }
+
