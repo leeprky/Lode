@@ -7,10 +7,9 @@
 */
 /* ^ betterdiscord compatability ^ */
 
-/* Lode Source Import */
+/* Lode Source Import */ 
 @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css);
-
 
 /*  ------------------------------------------
 
@@ -29,7 +28,7 @@
 .theme-dark {
         
         /* Lode Specific Colors */
-    --alt-color: 114, 137, 218;
+    --alt-color: 214, 137, 018;
 
         /* Keeping Consistancy With Discord */ 
     --serverlist-background: var(--background-secondary);
@@ -44,9 +43,9 @@
 
         /* Header Colours Colors */
         
-    --modal-normal-color: #202225;
-    --modal-normal-secondary-color: #2F3136;
-    --spotify-color: #1ed860;
+    --modal-normal-color: #080808;
+    --modal-normal-secondary-color: #080808;
+    --spotify-color: #D68912;
     --playing-color: #7289DA;
     --streaming-color: #593695;
 
@@ -72,13 +71,13 @@
     --interactive-muted: #4f545c;
 
         /* Background Colours */
-    --background-primary: #36393f;
-    --background-primary-alt: #0b0b0c;
-    --background-secondary: #2f3136;
-    --background-secondary-alt: #2f3136;
-    --background-tertiary: #202225;
-    --background-accent: #4f545c;
-    --background-floating: #18191c;
+    --background-primary: #121314;
+    --background-primary-alt: #090a0a;
+    --background-secondary: #1c1e20;
+    --background-secondary-alt: #1c1e20;
+    --background-tertiary: #1c1e20;
+    --background-accent: #D68912;
+    --background-floating: #151618;
 
         /* Hovering Colours */
     --background-modifier-hover: rgba(79,84,92,0.16);
@@ -108,6 +107,8 @@
     --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
 
+    /* Other */
+    --radio-group-dot-foreground: var(var(--alt-color))
 }
 
 /* Lode Extras */
@@ -116,4 +117,37 @@
 }
 .members-1998pB, .members-1998pB>div {
     background-color: var(--memberlist-background);
+}
+
+/* Optionals */
+/* WindowsInTopBar */
+.typeWindows-1za-n7{
+    width:calc(100% - calc(72px + 240px));
+    position: fixed;
+    right: 0px;
+    height:46px;
+    z-index: 2;
+    background: transparent!important;margin:0px;
+  }
+  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+    z-index:1;
+  }
+  .winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
+  .wordmarkWindows-1v0lYD{display: none;}
+  .platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
+  .platform-win .title-3qD0b-{
+    width:calc(100% - 80px);
+  }
+  .typeWindows-1za-n7 {!important;margin:1px;}
+
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent;
+}
+/* --- */
+
+.theme-dark .tooltipPrimary-1d1ph4, .theme-light .tooltipPrimary-1d1ph4 {
+    background-color: var(--radio-group-dot-foreground)
 }
