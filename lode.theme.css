@@ -34,6 +34,12 @@
     --memberlist-background: var(--background-primary);
     --win-titlebar: var(--background-tertiary);
 
+         /* Making Things Round */
+    --modal-border-radius: 15px 15px 15px 15px;
+    --floating-border-radius: 15px 15px 15px 15px;
+    --expanded-border-radius: 15px 15px 15px 15px;
+    --hover-border-radius: 10px 10px 10px 10px;
+
         /* Header Colours Colors */
         
     --modal-normal-color: #202225;
