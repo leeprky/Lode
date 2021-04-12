@@ -43,6 +43,7 @@
 .headerTop-3C2Zn0 {
   min-height: 250px;
   padding: 0;
+  background-color: var(--modal-normal-secondary-color);
 }
 .headerTop-3C2Zn0 .avatarWrapper-3H_478 {
   left: 0;
