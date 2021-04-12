@@ -1,40 +1,226 @@
+/**
+ * @name Lode
+ * @author Leeprky#2063
+ * @version 0.1.2
+ * @description Personal Theme for leeprky#2063
+ * @source https://github.com/leeprky/lode
+*/
+/* ^ betterdiscord compatability ^ */
+
+/* Lode Source Import */
+@import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
+
 /*  ------------------------------------------
 
-               Lode Extra Variables
-                      v0.1.2
-                - leeprky#2063 -
+            Lode Customisable Configuration
+                        v0.1.2
+                  - leeprky#2063 -
 
     ------------------------------------------  */
 
-/* Global Recolouring */
+/* Extra Variables Import */
+/* blurple-alt-colour */ /* --blurple-alt-colour */
+@import url(https://raw.githack.com/leeprky/Lode/main/source/alt-color.css);
+/* Lode Variables */
+/* custom vars */
+@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
 
-/* Modal Colours */
-/* Spotify Colours */
-.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-    background: var(--spotify-color);
-}
-/* spotify extra */
-.attachButtonPlay-3iJ0mf {
-    color: var(--spotify-color);
-}
-/* Streaming Colours */
-.headerStreaming-2FjmG, .topSectionStreaming-1Tpf5X {
-    background: var(--streaming-color)
-}
-/* Playing Colours */
-.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
-    background: var(--playing-color)
-}
-/* Normal Colours */
-.headerNormal-T_seeN, .topSectionNormal-2-vo2m {
-    background: var(--modal-normal-color);
-}
-/* secondary modal */
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
-    background-color: var(--modal-normal-secondary-color)
+.theme-dark {
+        
+        /* Blurple Specific Colors */
+    --alt-color: 314, 137, 018;
+
+        /* Keeping Consistancy With Discord */ 
+    --serverlist-background: var(--background-secondary);
+    --memberlist-background: var(--background-primary);
+    --win-titlebar: var(--background-tertiary);
+
+        /* Making Things Round */
+    --modal-border-radius: 15px 15px 15px 15px;
+    --floating-border-radius: 15px 15px 15px 15px;
+    --expanded-border-radius: 15px 15px 15px 15px;
+    --hover-border-radius: 10px 10px 10px 10px;
+
+        /* Header Colours Colors */
+        
+    --modal-normal-color: #202225;
+    --modal-normal-secondary-color: var(--background-secondary);
+    --spotify-color: #FF8912;
+    --playing-color: #7289DA;
+    --streaming-color: #593695;
+
+        /* Header Colors */
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+
+        /* Powercord Toast Colors */
+    --toast-background: #2f3136;
+    --toast-header: #202225;
+    --toast-contents: #36393f;
+    --toast-box-shadow: rgba(0, 0, 0, .2);
+    --toast-border: rgba(28, 36, 43, 0);
+
+        /* Text Colours */
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-link: #00b0f4;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+
+        /* Background Colours */
+    --background-primary: #0f0f11;
+    --background-secondary: #0b0c0c;
+    --background-secondary-alt: #0b0c0c;
+    --background-tertiary: #1f1f22ef;
+    --background-accent: #3a3d42;
+    --background-floating: #151618;
+
+        /* Hovering Colours */
+    --background-modifier-hover: rgba(33, 34, 37, 0.16);
+    --background-modifier-active: rgba(95, 97, 99, 0.24);
+    --background-modifier-selected: rgba(42, 43, 46, 0.171);
+    --background-modifier-accent: rgba(255, 255, 255, 0.219);
+    --background-message-hover: rgba(4,4,5,0.07);
+
+        /* Mentioned  Colours */
+    --background-mentioned: rgba(250,166,26,0.05);
+    --background-mentioned-hover: rgba(250,166,26,0.08);
+
+    --background-help-warning: rgba(250,166,26,0.1);
+    --background-help-info: rgba(0,176,244,0.1);
+
+        /* Scrollbar Colours */
+    --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202225;
+    --scrollbar-auto-track: #2e3338;
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+
+       /* Box Shadow On Floating Elements Colours */
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+
 }
 
-/* My Discord Style */
+.theme-light {
+        
+    /* Blurple Specific Colors */
+--alt-color: 314, 137, 018;
+
+    /* Keeping Consistancy With Discord */ 
+--serverlist-background: var(--background-secondary);
+--memberlist-background: var(--background-primary);
+--win-titlebar: var(--background-tertiary);
+
+    /* Making Things Round */
+--modal-border-radius: 15px 15px 15px 15px;
+--floating-border-radius: 15px 15px 15px 15px;
+--expanded-border-radius: 15px 15px 15px 15px;
+--hover-border-radius: 10px 10px 10px 10px;
+
+    /* Header Colours Colors */
+    
+--modal-normal-color: #202225;
+--modal-normal-secondary-color: var(--background-secondary);
+--spotify-color: #FF8912;
+--playing-color: #7289DA;
+--streaming-color: #593695;
+
+    /* Header Colors */
+--header-primary: #fff;
+--header-secondary: #b9bbbe;
+
+    /* Powercord Toast Colors */
+--toast-background: #2f3136;
+--toast-header: #202225;
+--toast-contents: #36393f;
+--toast-box-shadow: rgba(0, 0, 0, .2);
+--toast-border: rgba(28, 36, 43, 0);
+
+    /* Text Colours */
+--text-normal: #dcddde;
+--text-muted: #72767d;
+--text-link: #00b0f4;
+--channels-default: #8e9297;
+--interactive-normal: #b9bbbe;
+--interactive-hover: #dcddde;
+--interactive-active: #fff;
+--interactive-muted: #4f545c;
+
+    /* Background Colours */
+--background-primary: #0f0f11;
+--background-secondary: #0b0c0c;
+--background-secondary-alt: #0b0c0c;
+--background-tertiary: #1f1f22ef;
+--background-accent: #3a3d42;
+--background-floating: #151618;
+
+    /* Hovering Colours */
+--background-modifier-hover: rgba(33, 34, 37, 0.16);
+--background-modifier-active: rgba(95, 97, 99, 0.24);
+--background-modifier-selected: rgba(42, 43, 46, 0.171);
+--background-modifier-accent: rgba(255, 255, 255, 0.219);
+--background-message-hover: rgba(4,4,5,0.07);
+
+    /* Mentioned  Colours */
+--background-mentioned: rgba(250,166,26,0.05);
+--background-mentioned-hover: rgba(250,166,26,0.08);
+
+--background-help-warning: rgba(250,166,26,0.1);
+--background-help-info: rgba(0,176,244,0.1);
+
+    /* Scrollbar Colours */
+--scrollbar-thin-thumb: #202225;
+--scrollbar-thin-track: transparent;
+--scrollbar-auto-thumb: #202225;
+--scrollbar-auto-track: #2e3338;
+--scrollbar-auto-scrollbar-color-thumb: #202225;
+--scrollbar-auto-scrollbar-color-track: #2f3136;
+
+   /* Box Shadow On Floating Elements Colours */
+--elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+--elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+--elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+--elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+
+}
+
+/* Optionals */
+/* WindowsInTopBar */
+.typeWindows-1za-n7{
+    width:calc(100% - calc(72px + 240px));
+    position: fixed;
+    right: 0px;
+    height:46px;
+    z-index: 2;
+    background: transparent!important;margin:0px;
+  }
+  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+    z-index:1000000;
+  }
+  .winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
+  .wordmarkWindows-1v0lYD{display: none;}
+  .platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
+  .platform-win .title-3qD0b-{
+    width:calc(100% - 80px);
+  }
+  .typeWindows-1za-n7 {!important;margin:1px;}
+
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent;
+}
+/* --- */
+/* Optionals End */
+
 /* Lode Extras */
 .scroller-1Bvpku {
     background-color: var(--serverlist-background);
@@ -42,9 +228,3 @@
 .members-1998pB, .members-1998pB>div {
     background-color: var(--memberlist-background);
 }
-/* Mention Line */
-.mentioned-xhSam7:before {
-    background-color: var(--mentioned-line);
-}
-
-/* --- */
