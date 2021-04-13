@@ -56,7 +56,7 @@
 
 /* Border Radius Things */
 .userPopout-3XzG_A {border-radius: var(--modal-border-radius) }
-.menu-3sdvDG {border-radius: var(--expanded-border-radius) }
+.menu-3sdvDG {border-radius: var(--expanded-border-radius); background-color: var(--background-secondary) }
 .headerNormal-T_seeN, .topSectionNormal-2-vo2m {border-radius: var(--expanded-border-radius) }
 .theme-dark .container-3ayLPN, .elevationBorderHigh-2WYJ09 {border-radius: var(--floating-border-radius) }
 .contentWrapper-SvZHNd {border-radius: var(--floating-border-radius) }
