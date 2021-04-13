@@ -9,7 +9,10 @@
 
 /* Lode Source Import */ 
 @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
+
+/* Base Stuff */
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+@import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css);
 
 /*  ------------------------------------------
 
@@ -29,7 +32,7 @@
         
         /* Lode Specific Colors */
     --alt-color: 214, 137, 018;
-    --green-color: 014, 237, 018; /* Not Functional Yet */
+    --greenple-color: 014, 237, 018; /* Not Functional Yet */
 
         /* Keeping Consistancy With Discord */ 
     --serverlist-background: var(--background-secondary);
