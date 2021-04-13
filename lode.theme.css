@@ -1,7 +1,7 @@
 /**
  * @name Lode
  * @author Leeprky#2063
- * @version 0.1.4
+ * @version 0.1.3
  * @description Personal Theme for leeprky#2063
  * @source https://github.com/leeprky/lode
 */
@@ -14,7 +14,7 @@
 /*  ------------------------------------------
 
             Lode Customisable Configuration
-                        v0.1.3
+                        v0.1.5
                   - leeprky#2063 -
 
     ------------------------------------------  */
@@ -29,6 +29,7 @@
         
         /* Lode Specific Colors */
     --alt-color: 214, 137, 018;
+    --green-color: 014, 237, 018; /* Not Functional Yet */
 
         /* Keeping Consistancy With Discord */ 
     --serverlist-background: var(--background-secondary);
@@ -148,12 +149,20 @@
 }
 /* --- */
 
-.theme-dark .tooltipPrimary-1d1ph4, .theme-light .tooltipPrimary-1d1ph4 {
-    background-color: var(--radio-group-dot-foreground) }
-
 .streamerModeEnabledBtn-2ZJ2eq {background-color: var(--streaming-color);}
 
 /* Unread Pill */
 .isUnread-3Ef-o9, .unreadPill-2HyYtt {border-color: var(--background-accent); background-color: var(--background-accent) }
 .isUnread-3Ef-o9 .content-1o0f9g {color: var(--background-accent) }
 .unreadPillCapStroke-7rkHbg { fill: var(--background-accent); color: var(--background-accent) }
+
+/* Notice Bar On Chat */
+.notice-3uyY6c, .notice-3bPHh- {
+    background-color: var(--background-accent);
+    top: 80px;
+    opacity: 0.9;
+    border-radius: 1px 1px 12px 12px;
+    left: 240px;
+    margin-right: 494px;
+    margin-top: -35px;
+}
