@@ -1,7 +1,7 @@
 /**
  * @name Lode
  * @author Leeprky#2063
- * @version 0.1.3
+ * @version 0.1.4
  * @description Personal Theme for leeprky#2063
  * @source https://github.com/leeprky/lode
 */
@@ -9,7 +9,7 @@
 
 /* Lode Source Import */ 
 @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css);
+
 
 /*  ------------------------------------------
 
@@ -54,11 +54,10 @@
     --header-secondary: #b9bbbe;
 
         /* Powercord Toast Colors */
-    --toast-background: #2f3136;
-    --toast-header: #202225;
-    --toast-contents: #36393f;
-    --toast-box-shadow: rgba(0, 0, 0, .2);
-    --toast-border: rgba(28, 36, 43, .6);
+    --toast-background: #1C1E20;
+    --toast-header: #121314;
+    --toast-box-shadow: rgba(24, 21, 21, 0.932);
+    --toast-border: rgba(21, 22, 22, 0);
 
         /* Text Colours */
     --text-normal: #dcddde;
@@ -108,7 +107,8 @@
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
 
     /* Other */
-    --radio-group-dot-foreground: var(var(--alt-color))
+    --radio-group-dot-foreground: var(--alt-color);
+    --channeltextarea-background: #0e0e0f;
 }
 
 /* Lode Extras */
@@ -149,5 +149,11 @@
 /* --- */
 
 .theme-dark .tooltipPrimary-1d1ph4, .theme-light .tooltipPrimary-1d1ph4 {
-    background-color: var(--radio-group-dot-foreground)
-}
+    background-color: var(--radio-group-dot-foreground) }
+
+.streamerModeEnabledBtn-2ZJ2eq {background-color: var(--streaming-color);}
+
+/* Unread Pill */
+.isUnread-3Ef-o9, .unreadPill-2HyYtt {border-color: var(--background-accent); background-color: var(--background-accent) }
+.isUnread-3Ef-o9 .content-1o0f9g {color: var(--background-accent) }
+.unreadPillCapStroke-7rkHbg { fill: var(--background-accent); color: var(--background-accent) }
