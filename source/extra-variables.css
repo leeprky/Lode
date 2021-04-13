@@ -19,6 +19,9 @@
 .headerStreaming-2FjmG, .topSectionStreaming-1Tpf5X {
     background: var(--streaming-color)
 }
+.streamerModeEnabledBtn-2ZJ2eq {
+  background-color: var(--streaming-color);
+}
 /* Playing Colours */
 .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
     background: var(--playing-color)
@@ -75,3 +78,7 @@
 .theme-dark .option-96V44q.selected-rZcOL- {border-radius: var(--hover-border-radius); }
 .colorDefault-2K3EoJ.focused-3afm-j {border-radius: var(--hover-border-radius); }
 
+/* Unread Pill */
+.isUnread-3Ef-o9, .unreadPill-2HyYtt {border-color: var(--background-accent); background-color: var(--background-accent) }
+.isUnread-3Ef-o9 .content-1o0f9g {color: var(--background-accent) }
+.unreadPillCapStroke-7rkHbg { fill: var(--background-accent); color: var(--background-accent) }
