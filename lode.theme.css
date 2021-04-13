@@ -32,7 +32,7 @@
         
         /* Lode Specific Colors */
     --alt-color: 214, 137, 018;
-    --greenple-color: 014, 237, 018; /* Not Functional Yet */
+    --greenple-color: #3FAA79;
 
         /* Keeping Consistancy With Discord */ 
     --serverlist-background: var(--background-secondary);
