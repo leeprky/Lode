@@ -11,4 +11,4 @@ Open Command Prompt & Copy This:
 
 ## Previews
 
-https://imgur.com/a/uPky604
+![preview](./previews/LodeDevAlpha.jpg)
