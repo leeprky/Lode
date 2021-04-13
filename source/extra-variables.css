@@ -1,6 +1,6 @@
 /*  ------------------------------------------
                Lode Extra Variables
-                      v0.1.3
+                      v0.1.5
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -22,6 +22,7 @@
 .streamerModeEnabledBtn-2ZJ2eq {
   background-color: var(--streaming-color);
 }
+
 /* Playing Colours */
 .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
     background: var(--playing-color)
