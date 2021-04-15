@@ -1,10 +1,18 @@
 /*  ------------------------------------------
              Lode Source Code
-                  v0.1.5
+                  v0.1.6
               leeprky#2063
 ------------------------------------------  */
 
-/* Source */
+/* Lode Source Imports */
+
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+/* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
+
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
+@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
+
+/* Lode Source Code*/
 
 /* Shrink server banners to header instead of disappearing. */
 [class*="animatedContainer-"] {
@@ -20,6 +28,11 @@
 }
 :not([class*="bannerVisible-"]) > [class*="animatedContainer-"] [class*="bannerImage-"] {
     margin-top: -12px;
+}
+
+/* Channel List Shrink */
+.sidebar-2K8pFh {
+  width: 220px;
 }
 
 /* No note on user modal */
@@ -107,4 +120,24 @@ color: var(--header-secondary);
     left: 240px;
     margin-right: 494px;
     margin-top: -35px;
+}
+
+/* Chat Avatars */
+.avatar-1BDn8e.clickable-1bVtEA {
+  border-radius: var(--avatar-border-radius);
+  transition: 0.5s
+}
+.avatar-1BDn8e.clickable-1bVtEA:hover {
+  border-radius: var(--avatar-border-radius-hover);
+  transition: 0.5s
+}
+
+/* Chatbox Transition */
+.scrollableContainer-2NUZem {
+  transition: 0.5s;
+  background-color: var(--channeltextarea-background);
+}
+.scrollableContainer-2NUZem:hover {
+  transition: 0.5s;
+  background-color: var(--channeltextarea-background-hover);
 }
