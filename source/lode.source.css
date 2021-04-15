@@ -1,143 +1,306 @@
+/**
+ * @name Lode
+ * @author Leeprky#2063
+ * @version 0.1.6.1
+ * @description Animated/Bubbly Theme w/ Lots of customisation
+ * @source https://github.com/leeprky/lode
+*/
+/* ^ betterdiscord compatability ^ */
+
+@import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
+
 /*  ------------------------------------------
-             Lode Source Code
-                  v0.1.6
-              leeprky#2063
-------------------------------------------  */
 
-/* Lode Source Imports */
+          Lode Customisable Configuration
+                  v0.1.6.1 Alpha
+                - leeprky#2063 -
 
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
-/* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
+    ------------------------------------------  */
 
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
+/* Lode's Vars Here: https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css */
 
-/* Lode Source Code*/
+.theme-dark {
+        
+        /* Lode Specific Colors */
+    --alt-color: 214, 137, 018;
+    /* --greenple-color: #3FAA79; */
 
-/* Shrink server banners to header instead of disappearing. */
-[class*="animatedContainer-"] {
-    opacity: 1 !important;
-    transition: opacity .5s;
-}
-[class*="animatedContainer-"] > [class*="bannerImage-"] {
-    transition: margin .5s;
-}
-:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
-    opacity: .35 !important;
-    height: 138px;
-}
-:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] [class*="bannerImage-"] {
-    margin-top: -12px;
+       /* Spotify Background For Upcoming Plugin */
+       /*
+    --spotify-background-image: url(https://i.scdn.co/image/ab67616d0000b273c417cdde69db8286480520e9);
+       */
+
+        /* Keeping Consistancy With Discord */ 
+    --serverlist-background: var(--background-secondary);
+    --memberlist-background: #0A0A0B;
+    --win-titlebar: var(--background-tertiary);
+
+         /* Making Things Round */
+    --modal-border-radius: 15px 15px 15px 15px;
+    --floating-border-radius: 15px 15px 15px 15px;
+    --expanded-border-radius: 15px 15px 15px 15px;
+    --hover-border-radius: 10px 10px 10px 10px;
+    --avatar-border-radius: 11.5px; /* Serverlist Too */
+    --avatar-border-radius-hover: 5.5px;
+
+
+        /* Header Colours Colors */
+    --modal-normal-primary-color: #1C1E20; 
+    --modal-normal-secondary-color: #1C1E20;
+    --spotify-color: #D68912;
+    --playing-color: #7289DA;
+    --streaming-color: #593695;
+
+        /* Header Colors */
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+
+        /* Powercord Toast Colors */
+    --toast-background: #1C1E20;
+    --toast-header: #121314;
+    --toast-box-shadow: rgba(24, 21, 21, 0.932);
+    --toast-border: rgba(21, 22, 22, 0);
+
+        /* Text Colours */
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-link: #00b0f4;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+
+        /* Chat */
+    --channeltextarea-background: #0e0e0f;
+    --channeltextarea-background-hover: #1E1E20;
+
+        /* Background Colours */
+    --background-primary: #121314;
+    --background-primary-alt: #090a0a;
+    --background-secondary: #1c1e20;
+    --background-secondary-alt: #1c1e20;
+    --background-tertiary: #1c1e20;
+    --background-accent: #D68912;
+    --background-floating: #151618;
+
+        /* Hovering Colours */
+    --background-modifier-hover: rgba(79,84,92,0.16);
+    --background-modifier-active: rgba(79,84,92,0.24);
+    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-message-hover: rgba(4,4,5,0.07);
+
+        /* Mentioned  Colours */
+    --background-mentioned: rgba(250,166,26,0.05);
+    --background-mentioned-hover: rgba(250,166,26,0.08);
+
+    --background-help-warning: rgba(250,166,26,0.1);
+    --background-help-info: rgba(0,176,244,0.1);
+
+        /* Scrollbar Colours */
+    --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202225;
+    --scrollbar-auto-track: #2e3338;
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+
+       /* Box Shadow On Floating Elements Colours */
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+
+    /* Other */
+    --radio-group-dot-foreground: var(--alt-color);
 }
 
-/* Channel List Shrink */
-.sidebar-2K8pFh {
-  width: 220px;
+/* Lode Extras */
+.scroller-1Bvpku {
+    background-color: var(--serverlist-background);
+}
+.members-1998pB, .members-1998pB>div {
+    background-color: var(--memberlist-background);
 }
 
-/* No note on user modal */
-.note-3HfJZ5 { display: none; }
-.footer-1fjuF6 { padding-bottom: 17.5px; margin-top: -15px }
-.bodyTitle-Y0qMQz { display: none }
-.bodyInnerWrapper-Z8WDxe:before { 
-  content: 'Roles';
-  font-weight: 700;
-  font-size: 16px;
-  margin-left: 85px;
-  color: var(--header-secondary);
-}
-/* Activity Shadow None */
-.activity-11LB_k {
-    background-color: rgba(0, 0, 0, 0);
-    padding: 16px;
-}
+/*  ----------------------------------------------------
 
-/* Modal Popout */
-.headerTop-3C2Zn0 {
-  min-height: 250px;
-  padding: 0;
-  background-color: var(--modal-normal-secondary-color);
+                  Optional Features
+        Add A "/*" On The Lines Below The Comments
+                  To Disable Them
+
+    ----------------------------------------------------  */
+
+/* WindowsInTopBar */
+
+.typeWindows-1za-n7{
+    width:calc(100% - calc(72px + 240px));
+    position: fixed;
+    right: 0px;
+    height:46px;
+    z-index: 2;
+    background: transparent!important;margin:0px;
+  }
+  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+    z-index:1;
+  }
+  .winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
+  .wordmarkWindows-1v0lYD{display: none;}
+  .platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
+  .platform-win .title-3qD0b-{
+    width:calc(100% - 80px);
+  }
+  .typeWindows-1za-n7 {!important;margin:1px;}
+
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent;
 }
-.headerTop-3C2Zn0 .avatarWrapper-3H_478 {
-  left: 0;
-  bottom: 9px;
-  top: -15px;
-  width: 255px;
-}
-.headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA {
-  height: 260px !important;
-  width: 250px !important;
-  left: -4px;
-}
-.avatarHint-1qgaV3 {width: 100%;height: 100%;border-radius: 0;}
-.avatarHintInner-Dco91E {
-  font-size: 0.4em;
-  text-shadow: 1px 1px 3px rgb(221, 221, 221);
-}
-.headerTop-3C2Zn0 foreignObject {mask: none !important;}
-.headerTop-3C2Zn0 rect {
-  border-radius: 0;
-  x: 0; y: 79.25;
-  width: 80px;
-  height: 3px;
-  mask: none;
-}
-.headerText-2sdzFM {padding-bottom: 5px;}
-.protip-YaFfgO {
-  display: none;
+.notice-3uyY6c, .notice-3bPHh- {
+  background-color: var(--background-accent);
+  top: 80px;
+  opacity: 0.9;
+  border-radius: 0px 0px 12px 12px;
+  left: 240px;
+  margin-right: 494px;
+  margin-top: -35px;
 }
 /* --- */
 
-/* No note on user modal */
-.note-3HfJZ5 { display: none; }
-.footer-1fjuF6 { padding-bottom: 17.5px; margin-top: -15px }
-.bodyTitle-Y0qMQz { display: none }
-.bodyInnerWrapper-Z8WDxe:before { 
-content: 'Roles';
-font-weight: 700;
-font-size: 16px;
-margin-left: 85px;
-color: var(--header-secondary);
+/* Settings Modal Under Channels Into Server List */
+
+.spotify-buttons {
+  width: 6em;
+  margin-bottom: -4px;
 }
-/* Activity Shadow None */
-.activity-11LB_k {
-  background-color: rgba(0, 0, 0, 0);
-  padding: 16px;
+.spotify-extra-controls, .spotify-seek-elements {
+    display: none !important;
+  }
+  .powercord-spotify, .powercord-spotify.hover {
+    height: 57px;
+  }
+  .powercord-spotify.hover .spotify-extra-controls + .spotify-seek {
+    margin-top:3px !important;
+  }
+  .powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar {
+    height:2px;
+  }
+  .spotify-seek-bar-cursor {
+    border:none !important;
+    width:15px;
+    height:15px;
+  }
+  .spotify-title div:first-child {
+    margin-top:-1px !important;
+    margin-bottom:3px;
+  }
+.powercord-spotify {
+  background-position-x: center;
+  background-position-y: center;
+  border-radius: 12px 12px 0px 0px; 
+  background-image: var(--spotify-background-image); 
+  background-position: center;
+  z-index: 1;
+  background-size: cover;
+}
+.avatar-SmRMf2 .spotify-cover {
+  display: none;
 }
 
-/* Smaller Channel Text */
-.container-2ax-kl {font-size: 12px;margin-left: 2px; }
-.channelName-2YrOjO, .subtitle-3V1p2E {font-size: 14px; }
-.icon-1DeIlz {width: 17px; height: 16px; }
-.icon-2yIBmh {height: 12px;}
-
-/* Notice Bar On Chat */
-.notice-3uyY6c, .notice-3bPHh- {
-    background-color: var(--background-accent);
-    top: 80px;
-    opacity: 0.9;
-    border-radius: 1px 1px 12px 12px;
-    left: 240px;
-    margin-right: 494px;
-    margin-top: -35px;
+.panels-j1Uci_ {
+  transition: height 0.5s;
+  z-index: 902;
+  position: absolute;
+  right: 1em;
+  bottom: 5em;
+  border-radius: 1em !important;
+  width: 240px;
+}
+.unreadBar-3t3sYc,
+.animatedContainer-1NSq4T {
+  visibility: hidden;
+}
+.bannerImage-3KhIJ6 {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.membersWrap-2h-GB4 {
+  background-color: var(--background-secondary);
+  height: calc(100% - 160px);
+  transition: height 0.5s;
+  border-radius: 1em;
+  position: absolute;
+  right: 1em;
+  top: 0.5em;
+  overflow: hidden;
+}
+.chatContent-a9vAAp {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.newMessagesBar-265mhP,
+.jumpToPresentBar-G1R9s6,
+.divider-3_HH5L {
+  width: calc(100% - 290px);
+}
+.container-2fRDfG {
+  width: calc(100% - 260px);
+}
+.message-2qnXI6[role="listitem"] {
+  width: calc(100% - 365px);
+  border-radius: 1em;
+}
+.searchResultsWrap-3-pOjs {
+  z-index: 903;
+  height: calc(100% - 100px);
+  position: absolute;
+  right: 1em;
+  border-radius: 1em;
 }
 
-/* Chat Avatars */
-.avatar-1BDn8e.clickable-1bVtEA {
-  border-radius: var(--avatar-border-radius);
-  transition: 0.5s
+.container-3baos1 .noWrap-3jynv6 {
+  width: 100px;
+  opacity: 1;
 }
-.avatar-1BDn8e.clickable-1bVtEA:hover {
-  border-radius: var(--avatar-border-radius-hover);
-  transition: 0.5s
+.button-14-BFJ{
+transition: 0.2s;
 }
+.button-14-BFJ:hover{
+padding-bottom: 0px;
+transition: 0.2;
+}
+/* --- */
+/* Optionals End */
+/* ----- */
 
-/* Chatbox Transition */
-.scrollableContainer-2NUZem {
-  transition: 0.5s;
-  background-color: var(--channeltextarea-background);
-}
-.scrollableContainer-2NUZem:hover {
-  transition: 0.5s;
-  background-color: var(--channeltextarea-background-hover);
-}
+    /* Chat Avatars */
+    .avatar-1BDn8e.clickable-1bVtEA {
+      border-radius: var(--avatar-border-radius);
+      transition: 0.5s
+    }
+    .avatar-1BDn8e.clickable-1bVtEA:hover {
+      border-radius: var(--avatar-border-radius-hover);
+      transition: 0.5s
+    }
+    
+    /* Chatbox Transition */
+    .scrollableContainer-2NUZem {
+      transition: 0.5s;
+      background-color: var(--channeltextarea-background);
+    }
+    .scrollableContainer-2NUZem:hover {
+      transition: 0.5s;
+      background-color: var(--channeltextarea-background-hover);
+    }
+
+/*  ----------------------------------------------------
+
+           ANYTHING ELSE YOU WANT TO ADD GOES BELOW
+                  THIS IS FOR DEBUGGING ETC
+                     v0.1.6 Alpha (Lode)
+
+    ----------------------------------------------------  */
