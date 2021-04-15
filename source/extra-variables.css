@@ -61,11 +61,12 @@
 .modalContent-1T1Tix {background-color: var(--background-primary);border-radius: 12px;   border-color: transparent; }
 .theme-dark .footer-2gL1pp {background-color: var(--background-secondary);border-radius: 12px; margin-top: 5px;   border-color: transparent; }
 .theme-dark .root-1gCeng, .form-26zE04 {background-color: transparent;}
-.lookFilled-1Gx00P.colorBrand-3pXr91 {border-radius: 12px;border-color: transparent;
-}
+.lookFilled-1Gx00P.colorBrand-3pXr91 {border-radius: 12px;border-color: transparent;}
+.theme-dark .message-2qRu38 {background-color: var(--background-secondary);border-radius: 12px}
+.theme-dark .root-1gCeng, .form-26zE04 {background-color: var(--background-primary) }
+
 /* Not Var */
 .header-2BwW8b {border-radius: 0px 0px 12px 12px;}
-
 
 /* Unread Pill */
 .isUnread-3Ef-o9, .unreadPill-2HyYtt {border-color: var(--background-accent); background-color: var(--background-accent) }
