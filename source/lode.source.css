@@ -11,6 +11,7 @@
 
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
 @import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
+@import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 
 /* Lode Source Code*/
 
@@ -140,4 +141,16 @@ color: var(--header-secondary);
 .scrollableContainer-2NUZem:hover {
   transition: 0.5s;
   background-color: var(--channeltextarea-background-hover);
+}
+
+
+/* Fix Rounding On Modal */
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+  border-radius: 12px;
+}
+.userPopout-3XzG_A .header-2BwW8b, .userPopout-3XzG_A .scroller-2FKFPG, .userPopout-3XzG_A .footer-1fjuF6 {
+  margin-bottom: 4.5px;
+}
+.customStatus-1bh2V9 {
+  margin-bottom: 10px;
 }
