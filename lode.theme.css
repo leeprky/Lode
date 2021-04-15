@@ -9,6 +9,14 @@
 
 @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
 
+/* Lode Source Imports */
+
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+/* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
+
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
+@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
+
 /*  ------------------------------------------
 
           Lode Customisable Configuration
