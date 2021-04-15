@@ -141,34 +141,3 @@ color: var(--header-secondary);
   transition: 0.5s;
   background-color: var(--channeltextarea-background-hover);
 }
-
-    /* Pirvate Channels Fix */
-.privateChannels-1nO12o {
-  transition: height 0.5s;
-  z-index: 902;
-  position: absolute;
-  right: 1em;
-  bottom: 5em;
-  border-radius: 1em !important;
-  width: 240px;
-}
-.privateChannels-1nO12o {
-  background-color: var(--background-secondary);
-  height: calc(100% - 160px);
-  transition: height 0.5s;
-  border-radius: 1em;
-  position: absolute;
-  right: 1em;
-  top: 3em;
-    verflow: hidden;
-}
-.container-1D34oG {
-  margin-left: -250px;
-}
-.nowPlayingColumn-2sl4cE {
-  margin-right: 260px;
-  margin-top: 7px;
-  margin-left: 12px;
-  margin-bottom: 90px;
-  border-radius: 12px;;
-}
