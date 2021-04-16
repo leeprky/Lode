@@ -36,34 +36,6 @@
 .theme-dark .tooltipPrimary-1d1ph4, .theme-light .tooltipPrimary-1d1ph4 {background-color: var(--background-accent) }
 /* --- */
 
-/* Border Radius Things */
-.userPopout-3XzG_A {border-radius: var(--modal-border-radius) }
-.menu-3sdvDG {border-radius: var(--expanded-border-radius); background-color: var(--background-secondary) }
-.theme-dark .container-3ayLPN, .elevationBorderHigh-2WYJ09 {border-radius: var(--floating-border-radius) }
-.contentWrapper-SvZHNd {border-radius: var(--floating-border-radius) }
-.messagesPopoutWrap-1MQ1bW {border-radius: var(--floating-border-radius) }
-.container-enaOkj {border-radius: var(--expanded-border-radius) }
-.root-SR8cQa {border-radius: var(--expanded-border-radius) }
-.root-1gCeng, .footer-2gL1pp {border-radius: var(--expanded-border-radius) }
-.input-2_SIlA {border-radius: var(--modal-border-radius) }
-.colorDefault-2K3EoJ.focused-3afm-j {border-radius: var(--hover-border-radius) }
-.categoryItem-3zFJns.selectedCategoryItem-3X8ujp {border-radius: var(--hover-border-radius) }
-.container-1CE3eW {border-radius: var(--expanded-border-radius) }
-.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {border-radius: var(--hover-border-radius) }
-.clickable-1JJAn8 .layout-2DM8Md {border-radius: var(--hover-border-radius) }
-.wrapper-2jXpOf .content-1x5b-n {border-radius: var(--hover-border-radius) }
-.notice-3uyY6c, .notice-3bPHh- {background-color: var(--background-accent);top: 10px }
-.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {border-radius: var(--hover-border-radius) }
-.clickable-1JJAn8 .layout-2DM8Md {border-radius: var(--hover-border-radius) }
-.colorDefault-2K3EoJ.focused-3afm-j {border-radius: var(--hover-border-radius); }
-.theme-dark .option-96V44q.selected-rZcOL- {border-radius: var(--hover-border-radius); }
-.colorDefault-2K3EoJ.focused-3afm-j {border-radius: var(--hover-border-radius); }
-.modalContent-1T1Tix { border-radius: 12px;}
-.theme-dark .footer-2gL1pp {border-radius: var(--hover-border-radius) ; margin-top: 5px;}
-.lookFilled-1Gx00P.colorBrand-3pXr91 {border-radius: var(--hover-border-radius) }
-.theme-dark .message-2qRu38 {border-radius: var(--hover-border-radius) }
-.lookFilled-1Gx00P.colorRed-1TFJan {border-radius: var(--hover-border-radius) }
-
 /* Not Var */
 .header-2BwW8b {border-radius: 0px 0px 12px 12px;}
 
