@@ -4,15 +4,6 @@
               leeprky#2063
 ------------------------------------------  */
 
-/* Lode Source Imports */
-
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
-/* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
-
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
-@import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
-
 /* Lode Source Code*/
 
 /* Shrink server banners to header instead of disappearing. */
@@ -143,7 +134,6 @@ color: var(--header-secondary);
   background-color: var(--channeltextarea-background-hover);
 }
 
-
 /* Fix Rounding On Modal */
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
   border-radius: 12px;
@@ -153,4 +143,8 @@ color: var(--header-secondary);
 }
 .customStatus-1bh2V9 {
   margin-bottom: 10px;
+}
+
+.accountList-33MS45 {
+  background-color: var(--background-secondary);
 }
