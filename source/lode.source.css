@@ -144,7 +144,12 @@ color: var(--header-secondary);
 .customStatus-1bh2V9 {
   margin-bottom: 10px;
 }
-
 .accountList-33MS45 {
   background-color: var(--background-secondary);
+}
+.userPopout-3XzG_A {background-color: var(--modal-normal-secondary-color);border-radius: var(--modal-border-radius);}
+
+/* TopBar */
+.container-1r6BKw.themed-ANHk51 {
+  background: var(--background-primary);
 }
