@@ -6,6 +6,10 @@
 
 /* Lode Source Code*/
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* Shrink server banners to header instead of disappearing. */
 [class*="animatedContainer-"] {
     opacity: 1 !important;
