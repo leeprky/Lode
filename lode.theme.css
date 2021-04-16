@@ -1,26 +1,29 @@
 /**
  * @name Lode
  * @author Leeprky#2063
- * @version 0.1.6
+ * @version 0.1.6.1
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/lode
 */
 /* ^ betterdiscord compatability ^ */
 
+/* Lode Base Source Code */
 @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
 
-/* Lode Source Imports */
-
+/* My Imports */
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
-/* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
-
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css);
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
 @import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
+/* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
+
+/* Other Imports */
+@import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 
 /*  ------------------------------------------
 
           Lode Customisable Configuration
-                  v0.1.6 Alpha
+                  v0.1.6.1 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -289,6 +292,7 @@ transition: 0.2;
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.6 Alpha (Lode)
+                     v0.1.6.1 Alpha (Lode)
 
     ----------------------------------------------------  */
+
