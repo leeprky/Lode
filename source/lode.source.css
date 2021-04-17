@@ -106,16 +106,17 @@ color: var(--header-secondary);
 .channelName-2YrOjO, .subtitle-3V1p2E {font-size: 14px; }
 .icon-1DeIlz {width: 17px; height: 16px; }
 .icon-2yIBmh {height: 12px;}
+.wrapper-2jXpOf { margin-right: 8px;}
 
 /* Notice Bar On Chat */
 .notice-3uyY6c, .notice-3bPHh- {
-    background-color: var(--background-accent);
-    top: 80px;
-    opacity: 0.9;
-    border-radius: 1px 1px 12px 12px;
-    left: 240px;
-    margin-right: 494px;
-    margin-top: -35px;
+  background-color: var(--background-accent);
+  top: 80px;
+  opacity: 0.9;
+  border-radius: 1px 1px 12px 12px;
+  left: 220px;
+  margin-right: 482px;
+  margin-top: -35px;
 }
 
 /* Chat Avatars */
