@@ -1,7 +1,7 @@
 /**
  * @name Lode
  * @author Leeprky#2063
- * @version 0.1.6.1
+ * @version 0.1.6.2
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/lode
 */
@@ -20,10 +20,31 @@
 /* Other Imports */
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 
+/*  ----------------------------
+         GLASSCORD SUPPORT
+    ----------------------------  */
+/* - DELETE HERE TO ENABLE GLASSCORD AND READ THE INSTRUCTIONS.
+    @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/BetterDefaultGlasscord.theme.css); 
+
+/*
+  < REPLACE LINES "111 - 117" WITH THIS >
+    --background-primary: #121314af;
+    --background-primary-alt: #090a0ac7;
+    --background-secondary: #1c1e20c5;
+    --background-secondary-alt: #1c1e20d7;
+    --background-tertiary: #1c1e2079;
+    --background-accent: #d68812e7;
+    --background-floating: #151618ec;
+*/
+    
+/*  ----------------------------
+       GLASSCORD SUPPORT END
+    ----------------------------  */
+
 /*  ------------------------------------------
 
           Lode Customisable Configuration
-                  v0.1.6.1 Alpha
+                  v0.1.6.2 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -43,7 +64,7 @@
 
         /* Keeping Consistancy With Discord */ 
     --serverlist-background: var(--background-secondary);
-    --memberlist-background: #0A0A0B;
+    --memberlist-background: #0a0a0bec;
     --win-titlebar: var(--background-tertiary);
 
          /* Making Things Round */
@@ -69,6 +90,7 @@
         /* Powercord Toast Colors */
     --toast-background: #1C1E20;
     --toast-header: #121314;
+    --toast-content: #fff;
     --toast-box-shadow: rgba(24, 21, 21, 0.932);
     --toast-border: rgba(21, 22, 22, 0);
 
@@ -87,13 +109,13 @@
     --channeltextarea-background-hover: #1E1E20;
 
         /* Background Colours */
-    --background-primary: #121314;
-    --background-primary-alt: #090a0a;
-    --background-secondary: #1c1e20;
-    --background-secondary-alt: #1c1e20;
-    --background-tertiary: #1c1e20;
+    --background-primary: #121314bd;
+    --background-primary-alt: #090a0ad3;
+    --background-secondary: #1c1e20ce;
+    --background-secondary-alt: #1c1e20d7;
+    --background-tertiary: #1c1e208f;
     --background-accent: #D68912;
-    --background-floating: #151618;
+    --background-floating: #151618ec;
 
         /* Hovering Colours */
     --background-modifier-hover: rgba(79,84,92,0.16);
@@ -292,7 +314,6 @@ transition: 0.2;
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.6.1 Alpha (Lode)
+                     v0.1.6.2 Alpha (Lode)
 
     ----------------------------------------------------  */
-
