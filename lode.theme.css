@@ -128,7 +128,7 @@
         /* Mentioned  Colours */
     --background-mentioned: rgba(250,166,26,0.05);
     --background-mentioned-hover: rgba(250,166,26,0.08);
-    --background-mentioned-bar: rgba(221, 25, 25, 0.938);
+    --background-mentioned-bar: var(--background-accent);
 
     --background-help-warning: rgba(250,166,26,0.1);
     --background-help-info: rgba(0,176,244,0.1);
