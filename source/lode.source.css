@@ -131,7 +131,6 @@
     background-color: var(--background-primary);
     border-radius: 0;
     border-radius: var(--chat-text-border-radius);
-    border-top-left-radius: 0 !important;
 }
 .theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) pre code {
     background-color: var(--background-tertiary);
@@ -143,9 +142,6 @@
 }
 .cozy-3raOZG .repliedMessage-VokQwo::before {
     content: unset !important;
-}
-.cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type {
-    border-top-right-radius: 0;
 }
 .cozy-3raOZG .repliedMessage-VokQwo, .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type {
     width: 60% !important;
@@ -197,6 +193,10 @@
 .headerText-3Uvj1Y {
   margin-left: 10px;
 }
+    .webkit-HjD9Er .buttons-3JBrkn {
+      margin-right: 5px;
+      border-radius: var(--hover-border-radius);
+  }
 /* --- */
 
 /* Shrink server banners to header instead of disappearing. */
