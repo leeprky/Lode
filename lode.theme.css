@@ -100,9 +100,9 @@
         /* Lode Specific */
     --alt-color: 214, 137, 018;
     --greenple-color: 0, 0, 0;
-
+/*
     --spotify-background-image: url(https://i.scdn.co/image/ab67616d0000b273c417cdde69db8286480520e9);
-
+*/
         /* Keeping Consistancy With Discord */ 
     --serverlist-background: var(--background-secondary);
     --memberlist-background: #0a0a0bec;
