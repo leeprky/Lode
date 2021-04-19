@@ -1,6 +1,6 @@
 /*  ------------------------------------------
              Lode Source Code
-                  v0.1.6
+                  v0.1.7
               leeprky#2063
 ------------------------------------------  */
 
@@ -346,4 +346,59 @@ color: var(--header-secondary);
 /* TopBar */
 .container-1r6BKw.themed-ANHk51 {
   background: var(--background-primary);
+}
+
+
+       /* Edited At Date */
+
+       .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j .timestampInline-yHQ6fX>[aria-label]::after{
+        content:"(edited " attr(aria-label) ")";
+        text-transform: lowercase;
+        font-size: 0.625rem;
+        font-weight: 400;
+        line-height: 1;
+      }
+      .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j .timestampInline-yHQ6fX .edited-3sfAzf{
+        display: none;
+      }
+
+    /* Scrollbar To Playing Games */
+.activityUserPopout-2yItg2{
+  height:120px;
+  overflow: hidden auto;
+}
+.activityUserPopout-2yItg2::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 8px;
+}
+.activityUserPopout-2yItg2::-webkit-scrollbar-track {
+  background: transparent;
+  border: 2px solid transparent;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.activityUserPopout-2yItg2::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background: var(--scrollbar-auto-scrollbar-color-track) ;
+  background-clip: padding-box;
+}
+
+/* New Message Focus */
+html:not(.app-focused) .unreadPillCapStroke-7rkHbg,html:not(.app-focused) .content-1o0f9g{
+  fill: var(--background-modifier-accent);
+  color: var(--background-modifier-accent);
+}
+html:not(.app-focused) .isUnread-3Ef-o9{
+  border-color: var(--background-modifier-accent);
+}
+html:not(.app-focused) .unreadPill-2HyYtt{
+  background: var(--background-modifier-accent);
+}
+.divider-3_HH5L {
+  margin-left: 1rem;
+  margin-right: calc(.875rem * 3 + 1px);
+}
+.unreadPill-2HyYtt {
+  margin-right: calc(.875rem * -2.5);
 }
