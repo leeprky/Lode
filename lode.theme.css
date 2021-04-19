@@ -1,7 +1,7 @@
 /**
  * @name Lode
  * @author Leeprky#2063
- * @version 0.1.6.2
+ * @version 0.1.7
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/lode
 */
@@ -19,6 +19,49 @@
 
 /* Other Imports */
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
+
+
+/* Recolour Buttons By LuckFire#4800 */
+/* Disbaled Till Import
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/tree/lode);
+
+:root {
+  --default-white: #FFFFFF;
+  --default-inverted: var(--default-white);
+  --default-inverted-hover: #F8F9FD;
+  --default-ghost-opacity: 0.8;
+
+  --blurple: 114, 137, 218;
+  --blurple-filled-hover: rgb(103, 123, 196);
+
+  --green: 67, 181, 129;
+  --green-filled-hover: rgb(60, 163, 116);
+  
+  --yellow: 250, 166, 26;
+  --yellow-filled-hover: rgb(225, 149, 23);
+
+  --red: 240, 71, 71;
+  --red-filled-hover: rgb(216, 64, 64);
+
+  --grey: 79, 84, 92;
+  --grey-filled-hover: rgb(71, 76, 83);
+
+  --primary: 79, 84, 92;
+  --primary-white: 255, 255, 255;
+  --primary-filled-hover: rgb(114, 118, 125);
+
+  --link: 0, 176, 244;
+  --link-filled-hover: rgb(16, 158, 214);
+
+  --black: 4, 4, 5;
+  --black-filled-hover: rgb(24, 25, 28);
+
+  --white: 255, 255, 255;
+  --white-black: 0, 0, 0;
+  --white-filled-hover: rgb(230, 230, 230);
+  --white-inverted-hover: rgb(104, 107, 114);
+}
+*/
 
 /*  ----------------------------
          GLASSCORD SUPPORT
@@ -44,7 +87,7 @@
 /*  ------------------------------------------
 
           Lode Customisable Configuration
-                  v0.1.6.2 Alpha
+                  v0.1.7 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -54,14 +97,11 @@
 /* Lode Dark */
 .theme-dark {
         
-        /* Lode Specific Colors */
+        /* Lode Specific */
     --alt-color: 214, 137, 018;
-    /* --greenple-color: #3FAA79; */
+    --greenple-color: 0, 0, 0;
 
-       /* Spotify Background For Upcoming Plugin */
-       /*
     --spotify-background-image: url(https://i.scdn.co/image/ab67616d0000b273c417cdde69db8286480520e9);
-       */
 
         /* Keeping Consistancy With Discord */ 
     --serverlist-background: var(--background-secondary);
@@ -113,7 +153,7 @@
     --background-primary: #121314;
     --background-primary-alt: #090a0a;
     --background-secondary: #1c1e20;
-    --background-secondary-alt: #1c1e20;
+    --background-secondary-alt: #0f1011;
     --background-tertiary: #1c1e20;
     --background-accent: #D68912;
     --background-floating: #151618;
@@ -413,6 +453,45 @@ transition: 0.2s;
 padding-bottom: 0px;
 transition: 0.2;
 }
+
+/* Horizontal Modals OPTION*/
+
+.userPopout-3XzG_A{
+  width:500px;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  height: 240px;
+}
+.footer-1fjuF6{
+  display: none;
+}
+.header-2BwW8b{
+  width:250px;
+  height: 240px;
+  border-radius: var(--modal-border-radius);
+  overflow: hidden auto;
+}
+.header-2BwW8b::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 8px;
+}
+.header-2BwW8b::-webkit-scrollbar-track {
+  background: transparent;
+  border: 2px solid transparent;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.header-2BwW8b::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background: var(--scrollbar-auto-scrollbar-color-track) ;
+  background-clip: padding-box;
+}
+.user-details-center {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
 /* --- */
 /* Optionals End */
 /* ----- */
@@ -421,6 +500,6 @@ transition: 0.2;
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.6.2 Alpha (Lode)
+                     v0.1.7 Alpha (Lode)
 
     ----------------------------------------------------  */
