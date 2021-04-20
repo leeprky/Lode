@@ -10,6 +10,20 @@
   display: none;
 }
 
+    /* Lode Chat */
+.avatar-1BDn8e.clickable-1bVtEA {
+  width: 48px;
+  height: 48px;
+  left: 12px
+}
+.message-2qnXI6[role="listitem"] {
+  width: calc(100% - 386px);
+  border-radius: 1em;
+}
+.cozy-3raOZG.wrapper-2a6GCs {
+  margin-left: 7px;
+}
+
     /* Tear Drop Messages By Freeplay Edits By Me*/
 
 .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
