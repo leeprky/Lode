@@ -122,10 +122,10 @@
 
         /* Header Colours Colors */
     --modal-normal-primary-color: #151924;
-    --modal-normal-secondary-color: #151a25;
-    --spotify-color: #f8066f;
-    --playing-color: #7289DA;
-    --streaming-color: #593695;
+    --modal-normal-secondary-color: #252B3B;
+    --spotify-color: #2b8a1ee8;
+    --playing-color: #8d1046ce;
+    --streaming-color: #4d2b86;
 
         /* Header Colors */
     --header-primary: #fff;
@@ -150,7 +150,7 @@
 
         /* Chat */
     --channeltextarea-background: #0e0e0f;
-    --channeltextarea-background-hover: #1E1E20;
+    --channeltextarea-background-hover: #252B3B;
 
         /* Background Colours */
     --background-primary: #191f30;
@@ -510,3 +510,19 @@ transition: 0.2;
                      v0.1.7.1 Alpha (Lode)
 
     ----------------------------------------------------  */
+
+    .cozy-3raOZG .timestamp-3ZCmNB {
+      margin-right: 10px;
+      font-size: 12px;
+  }
+
+  .clickable-536fPF {
+    margin-right: 0px;
+}
+
+/* Embeds */
+.theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
+  background-color: var(--background-secondary);
+  border-color: var(--background-accent);
+  font-weight: 400;
+}
