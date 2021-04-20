@@ -66,18 +66,18 @@
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */
-/* - DELETE HERE TO ENABLE GLASSCORD AND READ THE INSTRUCTIONS.
+/*
     @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/BetterDefaultGlasscord.theme.css); 
 
 /*
   < REPLACE LINES "111 - 117" WITH THIS >
-    --background-primary: #121314af;
-    --background-primary-alt: #090a0ac7;
-    --background-secondary: #1c1e20c5;
-    --background-secondary-alt: #1c1e20d7;
-    --background-tertiary: #1c1e2079;
-    --background-accent: #d68812e7;
-    --background-floating: #151618ec;
+    --background-primary: #191f30dc;
+    --background-primary-alt: #191f30d8;
+    --background-secondary: #252b3be5;
+    --background-secondary-alt: #252b3be3;
+    --background-tertiary: #252b3b00;
+    --background-accent: #e5197188;
+    --background-floating: #2b3341;
 */
     
 /*  ----------------------------
@@ -98,7 +98,7 @@
 .theme-dark {
         
         /* Lode Specific */
-    --alt-color: 214, 137, 018;
+    --alt-color: 228, 25, 112;
     --greenple-color: 0, 0, 0;
 /*
     --spotify-background-image: url(https://i.scdn.co/image/ab67616d0000b273c417cdde69db8286480520e9);
@@ -120,7 +120,7 @@
         /* Header Colours Colors */
     --modal-normal-primary-color: #1C1E20; 
     --modal-normal-secondary-color: #1C1E20;
-    --spotify-color: #D68912;
+    --spotify-color: #e5197188;
     --playing-color: #7289DA;
     --streaming-color: #593695;
 
@@ -138,7 +138,7 @@
         /* Text Colours */
     --text-normal: #dcddde;
     --text-muted: #72767d;
-    --text-link: #00b0f4;
+    --text-link: #e5197188;
     --channels-default: #8e9297;
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
@@ -150,42 +150,41 @@
     --channeltextarea-background-hover: #1E1E20;
 
         /* Background Colours */
-    --background-primary: #121314;
-    --background-primary-alt: #090a0a;
-    --background-secondary: #1c1e20;
-    --background-secondary-alt: #0f1011;
-    --background-tertiary: #1c1e20;
-    --background-accent: #D68912;
-    --background-floating: #151618;
+    --background-primary: #191f30dc;
+    --background-primary-alt: #191f30d8;
+    --background-secondary: #252b3be5;
+    --background-secondary-alt: #252b3be3;
+    --background-tertiary: #252b3b00;
+    --background-accent: #e5197188;
+    --background-floating: #2b3341;
 
         /* Hovering Colours */
-    --background-modifier-hover: rgba(79,84,92,0.16);
-    --background-modifier-active: rgba(79,84,92,0.24);
-    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-hover: #e2277815;
+    --background-modifier-active: #e227783d;
+    --background-modifier-selected: #e2277815;
     --background-modifier-accent: hsla(0,0%,100%,0.06);
     --background-message-hover: transparent;
 
         /* Mentioned  Colours */
-    --background-mentioned: rgba(250,166,26,0.05);
-    --background-mentioned-hover: rgba(250,166,26,0.08);
+    --background-mentioned: rgba(250, 26, 101, 0.05);
+    --background-mentioned-hover: rgba(250, 26, 101, 0.08);
     --background-mentioned-bar: var(--background-accent);
 
     --background-help-warning: rgba(250,166,26,0.1);
     --background-help-info: rgba(0,176,244,0.1);
 
         /* Scrollbar Colours */
-    --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-thumb: rgba(204, 29, 64, 0.185);
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #202225;
-    --scrollbar-auto-track: #2e3338;
-    --scrollbar-auto-scrollbar-color-thumb: #202225;
-    --scrollbar-auto-scrollbar-color-track: #2f3136;
+    --scrollbar-auto-thumb: #a0193b3b;
+    --scrollbar-auto-track: #e5197118;
+    --scrollbar-auto-scrollbar-color-thumb: #9c203f9a;
 
        /* Box Shadow On Floating Elements Colours */
-    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
-    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
-    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
-    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --elevation-stroke: 0 0 0 1px rgba(26, 22, 22, 0.329);
+    --elevation-low: 0 1px 0 rgba(26, 22, 22, 0.329);
+    --elevation-medium: 0 4px 4px rgba(26, 22, 22, 0.329);
+    --elevation-high: 0 8px 16px rgba(26, 22, 22, 0.329);
 
     /* Other */
     --radio-group-dot-foreground: var(--alt-color);
@@ -218,9 +217,9 @@
 --chat-text-border-radius: 12px 12px 12px 12px;
 
   /* Header Colours Colors */
---modal-normal-primary-color: #1C1E20; 
---modal-normal-secondary-color: #1C1E20;
---spotify-color: #f0b618;
+--modal-normal-primary-color: #2a2e46; 
+--modal-normal-secondary-color: #2a2e46; 
+--spotify-color: #e5197188;
 --playing-color: #7289DA;
 --streaming-color: #593695;
 
@@ -238,7 +237,7 @@
   /* Text Colours */
 --text-normal: #202122;
 --text-muted: #878c94;
---text-link: #f0b618;
+--text-link: #e5197188;
 --channels-default: #474a4e;
 --interactive-normal: #414447;
 --interactive-hover: #3f4144;
@@ -248,6 +247,7 @@
   /* Chat */
 --channeltextarea-background: #d6cfc7;
 --channeltextarea-background-hover: #d4cec7;
+--chat-bubble-color: #fff;
 
   /* Background Colours */
 --background-primary: rgb(206, 198, 190);
@@ -255,7 +255,7 @@
 --background-secondary: rgb(214, 205, 196);
 --background-secondary-alt: rgb(214, 205, 196);
 --background-tertiary: rgb(180, 175, 170);
---background-accent: #f0b618;
+--background-accent: #e5197188;
 --background-floating: rgb(233, 228, 223);
 
   /* Hovering Colours */
@@ -292,13 +292,13 @@
 }
 
 /* Lode Extras */
-.scroller-1Bvpku {
+.guilds-1SWlCJ {
     background-color: var(--serverlist-background);
 }
 .members-1998pB, .members-1998pB>div {
     background-color: var(--memberlist-background);
 }
-.scroller-1Bvpku {
+.guilds-1SWlCJ {
   background-color: var(--serverlist-background-light);
 }
 .members-1998pB, .members-1998pB>div {
