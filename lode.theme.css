@@ -1,7 +1,7 @@
 /**
  * @name Lode
  * @author Leeprky#2063
- * @version 0.1.7
+ * @version 0.1.7.1
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/lode
 */
@@ -87,7 +87,7 @@
 /*  ------------------------------------------
 
           Lode Customisable Configuration
-                  v0.1.7 Alpha
+                  v0.1.7.1 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -118,8 +118,8 @@
     --chat-text-border-radius: 12px 12px 12px 12px;
 
         /* Header Colours Colors */
-    --modal-normal-primary-color: #1C1E20; 
-    --modal-normal-secondary-color: #1C1E20;
+    --modal-normal-primary-color: #151924;
+    --modal-normal-secondary-color: #151a25;
     --spotify-color: #e5197188;
     --playing-color: #7289DA;
     --streaming-color: #593695;
@@ -500,6 +500,6 @@ transition: 0.2;
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.7 Alpha (Lode)
+                     v0.1.7.1 Alpha (Lode)
 
     ----------------------------------------------------  */
