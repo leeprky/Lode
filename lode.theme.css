@@ -526,3 +526,10 @@ transition: 0.2;
   border-color: var(--background-accent);
   font-weight: 400;
 }
+
+/* No Internet Transparent */
+.platform-win .container-16j22k {
+  padding-top: 22px;
+  top: -22px;
+  background-color: #181d29d0;
+}
