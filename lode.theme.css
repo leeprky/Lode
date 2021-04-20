@@ -123,7 +123,7 @@
         /* Header Colours Colors */
     --modal-normal-primary-color: #151924;
     --modal-normal-secondary-color: #151a25;
-    --spotify-color: #e5197188;
+    --spotify-color: #f8066f;
     --playing-color: #7289DA;
     --streaming-color: #593695;
 
@@ -141,7 +141,7 @@
         /* Text Colours */
     --text-normal: #dcddde;
     --text-muted: #72767d;
-    --text-link: #e5197188;
+    --text-link: #f8066f;
     --channels-default: #8e9297;
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
@@ -158,7 +158,7 @@
     --background-secondary: #252b3be5;
     --background-secondary-alt: #252b3be3;
     --background-tertiary: #252b3b00;
-    --background-accent: #e5197188;
+    --background-accent: #e51971c2;
     --background-floating: #2b3341;
 
         /* Hovering Colours */
@@ -306,6 +306,10 @@
 }
 .members-1998pB, .members-1998pB>div {
   background-color: var(--memberlist-background-light);
+}
+/* MemberList Scroller */
+.platform-win .scroller-1Bvpku {
+  padding-top: 16px;
 }
 
 /*  ----------------------------------------------------
@@ -458,7 +462,7 @@ transition: 0.2;
 }
 
 /* Horizontal Modals OPTION*/
-
+/*
 .userPopout-3XzG_A{
   width:500px;
   -webkit-box-orient: horizontal;
