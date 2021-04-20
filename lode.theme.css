@@ -104,8 +104,8 @@
     --spotify-background-image: url(https://i.scdn.co/image/ab67616d0000b273c417cdde69db8286480520e9);
 */
         /* Keeping Consistancy With Discord */ 
-    --serverlist-background: var(--background-secondary);
-    --memberlist-background: #0a0a0bec;
+    --serverlist-background: #242B3A;
+    --memberlist-background: #1d222e;
     --win-titlebar: var(--background-tertiary);
 
          /* Making Things Round */ /* Four Numbers = Four Corners */
