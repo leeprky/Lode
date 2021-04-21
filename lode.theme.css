@@ -326,9 +326,10 @@
 
     ----------------------------------------------------  */
 
-/* Spotify Plugin By Crenshaw */
-
+/* Crenshaw Plugin Blur Support */
 .header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(2px);}
+.assets-VMAukC { display: none;}
+.body-ZAhrcj {margin-left: -20px;}
 
 /* WindowsInTopBar */
 
