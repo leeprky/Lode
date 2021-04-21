@@ -416,3 +416,35 @@ html:not(.app-focused) .unreadPill-2HyYtt{
 .unreadPill-2HyYtt {
   margin-right: calc(.875rem * -2.5);
 }
+
+    /* Chat Stuff */
+.cozy-3raOZG .timestamp-3ZCmNB {
+  margin-right: 10px;
+  font-size: 12px;
+}
+.clickable-536fPF {
+  margin-right: 6.5px;
+}
+
+/* Embeds */
+.theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
+  background-color: var(--background-secondary);
+  border-color: var(--background-accent);
+  font-weight: 400;
+}
+
+/* No Internet */
+.platform-win .container-16j22k {
+  padding-top: 22px;
+  top: -22px;
+  background-color: #181d29d0;
+}
+
+div[class*="tipTitle-"] {
+  color: rgba(var(--alt-color)) !important;
+  display: none;
+}
+
+div[class*="tipTitle-"]:after {
+  content: " | NO INTERNET LOL";
+}
