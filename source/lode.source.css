@@ -376,28 +376,6 @@ color: var(--header-secondary);
         display: none;
       }
 
-    /* Scrollbar To Playing Games */
-.activityUserPopout-2yItg2{
-  height:120px;
-  overflow: hidden auto;
-}
-.activityUserPopout-2yItg2::-webkit-scrollbar {
-  width: 8px;
-  border-radius: 8px;
-}
-.activityUserPopout-2yItg2::-webkit-scrollbar-track {
-  background: transparent;
-  border: 2px solid transparent;
-  margin-bottom: 2px;
-  margin-top: 2px;
-}
-.activityUserPopout-2yItg2::-webkit-scrollbar-thumb {
-  border: 2px solid transparent;
-  border-radius: 4px;
-  background: var(--scrollbar-auto-scrollbar-color-track) ;
-  background-clip: padding-box;
-}
-
 /* New Message Focus */
 html:not(.app-focused) .unreadPillCapStroke-7rkHbg,html:not(.app-focused) .content-1o0f9g{
   fill: var(--background-modifier-accent);
