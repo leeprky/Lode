@@ -1,7 +1,7 @@
 /**
  * @name Lode
  * @author Leeprky#2063
- * @version 0.1.7.1
+ * @version 0.1.7.2
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/lode
 */
@@ -20,6 +20,12 @@
 /* Other Imports */
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 
+
+/* Optional Imports */
+
+/* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
+@import url(https://discord-theme-addons.github.io/discord-name-badges/src/main/betterdiscord/bd-compile.css);
+/* @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/ServerListDrawer-Edit.css); */
 
 /* Recolour Buttons By LuckFire#4800 */
 /* Disbaled Till Import
@@ -87,7 +93,7 @@
 /*  ------------------------------------------
 
           Lode Customisable Configuration
-                  v0.1.7.1 Alpha
+                  v0.1.7.2 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -507,29 +513,6 @@ transition: 0.2;
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.7.1 Alpha (Lode)
+                     v0.1.7.2 Alpha (Lode)
 
     ----------------------------------------------------  */
-
-    .cozy-3raOZG .timestamp-3ZCmNB {
-      margin-right: 10px;
-      font-size: 12px;
-  }
-
-  .clickable-536fPF {
-    margin-right: 0px;
-}
-
-/* Embeds */
-.theme-dark .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
-  background-color: var(--background-secondary);
-  border-color: var(--background-accent);
-  font-weight: 400;
-}
-
-/* No Internet Transparent */
-.platform-win .container-16j22k {
-  padding-top: 22px;
-  top: -22px;
-  background-color: #181d29d0;
-}
