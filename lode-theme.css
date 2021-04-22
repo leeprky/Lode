@@ -100,13 +100,20 @@
 /* Lode's Vars Here: https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css */
 
 /* OG Colour: */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/LodeDefaultDiscordColors.css);
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/LodeDefaultDiscordColors.css); */
+
+/* Discord Coner Blur For Non Glasscord */
+
+body {background-color: transparent;}
+#app-mount{background-color: transparent;border-radius: var(--discord-corner-radius);}
+.appMount-3lHmkl {background-color: transparent;}
 
 /* Lode Dark */
 .theme-dark {
         
          /* Lode Specific */
     --alt-color: 228, 25, 112;
+    --discord-corner-radius: 12px;
     /* --greenple-color: 0, 0, 0;
 
          /* Spotify Crenshaw Plugin */
@@ -140,9 +147,9 @@
     --header-secondary: #b9bbbe;
 
         /* Powercord Toast Colors */
-    --toast-background: #1C1E20;
-    --toast-header: #121314;
-    --toast-content: #fff;
+    --toast-background: #191f30;
+    --toast-header: #252b3b;
+    --toast-content: #252b3b;
     --toast-box-shadow: rgba(24, 21, 21, 0.932);
     --toast-border: rgba(21, 22, 22, 0);
 
@@ -241,7 +248,7 @@
   /* Powercord Toast Colors */
 --toast-background: #1C1E20;
 --toast-header: #121314;
---toast-content: #fff;
+--toast-content: rgb(26, 23, 23);
 --toast-box-shadow: rgba(24, 21, 21, 0.932);
 --toast-border: rgba(21, 22, 22, 0);
 
@@ -315,10 +322,11 @@
 .members-1998pB, .members-1998pB>div {
   background-color: var(--memberlist-background-light);
 }
-/* MemberList Scroller */
-.platform-win .scroller-1Bvpku {
-  padding-top: 16px;
+.powercord-toast .contents {
+  background-color: var(--toast-content);
 }
+/* MemberList Scroller */
+.platform-win .scroller-1Bvpku {padding-top: 16px;}
 
 /*  ----------------------------------------------------
 
@@ -329,7 +337,7 @@
     ----------------------------------------------------  */
 
 /* Spotify Crenshaw Plugin Blur */
-/*
+
 
 .header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--spotify-background-blur-modal)); border-radius: 0px 0px 12px 12px}
 .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {background-position: center; border-radius: 0px 0px 12px 12px}
@@ -382,6 +390,13 @@
   left: 240px;
   margin-right: 494px;
   margin-top: -35px;
+}
+
+.toolbar-1t6TWx {
+  margin-right: 10px;
+}
+.typeWindows-1za-n7 {
+  margin-right: 10px;
 }
 /* --- */
 
