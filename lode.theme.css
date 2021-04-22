@@ -347,6 +347,9 @@
 .container-3baos1:hover + .container-3baos1 {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
 .container-3baos1:hover {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
 
+.avatar-SmRMf2.spotify-cover {display: none;}
+.subtext-3CDbHg {color: var(--text-normal)}
+
 /* WindowsInTopBar */
 
 .typeWindows-1za-n7{
