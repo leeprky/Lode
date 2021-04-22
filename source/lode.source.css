@@ -439,3 +439,97 @@ div[class*="tipTitle-"]:after {
   left: 8px;
   position: absolute;
 }
+
+
+/*Hide the original file size was too big text*/
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y {
+  font-size: 0px;
+  }
+  /*Replace the text with the first half "That was" but no bold*/
+  .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y:before {
+  content: 'That was';
+  font-size: 22px;
+  font-weight: normal;
+  }
+  /*Add the second half with italics*/
+  .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y:after {
+  content: ' fucking gay';
+  font-size: 22px;
+  font-style: italic;
+  }
+  /*Hide the original file size limit text, also make the width a little smaller*/
+  .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG {
+  font-size: 0px;
+  width: 180px;
+  }
+  /*Replace the text with the funny*/
+  .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG:after {
+  content: "Don't ever post that bullshit again you fucking degenerate";
+  font-size: 12px;
+  }
+
+  /* Chat rounded */
+/*absol#0666 x LuckFire#4800*/
+
+
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+  border-radius: 15px 15px 0 0 !important
+}
+
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+  position: relative;
+  left: 5px;
+  padding-right: 5px
+}
+
+/* Transparent screenshare/call*/
+/* absol#0666 */
+
+.pictureInPictureWindow-1B5qSe{
+  width: 440px;
+  height: 248px;
+  opacity: 40%;
+}
+
+.pictureInPictureWindow-1B5qSe:hover{
+      opacity: 100%;
+}
+
+.premiumIcon-1rDbWQ.icon-1A2_vz {
+  color:white;
+}
+
+/* Center profile tabs */
+.tabBar-2MuP6-{ justify-content: center; }
+.top-28JiJ-:last-child .item-PXvHYJ:last-child { margin-right: 0; }
+
+/* Wider search results section */
+.searchResultsWrap-3-pOjs{ width: 800px; }
+
+
+/* Better roles */
+.role-2irmRk {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  padding: 5px;
+}
+.roleCircle-3xAZ1j::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: .2;
+  pointer-events: none;
+}
+.footer-1fjuF6 {
+  border-top: none;
+}
+
+/* Center server name */
+.name-3YKhmS{ text-align: center; }
+
+
