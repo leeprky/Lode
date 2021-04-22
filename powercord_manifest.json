@@ -3,6 +3,7 @@
     "description": "Animated/Bubbly Theme w/ Lots of customisation",
     "version": "0.1.8",
     "author": "Leeprky#2063",
+    "splashTheme": "splash.css",
     "license": "MIT",
     "theme": "lode.theme.css"
 }
