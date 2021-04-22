@@ -426,3 +426,16 @@ div[class*="tipTitle-"] {
 div[class*="tipTitle-"]:after {
   content: " | NO INTERNET LOL";
 }
+
+/* Spotify Shorter */
+.topSectionSpotify-1lI0-P .contentImagesProfile-1Mz07W {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+.topSectionSpotify-1lI0-P .fullWidth-1orjjo {
+  width: 33px;
+}
+.topSectionSpotify-1lI0-P .spotifyButtonLogo-3uT57D {
+  left: 8px;
+  position: absolute;
+}
