@@ -205,14 +205,14 @@
 /* Lode Light */
 .theme-light {
         
-  /* Lode Specific Colors */
+    /* Lode Specific Colors */
 --alt-color: 236, 185, 51;
-/* --greenple-color: #3FAA79; */
+  /*--greenple-color: 0, 0, 0;
 
- /* Spotify Background For Upcoming Plugin */
- /*
---spotify-background-image: url(https://i.scdn.co/image/ab67616d0000b273c417cdde69db8286480520e9);
- */
+   /* Spotify Crenshaw Plugin */
+--spotify-background-blur: 1.8px;
+--spotify-background-blur-modal: 3px;
+--spotify-background-blur-hover: 3.35px;
 
   /* Keeping Consistancy With Discord */ 
 --serverlist-background-light: var(--background-secondary);
@@ -331,7 +331,7 @@
 
 /* Crenshaw Plugin Blur Support */
 
-.header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--spotify-background-blur)); border-radius: 0px 0px 12px 12px}
+.header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--spotify-background-blur-modal)); border-radius: 0px 0px 12px 12px}
 .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {background-position: center; border-radius: 0px 0px 12px 12px}
 .headerFill-adLl4x, .header-QKLPzZ {background-color: transparent; border-radius: 0px 0px 12px 12px}
 
