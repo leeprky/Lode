@@ -329,8 +329,8 @@
 
     ----------------------------------------------------  */
 
-/* Crenshaw Plugin Blur Support */
-
+/* Spotify Crenshaw Plugin Blur */
+/*
 .header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--spotify-background-blur-modal)); border-radius: 0px 0px 12px 12px}
 .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {background-position: center; border-radius: 0px 0px 12px 12px}
 .headerFill-adLl4x, .header-QKLPzZ {background-color: transparent; border-radius: 0px 0px 12px 12px}
@@ -349,6 +349,9 @@
 
 .avatar-SmRMf2.spotify-cover {display: none;}
 .subtext-3CDbHg {color: var(--text-normal)}
+.nameTag-3uD-yy { margin-left: -7px;}
+.container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
+.nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
 
 /* WindowsInTopBar */
 
