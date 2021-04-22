@@ -1,0 +1,492 @@
+/**
+ * @name Lode
+ * @author Leeprky#2063
+ * @version 0.1.8
+ * @description Animated/Bubbly Theme w/ Lots of customisation
+ * @source https://github.com/leeprky/lode
+*/
+
+/* Lode Base Source Code */
+@import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
+
+/* My Imports */
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css);
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
+@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
+/* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
+
+/* Other Imports */
+@import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
+
+
+/* Optional Imports */
+
+/* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
+@import url(https://discord-theme-addons.github.io/discord-name-badges/src/main/betterdiscord/bd-compile.css);
+/* @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/ServerListDrawer-Edit.css); */
+
+/*  ------------------------------------------
+
+        Lode Customisable Configuration BD
+                  v0.1.8 Alpha
+                - leeprky#2063 -
+
+    ------------------------------------------  */
+
+/* Lode's Vars Here: https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css */
+
+/* OG Colour: */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/LodeDefaultDiscordColors.css); */
+
+/* Discord Coner Blur For Non Glasscord */
+
+body {background-color: transparent;}
+#app-mount{background-color: transparent;border-radius: var(--discord-corner-radius);}
+.appMount-3lHmkl {background-color: transparent;}
+
+/* Lode Dark */
+.theme-dark {
+        
+         /* Lode Specific */
+    --alt-color: 228, 25, 112;
+    --discord-corner-radius: 12px;
+    /* --greenple-color: 0, 0, 0;
+
+         /* Spotify Crenshaw Plugin */
+    --spotify-background-blur: 1.8px;
+    --spotify-background-blur-modal: 3px;
+    --spotify-background-blur-hover: 3.35px;
+  
+         /* Keeping Consistancy With Discord */ 
+    --serverlist-background: #242B3A;
+    --memberlist-background: #1d222e;
+    --win-titlebar: var(--background-tertiary);
+
+         /* Making Things Round */ /* Four Numbers = Four Corners */
+    --modal-border-radius: 15px 15px 15px 15px;
+    --floating-border-radius: 15px 15px 15px 15px;
+    --expanded-border-radius: 15px 15px 15px 15px;
+    --hover-border-radius: 10px 10px 10px 10px;
+    --avatar-border-radius: 11.5px 11.5px 11.5px 11.5px; /* Serverlist Too */
+    --avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
+    --chat-text-border-radius: 12px 12px 12px 12px;
+
+        /* Header Colours Colors */
+    --modal-normal-primary-color: #151924;
+    --modal-normal-secondary-color: #252B3B;
+    --spotify-color: #2b8a1ee8;
+    --playing-color: #8d1046ce;
+    --streaming-color: #4d2b86;
+
+        /* Header Colors */
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+
+        /* Powercord Toast Colors */
+    --toast-background: #191f30;
+    --toast-header: #252b3b;
+    --toast-content: #252b3b;
+    --toast-box-shadow: rgba(24, 21, 21, 0.932);
+    --toast-border: rgba(21, 22, 22, 0);
+
+        /* Text Colours */
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-link: #f8066f;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+
+        /* Chat */
+    --channeltextarea-background: #0e0e0f;
+    --channeltextarea-background-hover: #252B3B;
+
+        /* Background Colours */
+    --background-primary: #191f30;
+    --background-primary-alt: #191f30;
+    --background-secondary: #252b3b;
+    --background-secondary-alt: #252b3b;
+    --background-tertiary: #252b3b;
+    --background-accent: #e51971fb;
+    --background-floating: #2b3341;
+
+        /* Hovering Colours */
+    --background-modifier-hover: #e2277815;
+    --background-modifier-active: #e227783d;
+    --background-modifier-selected: #e2277815;
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-message-hover: transparent;
+
+        /* Mentioned  Colours */
+    --background-mentioned: rgba(250, 26, 101, 0.05);
+    --background-mentioned-hover: rgba(250, 26, 101, 0.08);
+    --background-mentioned-bar: var(--background-accent);
+
+    --background-help-warning: rgba(250,166,26,0.1);
+    --background-help-info: rgba(0,176,244,0.1);
+
+        /* Scrollbar Colours */
+    --scrollbar-thin-thumb: rgba(204, 29, 64, 0.185);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #a0193b3b;
+    --scrollbar-auto-track: #e5197118;
+    --scrollbar-auto-scrollbar-color-thumb: #9c203f9a;
+
+       /* Box Shadow On Floating Elements Colours */
+    --elevation-stroke: 0 0 0 1px rgba(26, 22, 22, 0.329);
+    --elevation-low: 0 1px 0 rgba(26, 22, 22, 0.329);
+    --elevation-medium: 0 4px 4px rgba(26, 22, 22, 0.329);
+    --elevation-high: 0 8px 16px rgba(26, 22, 22, 0.329);
+
+    /* Other */
+    --radio-group-dot-foreground: var(--alt-color);
+}
+
+/* Lode Light */
+.theme-light {
+        
+    /* Lode Specific Colors */
+--alt-color: 236, 185, 51;
+  /*--greenple-color: 0, 0, 0;
+
+   /* Spotify Crenshaw Plugin */
+--spotify-background-blur: 1.8px;
+--spotify-background-blur-modal: 3px;
+--spotify-background-blur-hover: 3.35px;
+
+  /* Keeping Consistancy With Discord */ 
+--serverlist-background-light: var(--background-secondary);
+--memberlist-background-light: #e0d7cd;
+--win-titlebar: var(--background-tertiary);
+
+   /* Making Things Round */ /* Four Numbers = Four Corners */
+--modal-border-radius: 15px 15px 15px 15px;
+--floating-border-radius: 15px 15px 15px 15px;
+--expanded-border-radius: 15px 15px 15px 15px;
+--hover-border-radius: 10px 10px 10px 10px;
+--avatar-border-radius: 11.5px 11.5px 11.5px 11.5px; /* Serverlist Too */
+--avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
+--chat-text-border-radius: 12px 12px 12px 12px;
+
+  /* Header Colours Colors */
+--modal-normal-primary-color: #2a2e46; 
+--modal-normal-secondary-color: #2a2e46; 
+--spotify-color: #e5197188;
+--playing-color: #7289DA;
+--streaming-color: #593695;
+
+  /* Header Colors */
+--header-primary: #fff;
+--header-secondary: #b9bbbe;
+
+  /* Powercord Toast Colors */
+--toast-background: #1C1E20;
+--toast-header: #121314;
+--toast-content: rgb(26, 23, 23);
+--toast-box-shadow: rgba(24, 21, 21, 0.932);
+--toast-border: rgba(21, 22, 22, 0);
+
+  /* Text Colours */
+--text-normal: #202122;
+--text-muted: #878c94;
+--text-link: #e5197188;
+--channels-default: #474a4e;
+--interactive-normal: #414447;
+--interactive-hover: #3f4144;
+--interactive-active: rgb(110, 103, 103);
+--interactive-muted: #bbb8b2;
+
+  /* Chat */
+--channeltextarea-background: #d6cfc7;
+--channeltextarea-background-hover: #d4cec7;
+--chat-bubble-color: #fff;
+
+  /* Background Colours */
+--background-primary: rgb(206, 198, 190);
+--background-primary-alt: rgb(206, 198, 190);
+--background-secondary: rgb(214, 205, 196);
+--background-secondary-alt: rgb(214, 205, 196);
+--background-tertiary: rgb(180, 175, 170);
+--background-accent: #e5197188;
+--background-floating: rgb(233, 228, 223);
+
+  /* Hovering Colours */
+--background-modifier-hover: rgba(79,84,92,0.16);
+--background-modifier-active: rgba(79,84,92,0.24);
+--background-modifier-selected: rgba(79,84,92,0.32);
+--background-modifier-accent: hsla(0,0%,100%,0.06);
+--background-message-hover: transparent;
+
+  /* Mentioned  Colours */
+--background-mentioned: rgba(250,166,26,0.05);
+--background-mentioned-hover: rgba(250,166,26,0.08);
+--background-mentioned-bar: var(--alt-color);
+
+--background-help-warning: rgba(250,166,26,0.1);
+--background-help-info: rgba(0,176,244,0.1);
+
+  /* Scrollbar Colours */
+--scrollbar-thin-thumb: #202225;
+--scrollbar-thin-track: transparent;
+--scrollbar-auto-thumb: #202225;
+--scrollbar-auto-track: #2e3338;
+--scrollbar-auto-scrollbar-color-thumb: #202225;
+--scrollbar-auto-scrollbar-color-track: #2f3136;
+
+ /* Box Shadow On Floating Elements Colours */
+--elevation-stroke: 0 0 0 1px rgba(224, 217, 205, 0.15);
+--elevation-low: 0 1px 0 rgba(231, 227, 222, 0.2),0 1.5px 0 rgba(235, 231, 226, 0.05),0 2px 0 rgba(233, 229, 223, 0.05);
+--elevation-medium: 0 4px 4px rgba(224, 217, 205, 0.15);
+--elevation-high: 0 8px 16px rgba(224, 217, 205, 0.15);
+
+/* Other */
+--radio-group-dot-foreground: var(--alt-color);
+}
+
+/* Lode Extras */
+.guilds-1SWlCJ {
+    background-color: var(--serverlist-background);
+}
+.members-1998pB, .members-1998pB>div {
+    background-color: var(--memberlist-background);
+}
+.guilds-1SWlCJ {
+  background-color: var(--serverlist-background-light);
+}
+.members-1998pB, .members-1998pB>div {
+  background-color: var(--memberlist-background-light);
+}
+.powercord-toast .contents {
+  background-color: var(--toast-content);
+}
+/* MemberList Scroller */
+.platform-win .scroller-1Bvpku {padding-top: 16px;}
+
+/*  ----------------------------------------------------
+
+                  Optional Features
+        Add A "/*" On The Lines Below The Comments
+                  To Disable Them
+
+    ----------------------------------------------------  */
+
+/* Spotify Crenshaw Plugin Blur */
+
+
+.header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--spotify-background-blur-modal)); border-radius: 0px 0px 12px 12px}
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {background-position: center; border-radius: 0px 0px 12px 12px}
+.headerFill-adLl4x, .header-QKLPzZ {background-color: transparent; border-radius: 0px 0px 12px 12px}
+.activityUserPopout-2yItg2, .activity-11LB_k, .headerTop-3C2Zn0 {backdrop-filter: blur(var(--spotify-background-blur-modal)); border-radius: 0px 0px 12px 12px}
+.powercord-spotify .spotify-seek {backdrop-filter: blur(0px); }
+.container-3baos1, .powercord-spotify {backdrop-filter: blur(var(--spotify-background-blur)); border-radius: var(--modal-border-radius);}
+.powercord-spotify:hover + .container-3baos1:hover {backdrop-filter: brightness(100%)}
+.powercord-spotify:hover + .container-3baos1 {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 0px 0px 20px 20px}
+.powercord-spotify:hover {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
+.container-3baos1:hover + .container-3baos1 {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
+.container-3baos1:hover {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
+.avatar-SmRMf2.spotify-cover {display: none;}
+.subtext-3CDbHg {color: var(--text-normal)}
+.nameTag-3uD-yy { margin-left: -7px;}
+.container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
+.nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
+
+/* WindowsInTopBar */
+
+.typeWindows-1za-n7{
+    width:calc(100% - calc(72px + 240px));
+    position: fixed;
+    right: 0px;
+    height:46px;
+    z-index: 2;
+    background: transparent!important;margin:0px;
+  }
+  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+    z-index:1;
+  }
+  .winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
+  .wordmarkWindows-1v0lYD{display: none;}
+  .platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
+  .platform-win .title-3qD0b-{
+    width:calc(100% - 80px);
+  }
+
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent;
+}
+.notice-3uyY6c, .notice-3bPHh- {
+  background-color: var(--background-accent);
+  top: 80px;
+  opacity: 0.9;
+  border-radius: 0px 0px 12px 12px;
+  left: 240px;
+  margin-right: 494px;
+  margin-top: -35px;
+}
+
+.toolbar-1t6TWx {
+  margin-right: 10px;
+}
+.typeWindows-1za-n7 {
+  margin-right: 10px;
+}
+/* --- */
+
+/* Settings Modal Under Channels Into Server List */
+
+.spotify-buttons {
+  width: 6em;
+  margin-bottom: -4px;
+}
+.spotify-extra-controls, .spotify-seek-elements {
+    display: none !important;
+  }
+  .powercord-spotify, .powercord-spotify.hover {
+    height: 57px;
+  }
+  .powercord-spotify.hover .spotify-extra-controls + .spotify-seek {
+    margin-top:3px !important;
+  }
+  .powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar {
+    height:2px;
+  }
+  .spotify-seek-bar-cursor {
+    border:none !important;
+    width:15px;
+    height:15px;
+  }
+  .spotify-title div:first-child {
+    margin-top:-1px !important;
+    margin-bottom:3px;
+  }
+.powercord-spotify {
+  background-position-x: center;
+  background-position-y: center;
+  border-radius: 12px 12px 0px 0px; 
+  background-image: var(--spotify-background-image); 
+  background-position: center;
+  z-index: 1;
+  background-size: cover;
+}
+.avatar-SmRMf2 .spotify-cover {
+  display: none;
+}
+
+.panels-j1Uci_ {
+  transition: height 0.5s;
+  z-index: 902;
+  position: absolute;
+  right: 1em;
+  bottom: 5em;
+  border-radius: 1em !important;
+  width: 240px;
+}
+.unreadBar-3t3sYc,
+.animatedContainer-1NSq4T {
+  visibility: hidden;
+}
+.bannerImage-3KhIJ6 {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.membersWrap-2h-GB4 {
+  background-color: var(--background-secondary);
+  height: calc(100% - 160px);
+  transition: height 0.5s;
+  border-radius: 1em;
+  position: absolute;
+  right: 1em;
+  top: 0.5em;
+  overflow: hidden;
+}
+.chatContent-a9vAAp {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.newMessagesBar-265mhP,
+.jumpToPresentBar-G1R9s6,
+.divider-3_HH5L {
+  width: calc(100% - 290px);
+}
+.container-2fRDfG {
+  width: calc(100% - 260px);
+}
+.message-2qnXI6[role="listitem"] {
+  width: calc(100% - 365px);
+  border-radius: 1em;
+}
+.searchResultsWrap-3-pOjs {
+  z-index: 903;
+  height: calc(100% - 100px);
+  position: absolute;
+  right: 1em;
+  border-radius: 1em;
+}
+
+.container-3baos1 .noWrap-3jynv6 {
+  width: 100px;
+  opacity: 1;
+}
+.button-14-BFJ{
+transition: 0.2s;
+}
+.button-14-BFJ:hover{
+padding-bottom: 0px;
+transition: 0.2;
+}
+
+/* Horizontal Modals OPTION*/
+/*
+.userPopout-3XzG_A{
+  width:500px;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  height: 240px;
+}
+.footer-1fjuF6{
+  display: none;
+}
+.header-2BwW8b{
+  width:250px;
+  height: 240px;
+  border-radius: var(--modal-border-radius);
+  overflow: hidden auto;
+}
+.header-2BwW8b::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 8px;
+}
+.header-2BwW8b::-webkit-scrollbar-track {
+  background: transparent;
+  border: 2px solid transparent;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.header-2BwW8b::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background: var(--scrollbar-auto-scrollbar-color-track) ;
+  background-clip: padding-box;
+}
+.user-details-center {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* --- */
+/* Optionals End */
+/* ----- */
+
+/*  ----------------------------------------------------
+
+           ANYTHING ELSE YOU WANT TO ADD GOES BELOW
+                  THIS IS FOR DEBUGGING ETC
+                     v0.1.8 Alpha (Lode)
+
+    ----------------------------------------------------  */
