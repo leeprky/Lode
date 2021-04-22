@@ -1,7 +1,7 @@
 /*  ------------------------------------------
 
               Lode Theme (POWERCORD)
-                  v0.1.8 Alpha
+                  v0.1.8.1 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -17,7 +17,9 @@
 /* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
 
 /* Other Imports */
-@import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css');
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/modals.css');
 
 
 /* Optional Imports */
@@ -92,7 +94,7 @@
 /*  ------------------------------------------
 
           Lode Customisable Configuration
-                  v0.1.8 Alpha
+                 v0.1.8.1 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -112,7 +114,8 @@ body {background-color: transparent;}
 .theme-dark {
         
          /* Lode Specific */
-    --alt-color: 228, 25, 112;
+    --alt-color: 228, 25, 112; /* RGB */
+    --alt-color2: #f8066f; /* HEX */
     --discord-corner-radius: 12px;
     /* --greenple-color: 0, 0, 0;
 
@@ -138,7 +141,7 @@ body {background-color: transparent;}
         /* Header Colours Colors */
     --modal-normal-primary-color: #151924;
     --modal-normal-secondary-color: #252B3B;
-    --spotify-color: #2b8a1ee8;
+    --spotify-color: #942052b0;
     --playing-color: #8d1046ce;
     --streaming-color: #4d2b86;
 
@@ -550,6 +553,6 @@ transition: 0.2;
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.8 Alpha (Lode)
+                     v0.1.8.1 Alpha (Lode)
 
     ----------------------------------------------------  */
