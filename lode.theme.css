@@ -106,13 +106,16 @@
 /* Lode Dark */
 .theme-dark {
         
-        /* Lode Specific */
+         /* Lode Specific */
     --alt-color: 228, 25, 112;
-    --greenple-color: 0, 0, 0;
-/*
-    --spotify-background-image: url(https://i.scdn.co/image/ab67616d0000b273c417cdde69db8286480520e9);
-*/
-        /* Keeping Consistancy With Discord */ 
+    /* --greenple-color: 0, 0, 0;
+
+         /* Spotify Crenshaw Plugin */
+    --spotify-background-blur: 1.8px;
+    --spotify-background-blur-modal: 3px;
+    --spotify-background-blur-hover: 3.35px;
+  
+         /* Keeping Consistancy With Discord */ 
     --serverlist-background: #242B3A;
     --memberlist-background: #1d222e;
     --win-titlebar: var(--background-tertiary);
@@ -327,9 +330,22 @@
     ----------------------------------------------------  */
 
 /* Crenshaw Plugin Blur Support */
-.header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(2px);}
-.assets-VMAukC { display: none;}
-.body-ZAhrcj {margin-left: -20px;}
+
+.header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--spotify-background-blur)); border-radius: 0px 0px 12px 12px}
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {background-position: center; border-radius: 0px 0px 12px 12px}
+.headerFill-adLl4x, .header-QKLPzZ {background-color: transparent; border-radius: 0px 0px 12px 12px}
+
+.activityUserPopout-2yItg2, .activity-11LB_k, .headerTop-3C2Zn0 {backdrop-filter: blur(var(--spotify-background-blur-modal)); border-radius: 0px 0px 12px 12px}
+
+.powercord-spotify .spotify-seek {backdrop-filter: blur(0px); }
+.container-3baos1, .powercord-spotify {backdrop-filter: blur(var(--spotify-background-blur)); border-radius: var(--modal-border-radius);}
+
+.powercord-spotify:hover + .container-3baos1:hover {backdrop-filter: brightness(100%)}
+.powercord-spotify:hover + .container-3baos1 {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 0px 0px 20px 20px}
+.powercord-spotify:hover {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
+
+.container-3baos1:hover + .container-3baos1 {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
+.container-3baos1:hover {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
 
 /* WindowsInTopBar */
 
