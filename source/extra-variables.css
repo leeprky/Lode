@@ -43,3 +43,6 @@
 .isUnread-3Ef-o9, .unreadPill-2HyYtt {border-color: var(--background-accent); background-color: var(--background-accent) }
 .isUnread-3Ef-o9 .content-1o0f9g {color: var(--background-accent) }
 .unreadPillCapStroke-7rkHbg { fill: var(--background-accent); color: var(--background-accent) }
+
+/* Update Button */
+.updateIconForeground-3tnNZn { fill: var(--background-accent);}
