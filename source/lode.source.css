@@ -533,3 +533,20 @@ div[class*="tipTitle-"]:after {
 .name-3YKhmS{ text-align: center; }
 
 
+    /* Pinned */
+    .messageGroupWrapper-o-Zw7G {
+      width: 482px;
+      border-radius: var(--hover-border-radius);
+  }
+  .messagesPopoutWrap-1MQ1bW {
+    border-radius: var(--floating-border-radius);
+    width: 500px;
+    height: 1000px;
+}
+/* Fixes To Chat */
+.container-3npvBV {
+  margin-right: 16px;
+}
+.newMessagesBar-265mhP, .jumpToPresentBar-G1R9s6, .divider-3_HH5L {
+  width: calc(100% - 330px);
+}
