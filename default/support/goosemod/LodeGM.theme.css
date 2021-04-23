@@ -9,13 +9,14 @@
 /*  ------------------------------------------
 
             Lode Theme (GOOSEMOD)
-                  v0.1.8 Alpha
+                  v0.1.8.1.3 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
 
 /* Lode Base Source Code */
 @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
+
 
 /* My Imports */
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
@@ -24,8 +25,10 @@
 @import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
 /* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
 
+
 /* Other Imports */
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
+@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 
 /* Optional Imports */
@@ -34,37 +37,98 @@
 @import url(https://discord-theme-addons.github.io/discord-name-badges/src/main/betterdiscord/bd-compile.css);
 /* @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/ServerListDrawer-Edit.css); */
 
+/* Recolour Buttons By LuckFire#4800 */
+/* Disbaled Till Import
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/tree/lode);
+
+:root {
+  --default-white: #FFFFFF;
+  --default-inverted: var(--default-white);
+  --default-inverted-hover: #F8F9FD;
+  --default-ghost-opacity: 0.8;
+
+  --blurple: 114, 137, 218;
+  --blurple-filled-hover: rgb(103, 123, 196);
+
+  --green: 67, 181, 129;
+  --green-filled-hover: rgb(60, 163, 116);
+  
+  --yellow: 250, 166, 26;
+  --yellow-filled-hover: rgb(225, 149, 23);
+
+  --red: 240, 71, 71;
+  --red-filled-hover: rgb(216, 64, 64);
+
+  --grey: 79, 84, 92;
+  --grey-filled-hover: rgb(71, 76, 83);
+
+  --primary: 79, 84, 92;
+  --primary-white: 255, 255, 255;
+  --primary-filled-hover: rgb(114, 118, 125);
+
+  --link: 0, 176, 244;
+  --link-filled-hover: rgb(16, 158, 214);
+
+  --black: 4, 4, 5;
+  --black-filled-hover: rgb(24, 25, 28);
+
+  --white: 255, 255, 255;
+  --white-black: 0, 0, 0;
+  --white-filled-hover: rgb(230, 230, 230);
+  --white-inverted-hover: rgb(104, 107, 114);
+}
+*/
+
+/*  ----------------------------
+         GLASSCORD SUPPORT
+    ----------------------------  */
+/*
+    @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/BetterDefaultGlasscord.theme.css); 
+
+/*
+  < REPLACE LINES "111 - 117" WITH THIS >
+    --background-primary: #191f30dc;
+    --background-primary-alt: #191f30d8;
+    --background-secondary: #252b3be5;
+    --background-secondary-alt: #252b3be3;
+    --background-tertiary: #252b3b00;
+    --background-accent: #e5197188;
+    --background-floating: #2b3341;
+*/
+    
+/*  ----------------------------
+       GLASSCORD SUPPORT END
+    ----------------------------  */
+
 /*  ------------------------------------------
 
-        Lode Customisable Configuration BD
-                  v0.1.8 Alpha
+          Lode Customisable Configuration
+                 v0.1.8.1.3 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
+
+    #app-mount {
+      background-color: var(--background-tertiary);
+    }
 
 /* Lode's Vars Here: https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css */
 
 /* OG Colour: */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/LodeDefaultDiscordColors.css); */
 
-/* Discord Coner Blur For Non Glasscord */
-
-body {background-color: transparent;}
-#app-mount{background-color: transparent;border-radius: var(--discord-corner-radius);}
-.appMount-3lHmkl {background-color: transparent;}
-
 /* Lode Dark */
 .theme-dark {
         
          /* Lode Specific */
-    --alt-color: 228, 25, 112;
+    --alt-color: 228, 25, 112; /* RGB */
+    --alt-color2: #f8066f; /* HEX */
     --discord-corner-radius: 12px;
+    --watermark-text: "LODE";
     /* --greenple-color: 0, 0, 0;
 
          /* Spotify Crenshaw Plugin */
-    --spotify-background-blur: 1.8px;
-    --spotify-background-blur-modal: 3px;
-    --spotify-background-blur-hover: 3.35px;
+    --album-blur-amount: 4px;
   
          /* Keeping Consistancy With Discord */ 
     --serverlist-background: #242B3A;
@@ -83,7 +147,7 @@ body {background-color: transparent;}
         /* Header Colours Colors */
     --modal-normal-primary-color: #151924;
     --modal-normal-secondary-color: #252B3B;
-    --spotify-color: #2b8a1ee8;
+    --spotify-color: #942052b0;
     --playing-color: #8d1046ce;
     --streaming-color: #4d2b86;
 
@@ -114,6 +178,7 @@ body {background-color: transparent;}
 
         /* Background Colours */
     --background-primary: #191f30;
+    --background-titlebar: #191f308f;
     --background-primary-alt: #191f30;
     --background-secondary: #252b3b;
     --background-secondary-alt: #252b3b;
@@ -282,27 +347,24 @@ body {background-color: transparent;}
     ----------------------------------------------------  */
 
 /* Spotify Crenshaw Plugin Blur */
+.powercord-spotify, .powercord-spotify.hover, .container-3baos1{
+  backdrop-filter: brightness(90%);
+  border-radius: 12px;
+}
 
+.header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--album-blur-amount));}
+.headerFill-adLl4x, .header-QKLPzZ {background-color: transparent;}
+.activityUserPopout-2yItg2, .activity-11LB_k, .headerTop-3C2Zn0 {backdrop-filter: blur(var(--album-blur-amount));}
 
-.header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--spotify-background-blur-modal)); border-radius: 0px 0px 12px 12px}
-.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {background-position: center; border-radius: 0px 0px 12px 12px}
-.headerFill-adLl4x, .header-QKLPzZ {background-color: transparent; border-radius: 0px 0px 12px 12px}
-.activityUserPopout-2yItg2, .activity-11LB_k, .headerTop-3C2Zn0 {backdrop-filter: blur(var(--spotify-background-blur-modal)); border-radius: 0px 0px 12px 12px}
-.powercord-spotify .spotify-seek {backdrop-filter: blur(0px); }
-.container-3baos1, .powercord-spotify {backdrop-filter: blur(var(--spotify-background-blur)); border-radius: var(--modal-border-radius);}
-.powercord-spotify:hover + .container-3baos1:hover {backdrop-filter: brightness(100%)}
-.powercord-spotify:hover + .container-3baos1 {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 0px 0px 20px 20px}
-.powercord-spotify:hover {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
-.container-3baos1:hover + .container-3baos1 {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
-.container-3baos1:hover {backdrop-filter: blur(var(--spotify-background-blur-hover));border-radius: 20px 20px 0px 0px}
 .avatar-SmRMf2.spotify-cover {display: none;}
 .subtext-3CDbHg {color: var(--text-normal)}
 .nameTag-3uD-yy { margin-left: -7px;}
 .container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
 .nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
 
-/* WindowsInTopBar */
 
+/* WindowsInTopBar */
+/*
 .typeWindows-1za-n7{
     width:calc(100% - calc(72px + 240px));
     position: fixed;
@@ -321,11 +383,15 @@ body {background-color: transparent;}
     width:calc(100% - 80px);
   }
 
-.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
-.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
-.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e; border-radius: var(--hover-border-radius);}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f; border-radius: var(--hover-border-radius);}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879; border-radius: var(--hover-border-radius);}
 .container-1r6BKw.themed-ANHk51 {
-    background: transparent;
+    background: var(--background-titlebar);
+}
+.platform-win .title-3qD0b- {
+  width: calc(100% - 080px);
+  background-color: transparent;
 }
 .notice-3uyY6c, .notice-3bPHh- {
   background-color: var(--background-accent);
@@ -337,14 +403,11 @@ body {background-color: transparent;}
   margin-top: -35px;
 }
 
-.toolbar-1t6TWx {
-  margin-right: 10px;
-}
-.typeWindows-1za-n7 {
-  margin-right: 10px;
-}
-/* --- */
 
+/* --- */
+.withFrame-haYltI {
+  margin-top: 10px;
+}
 /* Settings Modal Under Channels Into Server List */
 
 .spotify-buttons {
@@ -388,7 +451,7 @@ body {background-color: transparent;}
 .panels-j1Uci_ {
   transition: height 0.5s;
   z-index: 902;
-  position: absolute;
+  position: fixed;
   right: 1em;
   bottom: 5em;
   border-radius: 1em !important;
@@ -495,6 +558,6 @@ transition: 0.2;
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.8 Alpha (Lode)
+                     v0.1.8.1.3 Alpha (Lode)
 
     ----------------------------------------------------  */
