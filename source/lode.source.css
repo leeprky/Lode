@@ -595,14 +595,14 @@ div[class*="tipTitle-"]:after {
       bottom: 0;
       right: 0;
       z-index: -1;
-      backdrop-filter: blur(var(--album-blur-amount));
+      backdrop-filter: blur(2px);
     }
     [style*="background-image:"] .powercord-spotify:hover, [style*="background-image:"] > .container-3baos1:hover, [style*="background-image:"] .wrapper-24pKcD:hover {
       position: relative;
       z-index: 3;
     }
     [style*="background-image:"] .powercord-spotify:hover::after, [style*="background-image:"] > .container-3baos1:hover::after, [style*="background-image:"] .wrapper-24pKcD:hover::after {
-      backdrop-filter: brightness(70%);
+      backdrop-filter: blur(2px);
       content: '';
       position: absolute;
       top: 0;
@@ -616,4 +616,5 @@ div[class*="tipTitle-"]:after {
       background-repeat: no-repeat;
       background-size: cover;
     }
+    
     
