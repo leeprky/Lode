@@ -9,67 +9,24 @@
 /* Lode Base Source Code */
 @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css);
 
-
 /* My Imports */
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css);
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
 /* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
 
+/* Lode Imports */
+@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
+@import url(https://github.com/leeprky/Lode/blob/main/default/support/plugins/plugin-styles.css);
 
 /* Other Imports */
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
-
 /* Optional Imports */
-
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
 @import url(https://discord-theme-addons.github.io/discord-name-badges/src/main/betterdiscord/bd-compile.css);
 /* @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/ServerListDrawer-Edit.css); */
-
-/* Recolour Buttons By LuckFire#4800 */
-/* Disbaled Till Import
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/tree/lode);
-
-:root {
-  --default-white: #FFFFFF;
-  --default-inverted: var(--default-white);
-  --default-inverted-hover: #F8F9FD;
-  --default-ghost-opacity: 0.8;
-
-  --blurple: 114, 137, 218;
-  --blurple-filled-hover: rgb(103, 123, 196);
-
-  --green: 67, 181, 129;
-  --green-filled-hover: rgb(60, 163, 116);
-  
-  --yellow: 250, 166, 26;
-  --yellow-filled-hover: rgb(225, 149, 23);
-
-  --red: 240, 71, 71;
-  --red-filled-hover: rgb(216, 64, 64);
-
-  --grey: 79, 84, 92;
-  --grey-filled-hover: rgb(71, 76, 83);
-
-  --primary: 79, 84, 92;
-  --primary-white: 255, 255, 255;
-  --primary-filled-hover: rgb(114, 118, 125);
-
-  --link: 0, 176, 244;
-  --link-filled-hover: rgb(16, 158, 214);
-
-  --black: 4, 4, 5;
-  --black-filled-hover: rgb(24, 25, 28);
-
-  --white: 255, 255, 255;
-  --white-black: 0, 0, 0;
-  --white-filled-hover: rgb(230, 230, 230);
-  --white-inverted-hover: rgb(104, 107, 114);
-}
-*/
 
 /*  ----------------------------
          GLASSCORD SUPPORT
