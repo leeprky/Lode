@@ -5,44 +5,19 @@
     ------------------------------------------  */
 
 /* Global Recolouring */
-
-/* Modal Colours */
-/* Spotify Colours */
-.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {background: var(--spotify-color); }
-/* spotify extra */
-.attachButtonPlay-3iJ0mf { color: var(--spotify-color);}
-/* Streaming Colours */
-.headerStreaming-2FjmG, .topSectionStreaming-1Tpf5X {background: var(--streaming-color) }
-.streamerModeEnabledBtn-2ZJ2eq {background-color: var(--streaming-color);}
-
-/* Playing Colours */
-.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {background: var(--playing-color) }
-
-/* Normal Colours */
-.headerNormal-T_seeN, .topSectionNormal-2-vo2m, .headerTop-3C2Zn0 { background: var(--modal-normal-color);}
-
-/* secondary modal */
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 { background-color: var(--modal-normal-secondary-color) }
-
-/* My Discord Style */
-/* Lode Extras */
-.scroller-1Bvpku {background-color: var(--serverlist-background); }
-.members-1998pB, .members-1998pB>div {background-color: var(--memberlist-background); }
-
-/* Mention Line */
-.mentioned-xhSam7:before {background-color: var(--mentioned-line); }
-
-/* Accent Tooltips */
-.theme-dark .tooltipPrimary-1d1ph4, .theme-light .tooltipPrimary-1d1ph4 {background-color: var(--background-accent) }
-/* --- */
-
-/* Not Var */
-.header-2BwW8b {border-radius: 0px 0px 12px 12px;}
-
-/* Unread Pill */
-.isUnread-3Ef-o9, .unreadPill-2HyYtt {border-color: var(--background-accent); background-color: var(--background-accent) }
-.isUnread-3Ef-o9 .content-1o0f9g {color: var(--background-accent) }
-.unreadPillCapStroke-7rkHbg { fill: var(--background-accent); color: var(--background-accent) }
-
-/* Update Button */
-.updateIconForeground-3tnNZn { fill: var(--background-accent);}
+.headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P{background:var(--spotify-color)}
+.attachButtonPlay-3iJ0mf{color:var(--spotify-color)}
+.headerStreaming-2FjmG,.topSectionStreaming-1Tpf5X{background:var(--streaming-color)}
+.streamerModeEnabledBtn-2ZJ2eq{background-color:var(--streaming-color)}
+.headerPlaying-j0WQBV,.topSectionPlaying-1J5E4n{background:var(--playing-color)}
+.headerNormal-T_seeN,.headerTop-3C2Zn0,.topSectionNormal-2-vo2m{background:var(--modal-normal-color)}
+.theme-dark .body-3iLsc4,.theme-dark .footer-1fjuF6{background-color:var(--modal-normal-secondary-color)}
+.scroller-1Bvpku{background-color:var(--serverlist-background)}
+.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
+.mentioned-xhSam7:before{background-color:var(--mentioned-line)}
+.theme-dark .tooltipPrimary-1d1ph4,.theme-light .tooltipPrimary-1d1ph4{background-color:var(--background-accent)}
+.header-2BwW8b{border-radius:0 0 12px 12px}
+.isUnread-3Ef-o9,.unreadPill-2HyYtt{border-color:var(--background-accent);background-color:var(--background-accent)}
+.isUnread-3Ef-o9 .content-1o0f9g{color:var(--background-accent)}
+.unreadPillCapStroke-7rkHbg{fill:var(--background-accent);color:var(--background-accent)}
+.updateIconForeground-3tnNZn{fill:var(--background-accent)}
