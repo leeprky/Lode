@@ -582,3 +582,38 @@ div[class*="tipTitle-"]:after {
   right: 0;
   background: url(https://i.imgur.com/KgDzLI5.png) center/20px no-repeat;
 }
+
+/* Spotify Plugin Fix */
+    .panels-j1Uci_ {
+      z-index: 3;
+    }
+    .panels-j1Uci_::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      backdrop-filter: blur(var(--album-blur-amount));
+    }
+    [style*="background-image:"] .powercord-spotify:hover, [style*="background-image:"] > .container-3baos1:hover, [style*="background-image:"] .wrapper-24pKcD:hover {
+      position: relative;
+      z-index: 3;
+    }
+    [style*="background-image:"] .powercord-spotify:hover::after, [style*="background-image:"] > .container-3baos1:hover::after, [style*="background-image:"] .wrapper-24pKcD:hover::after {
+      backdrop-filter: brightness(70%);
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+    }
+    .panels-j1Uci_ {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
