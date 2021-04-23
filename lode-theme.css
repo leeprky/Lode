@@ -77,7 +77,7 @@
     /* --greenple-color: 0, 0, 0;
 
          /* Spotify Crenshaw Plugin */
-    --album-blur-amount: 4px;
+    --album-blur-amount: 2px;
   
          /* Keeping Consistancy With Discord */ 
     --serverlist-background: #242B3A;
@@ -296,21 +296,19 @@
     ----------------------------------------------------  */
 
 /* Spotify Crenshaw Plugin Blur */
-.powercord-spotify, .powercord-spotify.hover, .container-3baos1{
-  backdrop-filter: brightness(90%);
-  border-radius: 12px;
-}
+/* https://github.com/Crenshaw1312/SpotifyBackgrounds */
+/*
+.powercord-spotify, .powercord-spotify.hover, .container-3baos1{backdrop-filter: brightness(90%);border-radius: 12px;}
 
 .header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--album-blur-amount));}
 .headerFill-adLl4x, .header-QKLPzZ {background-color: transparent;}
-.activityUserPopout-2yItg2, .activity-11LB_k, .headerTop-3C2Zn0 {backdrop-filter: blur(var(--album-blur-amount));}
+.activityUserPopout-2yItg2, .headerTop-3C2Zn0 {backdrop-filter: blur(var(--album-blur-amount));}
 
 .avatar-SmRMf2.spotify-cover {display: none;}
 .subtext-3CDbHg {color: var(--text-normal)}
 .nameTag-3uD-yy { margin-left: -7px;}
 .container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
 .nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
-
 
 /* WindowsInTopBar */
 /*
