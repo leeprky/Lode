@@ -1,7 +1,7 @@
 /*  ------------------------------------------
 
               Lode Theme (POWERCORD)
-                  v0.1.8.2 Alpha
+                  v0.1.8.1.3 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -27,20 +27,26 @@
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
 /* @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/ServerListDrawer-Edit.css); */
 
+/* PRE-MADE COLOURS */
+/* remove lines "74-187" & then enable this */
+/*
+@import url(https://raw.githack.com/leeprky/Lode/main/default/NaiveColors.css);
+
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */
 /*
     @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/BetterDefaultGlasscord.theme.css); 
-
+    @import url(https://raw.githack.com/leeprky/Lode/main/default/Lode-Cyan-Glasscord.css);
 /*
-  < REPLACE LINES "111 - 117" WITH THIS >
-    --background-primary: #191f30dc;
-    --background-primary-alt: #191f30d8;
-    --background-secondary: #252b3be5;
-    --background-secondary-alt: #252b3be3;
-    --background-tertiary: #252b3b00;
-    --background-accent: #e5197188;
+  < MAKE THE BACKGROUND COLOURS TRAMSPARENT: EXAMPLE BELOW:  >
+    --background-primary: #191f3060;
+    --background-primary-alt: #191f30ad;
+    --background-titlebar: #191f308f;
+    --background-secondary: #252b3b93;
+    --background-secondary-alt: #252b3bb4;
+    --background-tertiary: #252b3b3f;
+    --background-accent: #38A897;
     --background-floating: #2b3341;
 */
     
@@ -51,7 +57,7 @@
 /*  ------------------------------------------
 
           Lode Customisable Configuration
-                 v0.1.8.2 Alpha
+                 v0.1.8.1.3 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -69,10 +75,12 @@
 .theme-dark {
         
          /* Lode Specific */
-    --alt-color: 228, 25, 112; /* RGB */
-    --alt-color2: #f8066f; /* HEX */
-    --discord-corner-radius: 12px;
+    --alt-color: 56, 168, 151; /* RGB */
+    --alt-color2: #38A897; /* HEX */
     /* --greenple-color: 0, 0, 0;
+
+    /* Other */
+    --scrollbars: none; /* none or unset */
 
          /* Spotify Crenshaw Plugin */
     --album-blur-amount: 2px;
@@ -92,11 +100,13 @@
     --chat-text-border-radius: 12px 12px 12px 12px;
 
         /* ROUND THINGS */
-    --borders-radius: 12px 12px 12px 12px;
+    --borders-radius: 12px;
     --borders-radius-right: 6px;
     --borders-radius-left: 6px;
     --borders-radius-bottom: 6px;
     --borders-radius-top: 4px;
+
+    --spotify-right: 1.6em;
 
     /* Watermark */
     --watermark-text: "LODE";
@@ -105,13 +115,13 @@
         /* Header Colours Colors */
     --modal-normal-primary-color: #151924;
     --modal-normal-secondary-color: #252B3B;
-    --spotify-color: #942052b0;
-    --playing-color: #8d1046ce;
+    --spotify-color: #38A897;
+    --playing-color: #50a397;
     --streaming-color: #4d2b86;
 
         /* Header Colors */
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
+    --header-primary: #EAE1DF;
+    --header-secondary: rgb(159, 161, 163);
 
         /* Powercord Toast Colors */
     --toast-background: #191f30;
@@ -121,14 +131,14 @@
     --toast-border: rgba(21, 22, 22, 0);
 
         /* Text Colours */
-    --text-normal: #dcddde;
-    --text-muted: #72767d;
-    --text-link: #f8066f;
-    --channels-default: #8e9297;
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
+    --text-normal: #f7f4f4;
+    --text-muted: #a39897;
+    --text-link: #38A897;
+    --channels-default: #ddd5d3;
+    --interactive-normal: #EAE1DF;
+    --interactive-hover: #EAE1DF;
     --interactive-active: #fff;
-    --interactive-muted: #4f545c;
+    --interactive-muted: #505355;
 
         /* Chat */
     --channeltextarea-background: #0e0e0f;
@@ -141,140 +151,39 @@
     --background-secondary: #252b3b;
     --background-secondary-alt: #252b3b;
     --background-tertiary: #202533;
-    --background-accent: #e51971fb;
+    --background-accent: #38A897;
     --background-floating: #2b3341;
 
         /* Hovering Colours */
-    --background-modifier-hover: #e2277815;
-    --background-modifier-active: #e227783d;
-    --background-modifier-selected: #e2277815;
-    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-modifier-hover: rgba(56, 168, 151, 0.233);
+    --background-modifier-active: rgba(56, 168, 151, 0.521);
+    --background-modifier-selected: rgba(56, 168, 151, 0.178);
+    --background-modifier-accent: rgba(56, 168, 151, 0.418);
     --background-message-hover: transparent;
 
         /* Mentioned  Colours */
-    --background-mentioned: rgba(250, 26, 101, 0.05);
-    --background-mentioned-hover: rgba(250, 26, 101, 0.08);
+    --background-mentioned: rgba(56, 168, 151, 0.233);
+    --background-mentioned-hover: rgba(56, 168, 151, 0.322);
     --background-mentioned-bar: var(--background-accent);
 
-    --background-help-warning: rgba(250,166,26,0.1);
-    --background-help-info: rgba(0,176,244,0.1);
+    --background-help-warning: rgba(56, 168, 151, 0.233);
+    --background-help-info: rgba(244, 8, 0, 0.164);
 
         /* Scrollbar Colours */
-    --scrollbar-thin-thumb: rgba(204, 29, 64, 0.185);
+    --scrollbar-thin-thumb: rgba(56, 168, 151, 0.397);
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #a0193b3b;
-    --scrollbar-auto-track: #e5197118;
-    --scrollbar-auto-scrollbar-color-thumb: #9c203f9a;
+    --scrollbar-auto-thumb: rgba(56, 168, 151, 0.363);
+    --scrollbar-auto-track: rgba(56, 168, 151, 0.363);
+    --scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384);
 
        /* Box Shadow On Floating Elements Colours */
-    --elevation-stroke: 0 0 0 1px rgba(26, 22, 22, 0.329);
-    --elevation-low: 0 1px 0 rgba(26, 22, 22, 0.329);
-    --elevation-medium: 0 4px 4px rgba(26, 22, 22, 0.329);
-    --elevation-high: 0 8px 16px rgba(26, 22, 22, 0.329);
+    --elevation-stroke: 0 0 0 1px rgba(22, 24, 26, 0.329);
+    --elevation-low: 0 1px 0 rgba(22, 25, 26, 0.329);
+    --elevation-medium: 0 4px 4px rgba(22, 25, 26, 0.329);
+    --elevation-high: 0 8px 16px rgba(22, 25, 26, 0.329);
 
     /* Other */
     --radio-group-dot-foreground: var(--alt-color);
-}
-
-/* Lode Light */
-.theme-light {
-        
-    /* Lode Specific Colors */
---alt-color: 236, 185, 51;
-  /*--greenple-color: 0, 0, 0;
-
-   /* Spotify Crenshaw Plugin */
---spotify-background-blur: 1.8px;
---spotify-background-blur-modal: 3px;
---spotify-background-blur-hover: 3.35px;
-
-  /* Keeping Consistancy With Discord */ 
---serverlist-background-light: var(--background-secondary);
---memberlist-background-light: #e0d7cd;
---win-titlebar: var(--background-tertiary);
-
-   /* Making Things Round */ /* Four Numbers = Four Corners */
---modal-border-radius: 15px 15px 15px 15px;
---floating-border-radius: 15px 15px 15px 15px;
---expanded-border-radius: 15px 15px 15px 15px;
---hover-border-radius: 10px 10px 10px 10px;
---avatar-border-radius: 11.5px 11.5px 11.5px 11.5px; /* Serverlist Too */
---avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
---chat-text-border-radius: 12px 12px 12px 12px;
-
-  /* Header Colours Colors */
---modal-normal-primary-color: #2a2e46; 
---modal-normal-secondary-color: #2a2e46; 
---spotify-color: #e5197188;
---playing-color: #7289DA;
---streaming-color: #593695;
-
-  /* Header Colors */
---header-primary: #fff;
---header-secondary: #b9bbbe;
-
-  /* Powercord Toast Colors */
---toast-background: #1C1E20;
---toast-header: #121314;
---toast-content: rgb(26, 23, 23);
---toast-box-shadow: rgba(24, 21, 21, 0.932);
---toast-border: rgba(21, 22, 22, 0);
-
-  /* Text Colours */
---text-normal: #202122;
---text-muted: #878c94;
---text-link: #e5197188;
---channels-default: #474a4e;
---interactive-normal: #414447;
---interactive-hover: #3f4144;
---interactive-active: rgb(110, 103, 103);
---interactive-muted: #bbb8b2;
-
-  /* Chat */
---channeltextarea-background: #d6cfc7;
---channeltextarea-background-hover: #d4cec7;
---chat-bubble-color: #fff;
-
-  /* Background Colours */
---background-primary: rgb(206, 198, 190);
---background-primary-alt: rgb(206, 198, 190);
---background-secondary: rgb(214, 205, 196);
---background-secondary-alt: rgb(214, 205, 196);
---background-tertiary: rgb(180, 175, 170);
---background-accent: #e5197188;
---background-floating: rgb(233, 228, 223);
-
-  /* Hovering Colours */
---background-modifier-hover: rgba(79,84,92,0.16);
---background-modifier-active: rgba(79,84,92,0.24);
---background-modifier-selected: rgba(79,84,92,0.32);
---background-modifier-accent: hsla(0,0%,100%,0.06);
---background-message-hover: transparent;
-
-  /* Mentioned  Colours */
---background-mentioned: rgba(250,166,26,0.05);
---background-mentioned-hover: rgba(250,166,26,0.08);
---background-mentioned-bar: var(--alt-color);
-
---background-help-warning: rgba(250,166,26,0.1);
---background-help-info: rgba(0,176,244,0.1);
-
-  /* Scrollbar Colours */
---scrollbar-thin-thumb: #202225;
---scrollbar-thin-track: transparent;
---scrollbar-auto-thumb: #202225;
---scrollbar-auto-track: #2e3338;
---scrollbar-auto-scrollbar-color-thumb: #202225;
---scrollbar-auto-scrollbar-color-track: #2f3136;
-
- /* Box Shadow On Floating Elements Colours */
---elevation-stroke: 0 0 0 1px rgba(224, 217, 205, 0.15);
---elevation-low: 0 1px 0 rgba(231, 227, 222, 0.2),0 1.5px 0 rgba(235, 231, 226, 0.05),0 2px 0 rgba(233, 229, 223, 0.05);
---elevation-medium: 0 4px 4px rgba(224, 217, 205, 0.15);
---elevation-high: 0 8px 16px rgba(224, 217, 205, 0.15);
-
-/* Other */
---radio-group-dot-foreground: var(--alt-color);
 }
 
 /* Lode Extras */
@@ -394,8 +303,8 @@
 .powercord-spotify {
   background-position-x: center;
   background-position-y: center;
-  border-radius: 12px 12px 0px 0px; 
-  background-image: var(--spotify-background-image); 
+  border-radius: var(--borders-radius);
+  background-image: var(--spotify-background-image);
   background-position: center;
   z-index: 1;
   background-size: cover;
@@ -408,7 +317,7 @@
   transition: height 0.5s;
   z-index: 902;
   position: fixed;
-  right: 1em;
+  right: var(--spotify-right);
   bottom: 5em;
   border-radius: 1em !important;
   width: 240px;
@@ -425,7 +334,7 @@
   background-color: var(--background-secondary);
   height: calc(100% - 160px);
   transition: height 0.5s;
-  border-radius: 1em;
+  border-radius: var(--borders-radius);
   position: absolute;
   right: 1em;
   top: 0.5em;
@@ -514,12 +423,11 @@ transition: 0.2;
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.8.2 Alpha (Lode)
+                     v0.1.8.1.3 Alpha (Lode)
 
     ----------------------------------------------------  */
 
     /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
-
     .panels-j1Uci_ {
       position: fixed;
       z-index: 3;
