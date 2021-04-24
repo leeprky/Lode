@@ -62,16 +62,11 @@
 
     ------------------------------------------  */
 
-    #app-mount {
-      background-color: var(--background-tertiary);
-    }
+#app-mount {
+  background-color: var(--background-tertiary);
+}
 
-/* Lode's Vars Here: https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css */
-
-/* OG Colour: */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/LodeDefaultDiscordColors.css); */
-
-/* Lode Dark */
+/* Lode Cyan */
 .theme-dark {
         
          /* Lode Specific */
@@ -152,6 +147,7 @@
     --background-secondary-alt: #252b3b;
     --background-tertiary: #202533;
     --background-accent: #38A897;
+    --background-accent-gradient: #0f7464;
     --background-floating: #2b3341;
 
         /* Hovering Colours */
