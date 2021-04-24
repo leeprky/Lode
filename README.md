@@ -14,4 +14,4 @@ Open Command Prompt & Copy This:
 
 ## Previews
 
-![preview](./default/LodeDevAlpha.jpg)
+![preview](./default/LodeDevAlpha.png)
