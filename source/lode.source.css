@@ -581,4 +581,83 @@ div[class*="tipTitle-"]:after {
 .wordmark-2iDDfm > svg {
   width: 0px;
 }
-    
+
+/* No Help Icon */
+.iconWrapper-2OrFZ1[aria-label=Help] {
+  display: none;
+}
+
+/* Search DM's */
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(to bottom right, var(--background-accent), var(--background-accent-gradient));
+  box-shadow: 2px 10px 10px var(--shadow, rgba(0,0,0,0.2)) !important;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  pointer-events: all;
+  padding: 0;
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  background-color: transparent !important;
+}
+.privateChannels-1nO12o .searchBar-6Kv8R2 .inner-3ErfOT {
+  height: 100%;
+  width: 100%;
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 30px;
+  bottom: 0;
+  right: 0;
+  background: url(https://discordapp.com/assets/4d254296157bb8927b7d53ed59beb0d8.svg) center/20px no-repeat;
+  pointer-events: none;
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
+  content: 'Search Direct Messages';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-25%);
+  width: 180px;
+  bottom: -10px;
+  right: 0vw;
+  color: white;
+  opacity: .5;
+  font-size: 12px;
+  line-height: 100%;
+  transition: all .2s ease-in-out;
+  pointer-events: none;
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  color: transparent;
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2:hover {
+  width: 200px;
+}
+.privateChannels-1nO12o .scrollerWrap-2lJEkd::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 48px;
+  width: 100%;
+  border-bottom: 2px solid var(--background-accent), var(--background-accent-gradient);
+  box-sizing: border-box;
+  z-index: 9999;
+}
+.privateChannels-1nO12o .scrollerWrap-2lJEkd .scroller-2FKFPG {
+  margin-top: 50px;
+}
+
+    /* Compressed Search Bar */
+.search-2oPWTC .searchBar-3dMhjb {width:25px;transition-duration:600ms;}
+.search-2oPWTC .searchBar-3dMhjb:hover {width:250px !important;}
+.search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {width: 250px !important;}
