@@ -1,9 +1,9 @@
 {
-    "name": "Lode v0.1.8",
+    "name": "Lode",
     "description": "Animated/Bubbly Theme w/ Lots of customisation",
-    "version": "0.1.8",
+    "version": "0.1.8.3",
     "author": "Leeprky#2063",
     "splashTheme": "splash.css",
     "license": "MIT",
-    "theme": "lode-theme.css"
+    "theme": "lode-config.css"
 }
