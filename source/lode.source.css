@@ -661,3 +661,8 @@ div[class*="tipTitle-"]:after {
 .search-2oPWTC .searchBar-3dMhjb {width:25px;transition-duration:600ms;}
 .search-2oPWTC .searchBar-3dMhjb:hover {width:250px !important;}
 .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {width: 250px !important;}
+
+/* Moves Memberlist COntent to left */
+    .content-3YMskv {
+      margin-left: 4px;
+    }
