@@ -5,6 +5,25 @@
 ------------------------------------------  */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css); */
 
+.theme-light .layer-3QrUeG:first-of-type::before {
+  content: "Light Mode Is Currently Unsupported | Enable In: Settings -> Appearance"; /* Warning Text */
+  z-index: 2;
+  background: #202020; /* Container color */
+  color: #ffffff; /* Text Color */
+  position: fixed;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  width: 500px;
+  height: 35px;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(240, 71, 71, 0.22);
+  border: 3px solid #F04747;
+}
+
 /* Lode Source Code*/
 
 /* Scrollbars */
