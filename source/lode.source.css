@@ -468,20 +468,6 @@ div[class*="tipTitle-"]:after {
   font-size: 12px;
   }
 
-  /* Chat rounded */
-/*absol#0666 x LuckFire#4800*/
-
-
-.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
-  border-radius: 15px 15px 0 0 !important
-}
-
-.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
-  position: relative;
-  left: 5px;
-  padding-right: 5px
-}
-
 /* Transparent screenshare/call*/
 /* absol#0666 */
 
