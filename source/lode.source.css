@@ -9,7 +9,6 @@
 ::-webkit-scrollbar {
   display: none;
 }
-
     /* Lode Chat */
 .avatar-1BDn8e.clickable-1bVtEA {
   width: 48px;
@@ -537,6 +536,32 @@ div[class*="tipTitle-"]:after {
   width: calc(100% - 330px);
 }
 
+/* BORDER STUFF */
+.guilds-1SWlCJ {
+  border-radius: var(--borders-radius) !important;;
+  margin-right: var(--borders-radius-right) !important;
+  margin-left: var(--borders-radius-left) !important;
+  margin-bottom: var(--borders-radius-bottom) !important;
+  margin-top: var(--borders-radius-top) !important;
+}
+.sidebar-2K8pFh, .unread-15xhX5, .container-3w7J-x {
+  border-radius: var(--borders-radius) !important;;
+  margin-bottom: var(--borders-radius-bottom) !important;
+  margin-top: var(--borders-radius-top) !important;
+}
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+  border-radius: var(--borders-radius) !important;
+  margin-right: var(--borders-radius-right) !important;;
+  margin-bottom: var(--borders-radius-bottom) !important;;
+  margin-top: var(--borders-radius-top) !important;;
+}
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+  position: relative;
+  left: -6px;
+  margin-left: var(--borders-radius-left) !important;;
+  margin-top: var(--borders-radius-top) !important;;
+}
+
 /** Replace discord watermark text **/
 .wordmark-2iDDfm:after {
   content: var(--watermark-text);
@@ -547,25 +572,10 @@ div[class*="tipTitle-"]:after {
   top: 7px;
   padding-left: -4px;
   color: var(--background-accent);
-  margin-left: 5px;
+  margin-left: var(--watermark-text-left);
   font-family: "Discord";
 }
 .wordmark-2iDDfm > svg {
   width: 0px;
-}
-/** Add icon to watermark **/
-/*
-.wordmark-2iDDfm {
-  left: 25px;
-}
-.wordmark-2iDDfm:before {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 50px;
-  bottom: 0;
-  top: 6px;
-  right: 0;
-  background: url(https://i.imgur.com/KgDzLI5.png) center/20px no-repeat;
 }
     
