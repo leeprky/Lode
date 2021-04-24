@@ -4,7 +4,6 @@
               leeprky#2063
 ------------------------------------------  */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css); */
-.theme-light .layer-3QrUeG:first-of-type::before{content:"Light Mode Is Currently Unsupported | Enable In: Settings -> Appearance";z-index:2;background:#202020;color:#fff;position:fixed;display:block;text-align:center;padding:20px;width:500px;height:35px;top:15%;left:50%;transform:translate(-50%,-50%);border-radius:5px;box-shadow:0 2px 10px rgba(240,71,71,.22);border:3px solid #f04747}
 ::-webkit-scrollbar{display:var(--scrollbars)}
 .avatar-1BDn8e.clickable-1bVtEA{width:48px;height:48px;left:12px}
 .message-2qnXI6[role=listitem]{width:calc(100% - 386px);border-radius:1em}
