@@ -21,3 +21,10 @@
 .isUnread-3Ef-o9 .content-1o0f9g{color:var(--background-accent)}
 .unreadPillCapStroke-7rkHbg{fill:var(--background-accent);color:var(--background-accent)}
 .updateIconForeground-3tnNZn{fill:var(--background-accent)}
+.theme-light .title-eS5yk3 {color: var(--subtext-color)}
+.theme-light .panels-j1Uci_ .button-14-BFJ {color: var(--subtext-color)}
+.theme-light .subtext-3CDbHg {color: var(--subtext-color)}
+.theme-light .nameTag-3uD-yy { margin-left: -7px;}
+.theme-light .container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
+.theme-light .nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
+.theme-light .subtext-3CDbHg {color: var(--subtext-color)!important}
