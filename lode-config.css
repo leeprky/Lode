@@ -1,7 +1,7 @@
 /*  ------------------------------------------
 
               Lode Theme (POWERCORD)
-                  v0.1.8.2 Alpha
+                     v1.0
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -57,16 +57,14 @@
 /*  ------------------------------------------
 
           Lode Customisable Configuration
-                 v0.1.8.1.3 Alpha
+                     v1.0
                 - leeprky#2063 -
 
     ------------------------------------------  */
 
-#app-mount {
-  background-color: var(--background-tertiary);
-}
+#app-mount {background-color: var(--background-tertiary);}
 
-/* Lode Cyan */
+/* Lode Cyan Dark */
 .theme-dark {
         
          /* Lode Specific */
@@ -79,6 +77,7 @@
 
          /* Spotify Crenshaw Plugin */
     --album-blur-amount: 2px;
+    --subtext-color: #000;
   
          /* Keeping Consistancy With Discord */ 
     --serverlist-background: #242B3A;
@@ -182,22 +181,131 @@
     --radio-group-dot-foreground: var(--alt-color);
 }
 
+
+/* Lode Cyan Light */
+.theme-light {
+        
+  /* Lode Specific */
+--alt-color: 83, 182, 167; /* RGB */
+--alt-color2: #53b6a7; /* HEX */
+/* --greenple-color: 0, 0, 0;
+
+/* Other */
+--scrollbars: none; /* none or unset */
+
+  /* Spotify Crenshaw Plugin */
+--album-blur-amount: 2px;
+--subtext-color: #fff;
+
+  /* Keeping Consistancy With Discord */ 
+--serverlist-background: #cad7e0;
+--memberlist-background: #cad7e0;
+--win-titlebar: var(--background-tertiary);
+
+  /* Making Things Round */ /* Four Numbers = Four Corners */
+--modal-border-radius: 15px 15px 15px 15px;
+--floating-border-radius: 15px 15px 15px 15px;
+--expanded-border-radius: 15px 15px 15px 15px;
+--hover-border-radius: 10px 10px 10px 10px;
+--avatar-border-radius: 11.5px 11.5px 11.5px 11.5px; /* Serverlist Too */
+--avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
+--chat-text-border-radius: 12px 12px 12px 12px;
+
+ /* ROUND THINGS */
+--borders-radius: 12px;
+--borders-radius-right: 6px;
+--borders-radius-left: 6px;
+--borders-radius-bottom: 6px;
+--borders-radius-top: 4px;
+
+--spotify-right: 1.6em;
+
+/* Watermark */
+--watermark-text: "LODE";
+--watermark-text-left: 12px;
+
+ /* Header Colours Colors */
+--modal-normal-primary-color: #c6d4df;
+--modal-normal-secondary-color: #c6d4df;
+--spotify-color: #38A897;
+--playing-color: #50a397;
+--streaming-color: #4d2b86;
+
+ /* Header Colors */
+--header-primary: #0f0f0e;
+--header-secondary: rgb(43, 45, 46);
+
+ /* Powercord Toast Colors */
+--toast-background: #e1e3eb;
+--toast-header: #bdc0c7;
+--toast-content: #e1e3eb;
+--toast-box-shadow: rgba(24, 21, 21, 0.932);
+--toast-border: rgba(21, 22, 22, 0);
+
+ /* Text Colours */
+--text-normal: #111010;
+--text-muted: #38A897;
+--text-link: #38A897;
+--channels-default: #242221;
+--interactive-normal: #080808;
+--interactive-hover: #1a1818;
+--interactive-active: rgb(19, 17, 17);
+--interactive-muted: #505355;
+
+ /* Chat */
+--channeltextarea-background: #cbcbda;
+--channeltextarea-background-hover: #f5f6fa;
+
+ /* Background Colours */
+--background-primary: #cad7e0;
+--background-titlebar: #cbd7e0;
+--background-primary-alt: #cbd7e0;
+--background-secondary: #dce5ec;
+--background-secondary-alt: #dce5ec;
+--background-tertiary: #eceff3;
+--background-accent: #38A897;
+--background-accent-gradient: #0f7464;
+--background-floating: #bbc8d1;
+
+ /* Hovering Colours */
+--background-modifier-hover: rgba(56, 168, 151, 0.411);
+--background-modifier-active: rgba(56, 168, 151, 0.651);
+--background-modifier-selected: rgba(56, 168, 151, 0.37);
+--background-modifier-accent: rgba(56, 168, 151, 0.534);
+--background-message-hover: transparent;
+
+ /* Mentioned  Colours */
+--background-mentioned: rgba(56, 168, 151, 0.308);
+--background-mentioned-hover: rgba(56, 168, 151, 0.425);
+--background-mentioned-bar: var(--background-accent);
+
+--background-help-warning: rgba(56, 168, 151, 0.233);
+--background-help-info: rgba(244, 8, 0, 0.164);
+
+ /* Scrollbar Colours */
+--scrollbar-thin-thumb: rgba(56, 168, 151, 0.397);
+--scrollbar-thin-track: transparent;
+--scrollbar-auto-thumb: rgba(56, 168, 151, 0.363);
+--scrollbar-auto-track: rgba(56, 168, 151, 0.363);
+--scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384);
+
+/* Box Shadow On Floating Elements Colours */
+--elevation-stroke: 0 0 0 1px rgba(22, 24, 26, 0.329);
+--elevation-low: 0 1px 0 rgba(22, 25, 26, 0.329);
+--elevation-medium: 0 4px 4px rgba(22, 25, 26, 0.329);
+--elevation-high: 0 8px 16px rgba(22, 25, 26, 0.329);
+
+/* Other */
+--radio-group-dot-foreground: var(--alt-color);
+}
+
 /* Lode Extras */
-.guilds-1SWlCJ {
-    background-color: var(--serverlist-background);
-}
-.members-1998pB, .members-1998pB>div {
-    background-color: var(--memberlist-background);
-}
-.guilds-1SWlCJ {
-  background-color: var(--serverlist-background-light);
-}
-.members-1998pB, .members-1998pB>div {
-  background-color: var(--memberlist-background-light);
-}
-.powercord-toast .contents {
-  background-color: var(--toast-content);
-}
+.guilds-1SWlCJ{background-color:var(--serverlist-background)}
+.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
+.guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
+.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background-light)}
+.powercord-toast .contents{background-color:var(--toast-content)}
+
 /* MemberList Scroller */
 .platform-win .scroller-1Bvpku {padding-top: 16px;}
 
@@ -213,11 +321,9 @@
 /* https://github.com/Crenshaw1312/SpotifyBackgrounds */
 
 .powercord-spotify, .powercord-spotify.hover, .container-3baos1{backdrop-filter: brightness(90%);border-radius: 12px;}
-
 .header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--album-blur-amount));}
 .headerFill-adLl4x, .header-QKLPzZ {background-color: transparent;}
 .activityUserPopout-2yItg2, .headerTop-3C2Zn0 {backdrop-filter: blur(var(--album-blur-amount));}
-
 .avatar-SmRMf2.spotify-cover {display: none;}
 .subtext-3CDbHg {color: var(--text-normal)}
 .nameTag-3uD-yy { margin-left: -7px;}
@@ -226,244 +332,75 @@
 
 /* WindowsInTopBar */
 /*
-.typeWindows-1za-n7{
-    width:calc(100% - calc(72px + 240px));
-    position: fixed;
-    right: 0px;
-    height:46px;
-    z-index: 2;
-    background: transparent!important;margin:0px;
-  }
-  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
-    z-index:1;
-  }
-  .winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
-  .wordmarkWindows-1v0lYD{display: none;}
-  .platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
-  .platform-win .title-3qD0b-{
-    width:calc(100% - 80px);
-  }
-
-.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e; border-radius: var(--hover-border-radius);}
-.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f; border-radius: var(--hover-border-radius);}
-.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879; border-radius: var(--hover-border-radius);}
-.container-1r6BKw.themed-ANHk51 {
-    background: var(--background-titlebar);
-}
-.platform-win .title-3qD0b- {
-  width: calc(100% - 080px);
-  background-color: transparent;
-}
-.notice-3uyY6c, .notice-3bPHh- {
-  background-color: var(--background-accent);
-  top: 80px;
-  opacity: 0.9;
-  border-radius: 0px 0px 12px 12px;
-  left: 240px;
-  margin-right: 494px;
-  margin-top: -35px;
-}
-
+.typeWindows-1za-n7{width:calc(100% - calc(72px + 240px));position:fixed;right:0;height:46px;z-index:2;background:0 0!important;margin:0}
+.platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{z-index:1}
+.winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798}
+.wordmarkWindows-1v0lYD{display:none}
+.platform-win .sidebar-2K8pFh{border-radius:0!important}
+.platform-win .title-3qD0b-{width:calc(100% - 80px)}
+.titleBar-AC4pGV>:nth-child(2):hover{background-color:#f771715e;border-radius:var(--hover-border-radius)}
+.titleBar-AC4pGV>:nth-child(3):hover{background-color:#f0ca574f;border-radius:var(--hover-border-radius)}
+.titleBar-AC4pGV>:nth-child(4):hover{background-color:#48c04879;border-radius:var(--hover-border-radius)}
+.container-1r6BKw.themed-ANHk51{background:var(--background-titlebar)}
+.platform-win .title-3qD0b-{width:calc(100% - 80px);background-color:transparent}
+.notice-3bPHh-,.notice-3uyY6c{background-color:var(--background-accent);top:80px;opacity:.9;border-radius:0 0 12px 12px;left:240px;margin-right:494px;margin-top:-35px}
 
 /* --- */
-.withFrame-haYltI {
-  margin-top: 10px;
-}
+.withFrame-haYltI {margin-top: 10px;}
 /* Settings Modal Under Channels Into Server List */
 
-.spotify-buttons {
-  width: 6em;
-  margin-bottom: -4px;
-}
-.spotify-extra-controls, .spotify-seek-elements {
-    display: none !important;
-  }
-  .powercord-spotify, .powercord-spotify.hover {
-    height: 57px;
-  }
-  .powercord-spotify.hover .spotify-extra-controls + .spotify-seek {
-    margin-top:3px !important;
-  }
-  .powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar {
-    height:2px;
-  }
-  .spotify-seek-bar-cursor {
-    border:none !important;
-    width:15px;
-    height:15px;
-  }
-  .spotify-title div:first-child {
-    margin-top:-1px !important;
-    margin-bottom:3px;
-  }
-.powercord-spotify {
-  background-position-x: center;
-  background-position-y: center;
-  border-radius: var(--borders-radius);
-  background-image: var(--spotify-background-image);
-  background-position: center;
-  z-index: 1;
-  background-size: cover;
-}
-.avatar-SmRMf2 .spotify-cover {
-  display: none;
-}
-
-.panels-j1Uci_ {
-  transition: height 0.5s;
-  z-index: 902;
-  position: fixed;
-  right: var(--spotify-right);
-  bottom: 5em;
-  border-radius: 1em !important;
-  width: 240px;
-}
-.unreadBar-3t3sYc,
-.animatedContainer-1NSq4T {
-  visibility: hidden;
-}
-.bannerImage-3KhIJ6 {
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-.membersWrap-2h-GB4 {
-  background-color: var(--background-secondary);
-  height: calc(100% - 160px);
-  transition: height 0.5s;
-  border-radius: var(--borders-radius);
-  position: absolute;
-  right: 1em;
-  top: 0.5em;
-  overflow: hidden;
-}
-.chatContent-a9vAAp {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.newMessagesBar-265mhP,
-.jumpToPresentBar-G1R9s6,
-.divider-3_HH5L {
-  width: calc(100% - 290px);
-}
-.container-2fRDfG {
-  width: calc(100% - 260px);
-}
-.message-2qnXI6[role="listitem"] {
-  width: calc(100% - 365px);
-  border-radius: 1em;
-}
-.searchResultsWrap-3-pOjs {
-  z-index: 903;
-  height: calc(100% - 100px);
-  position: absolute;
-  right: 1em;
-  border-radius: 1em;
-}
-
-.container-3baos1 .noWrap-3jynv6 {
-  width: 100px;
-  opacity: 1;
-}
-.button-14-BFJ{
-transition: 0.2s;
-}
-.button-14-BFJ:hover{
-padding-bottom: 0px;
-transition: 0.2;
-}
+.spotify-buttons{width:6em;margin-bottom:-4px}
+.spotify-extra-controls,.spotify-seek-elements{display:none!important}
+.powercord-spotify,.powercord-spotify.hover{height:57px}
+.powercord-spotify.hover .spotify-extra-controls+.spotify-seek{margin-top:3px!important}
+.powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar{height:2px}
+.spotify-seek-bar-cursor{border:none!important;width:15px;height:15px}
+.spotify-title div:first-child{margin-top:-1px!important;margin-bottom:3px}
+.powercord-spotify{background-position-x:center;background-position-y:center;border-radius:var(--borders-radius);background-image:var(--spotify-background-image);background-position:center;z-index:1;background-size:cover}
+.avatar-SmRMf2 .spotify-cover{display:none}
+.panels-j1Uci_{transition:height .5s;z-index:902;position:fixed;right:var(--spotify-right);bottom:5em;border-radius:1em!important;width:240px}
+.animatedContainer-1NSq4T,.unreadBar-3t3sYc{visibility:hidden}
+.bannerImage-3KhIJ6{opacity:0;transition:opacity .5s}
+.membersWrap-2h-GB4{background-color:var(--background-secondary);height:calc(100% - 160px);transition:height .5s;border-radius:var(--borders-radius);position:absolute;right:1em;top:.5em;overflow:hidden}
+.chatContent-a9vAAp{position:absolute;width:100%;height:100%}
+.divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 290px)}
+.container-2fRDfG{width:calc(100% - 260px)}
+.message-2qnXI6[role=listitem]{width:calc(100% - 365px);border-radius:1em}
+.searchResultsWrap-3-pOjs{z-index:903;height:calc(100% - 100px);position:absolute;right:1em;border-radius:1em}
+.container-3baos1 .noWrap-3jynv6{width:100px;opacity:1}
+.button-14-BFJ{transition:.2s}
+.button-14-BFJ:hover{padding-bottom:0;transition:.2}
 
 /* Horizontal Modals OPTION*/
 /*
-.userPopout-3XzG_A{
-  width:500px;
-  -webkit-box-orient: horizontal;
-  flex-direction: row;
-  height: 240px;
-}
-.footer-1fjuF6{
-  display: none;
-}
-.header-2BwW8b{
-  width:250px;
-  height: 240px;
-  border-radius: var(--modal-border-radius);
-  overflow: hidden auto;
-}
-.header-2BwW8b::-webkit-scrollbar {
-  width: 8px;
-  border-radius: 8px;
-}
-.header-2BwW8b::-webkit-scrollbar-track {
-  background: transparent;
-  border: 2px solid transparent;
-  margin-bottom: 2px;
-  margin-top: 2px;
-}
-.header-2BwW8b::-webkit-scrollbar-thumb {
-  border: 2px solid transparent;
-  border-radius: 4px;
-  background: var(--scrollbar-auto-scrollbar-color-track) ;
-  background-clip: padding-box;
-}
-.user-details-center {
-  text-align: center;
-  margin-bottom: 5px;
-}
+.userPopout-3XzG_A{width:500px;-webkit-box-orient:horizontal;flex-direction:row;height:240px}
+.footer-1fjuF6{display:none}
+.header-2BwW8b{width:250px;height:240px;border-radius:var(--modal-border-radius);overflow:hidden auto}
+.header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
+.header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
+.header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
+.user-details-center{text-align:center;margin-bottom:5px}
 
 /* --- */
 /* Optionals End */
 /* ----- */
 
-/*  ----------------------------------------------------
+    /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
+    .panels-j1Uci_{position:fixed;z-index:3}
+    .panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;backdrop-filter:blur(var(--album-blur-amount))}
+    [style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
+    [style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
+    .panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
+
+    /* Member Dot */
+    .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
+
+    /*  ----------------------------------------------------
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.8.1.3 Alpha (Lode)
+                         v1.0 (Lode)
 
     ----------------------------------------------------  */
 
-    /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
-    .panels-j1Uci_ {
-      position: fixed;
-      z-index: 3;
-    }
-    .panels-j1Uci_::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      z-index: -1;
-      backdrop-filter: blur(var(--album-blur-amount));
-    }
-    [style*="background-image:"] .powercord-spotify:hover, [style*="background-image:"] > .container-3baos1:hover, [style*="background-image:"] .wrapper-24pKcD:hover {
-      position: relative;
-      z-index: 3;
-    }
-    [style*="background-image:"] .powercord-spotify:hover::after, [style*="background-image:"] > .container-3baos1:hover::after, [style*="background-image:"] .wrapper-24pKcD:hover::after {
-      backdrop-filter: blur(var(--album-blur-amount-hover));
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      z-index: -1;
-    }
-    .panels-j1Uci_ {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    /* Member Dot */
-    .unread-2lAfLh {
-      background-color: var(--background-accent);
-      width: 7.2px;
-      height: 7.2px;
-      margin-top: -3.8px;
-      margin-left: 4px;
-      border-radius: 4px
-  }
+    
