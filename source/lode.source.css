@@ -676,3 +676,12 @@ div[class*="tipTitle-"]:after {
       margin-right: var(--borders-radius-right);
   }
 
+/* Member Dot */
+    .unread-2lAfLh {
+      background-color: var(--background-accent);
+      width: 7.2px;
+      height: 7.2px;
+      margin-top: -3.8px;
+      margin-left: -2px;
+      border-radius: 4px
+  }
