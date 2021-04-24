@@ -1,4 +1,4 @@
-## Lode v0.1.8.1.3 Alpha
+## Lode v0.1.8.1.2 Alpha
 
 Lode Is An Animated/Bubbly Theme w/ Lots of customisation.
 
