@@ -685,3 +685,17 @@ div[class*="tipTitle-"]:after {
       margin-left: -2px;
       border-radius: 4px
   }
+
+/* Apply Snippit */
+    .message-2qnXI6 .wrapper-2aW0bm .button-1ZiXG9 {
+      margin: 0 2px;
+      border-radius: var(--hover-border-radius);
+      background-color: var(--background-tertiary);
+    }
+    .message-2qnXI6 .wrapper-2aW0bm .button-1ZiXG9:hover,     .powercord-snippet-apply:not(.applied) div:hover {
+      background-color: var(--background-modifier-selected);
+    }
+    
+    .powercord-snippet-apply:not(.applied) div:hover {
+      border-radius: var(--hover-border-radius);
+    }
