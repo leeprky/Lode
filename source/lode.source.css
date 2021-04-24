@@ -666,3 +666,13 @@ div[class*="tipTitle-"]:after {
     .content-3YMskv {
       margin-left: 4px;
     }
+
+    .theme-dark .pageWrapper-1PgVDX {
+      background-color: var(--background-secondary);
+      border-radius: var(--borders-radius);
+      margin-top: var(--borders-radius-top);
+      margin-bottom: var(--borders-radius-bottom);
+      margin-left: var(--borders-radius-left);
+      margin-right: var(--borders-radius-right);
+  }
+
