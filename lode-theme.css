@@ -1,7 +1,7 @@
 /*  ------------------------------------------
 
               Lode Theme (POWERCORD)
-                  v0.1.8.1.3 Alpha
+                  v0.1.8.2 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -51,7 +51,7 @@
 /*  ------------------------------------------
 
           Lode Customisable Configuration
-                 v0.1.8.1.3 Alpha
+                 v0.1.8.2 Alpha
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -72,7 +72,6 @@
     --alt-color: 228, 25, 112; /* RGB */
     --alt-color2: #f8066f; /* HEX */
     --discord-corner-radius: 12px;
-    --watermark-text: "LODE";
     /* --greenple-color: 0, 0, 0;
 
          /* Spotify Crenshaw Plugin */
@@ -92,6 +91,17 @@
     --avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
     --chat-text-border-radius: 12px 12px 12px 12px;
 
+        /* ROUND THINGS */
+    --borders-radius: 12px 12px 12px 12px;
+    --borders-radius-right: 6px;
+    --borders-radius-left: 6px;
+    --borders-radius-bottom: 6px;
+    --borders-radius-top: 4px;
+
+    /* Watermark */
+    --watermark-text: "LODE";
+    --watermark-text-left: 12px;
+    
         /* Header Colours Colors */
     --modal-normal-primary-color: #151924;
     --modal-normal-secondary-color: #252B3B;
@@ -130,7 +140,7 @@
     --background-primary-alt: #191f30;
     --background-secondary: #252b3b;
     --background-secondary-alt: #252b3b;
-    --background-tertiary: #252b3b;
+    --background-tertiary: #202533;
     --background-accent: #e51971fb;
     --background-floating: #2b3341;
 
@@ -504,11 +514,12 @@ transition: 0.2;
 
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                     v0.1.8.1.3 Alpha (Lode)
+                     v0.1.8.2 Alpha (Lode)
 
     ----------------------------------------------------  */
 
-    /* SPOTIFY FIX FOR THE PLUGIN */
+    /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
+
     .panels-j1Uci_ {
       position: fixed;
       z-index: 3;
