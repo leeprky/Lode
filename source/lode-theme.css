@@ -174,3 +174,4 @@ div[class*=tipTitle-]:after{content:" | NO INTERNET LOL"}
 .message-2qnXI6 .wrapper-2aW0bm .button-1ZiXG9:hover,.powercord-snippet-apply:not(.applied) div:hover{background-color:var(--background-modifier-selected)}
 .powercord-snippet-apply:not(.applied) div:hover{border-radius:var(--hover-border-radius)}
 .powercord-toast{display:flex;flex-direction:column;background-color:var(--toast-background);border:1px solid var(--toast-border);box-shadow:0 2px 10px 0 var(--toast-box-shadow);box-sizing:border-box;border-radius:12px 3px 12px 3px;position:absolute;animation:slide-in .5s ease,shake 1.4s cubic-bezier(.36,.07,.19,.97) both;max-width:600px;min-width:223px;width:320px;right:280px;bottom:90px;z-index:999}
+ .group-spacing-16 .divider-3_HH5L.beforeGroup-1rH1F0 {right: 35px;}
