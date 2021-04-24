@@ -3,12 +3,15 @@
                   v0.1.8.1
               leeprky#2063
 ------------------------------------------  */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/source/lode.source.css); */
 
 /* Lode Source Code*/
 
+/* Scrollbars */
 ::-webkit-scrollbar {
-  display: none;
+  display: var(--scrollbars);
 }
+
     /* Lode Chat */
 .avatar-1BDn8e.clickable-1bVtEA {
   width: 48px;
