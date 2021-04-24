@@ -73,12 +73,11 @@
     --channeltextarea-background-hover: #252B3B;
 
         /* Background Colours */
-    --background-primary: #191f30;
-    --background-titlebar: #191f308f;
-    --background-primary-alt: #191f30;
-    --background-secondary: #252b3b;
-    --background-secondary-alt: #252b3b;
-    --background-tertiary: #202533;
+    --background-primary: #191f3060;
+    --background-primary-alt: #191f30ad;
+    --background-secondary: #252b3b93;
+    --background-secondary-alt: #252b3bb4;
+    --background-tertiary: #252b3b3f;
     --background-accent: #38A897;
     --background-floating: #2b3341;
 
