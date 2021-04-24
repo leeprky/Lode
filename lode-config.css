@@ -457,3 +457,13 @@ transition: 0.2;
       background-repeat: no-repeat;
       background-size: cover;
     }
+
+    /* Member Dot */
+    .unread-2lAfLh {
+      background-color: var(--background-accent);
+      width: 7.2px;
+      height: 7.2px;
+      margin-top: -3.8px;
+      margin-left: 4px;
+      border-radius: 4px
+  }
