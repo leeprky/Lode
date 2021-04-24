@@ -1,4 +1,4 @@
-![preview](./default/LODE.png)
+![preview](https://imgur.com/a/Y4YfxVC)
 ## Lode v0.1.8.1.2 Alpha
 
 Lode Is An Animated/Bubbly Theme w/ Lots of customisation.
@@ -14,4 +14,4 @@ Open Command Prompt & Copy This:
 
 ## Previews
 
-![preview](./default/LodeDevAlpha.png)
+![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/LodeDevAlpha.png)
