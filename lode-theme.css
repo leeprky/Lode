@@ -25,7 +25,6 @@
 
 /* Optional Imports */
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
-@import url(https://discord-theme-addons.github.io/discord-name-badges/src/main/betterdiscord/bd-compile.css);
 /* @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/ServerListDrawer-Edit.css); */
 
 /*  ----------------------------
@@ -297,7 +296,7 @@
 
 /* Spotify Crenshaw Plugin Blur */
 /* https://github.com/Crenshaw1312/SpotifyBackgrounds */
-/*
+
 .powercord-spotify, .powercord-spotify.hover, .container-3baos1{backdrop-filter: brightness(90%);border-radius: 12px;}
 
 .header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--album-blur-amount));}
@@ -508,3 +507,38 @@ transition: 0.2;
                      v0.1.8.1.3 Alpha (Lode)
 
     ----------------------------------------------------  */
+
+    /* SPOTIFY FIX FOR THE PLUGIN */
+    .panels-j1Uci_ {
+      position: fixed;
+      z-index: 3;
+    }
+    .panels-j1Uci_::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      backdrop-filter: blur(var(--album-blur-amount));
+    }
+    [style*="background-image:"] .powercord-spotify:hover, [style*="background-image:"] > .container-3baos1:hover, [style*="background-image:"] .wrapper-24pKcD:hover {
+      position: relative;
+      z-index: 3;
+    }
+    [style*="background-image:"] .powercord-spotify:hover::after, [style*="background-image:"] > .container-3baos1:hover::after, [style*="background-image:"] .wrapper-24pKcD:hover::after {
+      backdrop-filter: blur(var(--album-blur-amount-hover));
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+    }
+    .panels-j1Uci_ {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
