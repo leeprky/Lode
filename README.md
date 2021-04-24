@@ -1,4 +1,4 @@
-![preview](https://imgur.com/a/Y4YfxVC.png)
+![preview](https://i.imgur.com/6cfo1bL.png)
 ## Lode v0.1.8.1.2 Alpha
 
 Lode Is An Animated/Bubbly Theme w/ Lots of customisation.
