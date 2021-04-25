@@ -738,31 +738,3 @@ div[class*="tipTitle-"]:after {
 .quickSelectLabel-2r3iJ_ {
   display: none;
 }
-.tutorialContainer-2sGCg9 {
-  position: fixed;
-  z-index: 1;
-  background: linear-gradient(var(--background-tertiary) 100%, transparent);
-}
-.guilds-1SWlCJ .scroller-1Bvpku {
-  contain: none !important;
-  padding-top: 0;
-}
-.guilds-1SWlCJ .scroller-1Bvpku > [aria-label],
-.guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) {
-  margin-top: 55px;
-}
-.guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] {
-  margin-top: 0;
-}
-.wrapper-3NnKdC > ul > .scroller-1Bvpku > div[aria-label="Servers"] {
-  margin-top: 60px;
-}
-.tutorialContainer-2sGCg9 {
-  box-shadow: 0 5px 5px var(--background-tertiary);
-}
-.container-3w7J-x {
-  z-index: 1;
-}
-.unreadMentionsIndicatorTop-2-tcdU {
-  top: 50px;
-}
