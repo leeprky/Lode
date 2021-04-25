@@ -70,10 +70,12 @@
          /* Lode Specific */
     --alt-color: 56, 168, 151; /* RGB */
     --alt-color2: #38A897; /* HEX */
-    /* --greenple-color: 0, 0, 0;
+    /* --greenple-color: 0, 0, 0; */
 
     /* Other */
     --scrollbars: none; /* none or unset */
+    --call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
+    --call-bg-colour: var(--background-accent); /* Image Overwrites */
 
          /* Spotify Crenshaw Plugin */
     --album-blur-amount: 2px;
@@ -97,20 +99,24 @@
     --borders-radius: 12px;
     --borders-radius-right: 6px;
     --borders-radius-left: 6px;
-    --borders-radius-bottom: 12px;
-    --borders-radius-top: 4px;
+    --borders-radius-bottom: 8px;
+    --borders-radius-top: 2px;
 
-    --spotify-right: 1.6em;
+    --spotify-right: 1.7rem;
 
     /* Watermark */
     --watermark-text: "LODE";
     --watermark-text-left: 12px;
+    --win-minimise-color: #48c048b9;
+    --win-maximise-color: #eab618ab;
+    --win-close-color: #ec0c0c9d;
+    --win-right: 14px;
     
         /* Header Colours Colors */
     --modal-normal-primary-color: #151924;
     --modal-normal-secondary-color: #252B3B;
-    --spotify-color: #38A897;
-    --playing-color: #50a397;
+    --spotify-color: var(--alt-color2);
+    --playing-color: var(--alt-color2);
     --streaming-color: #4d2b86;
 
         /* Header Colors */
@@ -127,7 +133,7 @@
         /* Text Colours */
     --text-normal: #f7f4f4;
     --text-muted: #a39897;
-    --text-link: #38A897;
+    --text-link: var(--alt-color2);
     --channels-default: #ddd5d3;
     --interactive-normal: #EAE1DF;
     --interactive-hover: #EAE1DF;
@@ -145,8 +151,8 @@
     --background-secondary: #252b3b;
     --background-secondary-alt: #252b3b;
     --background-tertiary: #202533;
-    --background-accent: #38A897;
-    --background-accent-gradient: #0f7464;
+    --background-accent: var(--alt-color2);
+    --background-accent-gradient: var(--alt-color2);
     --background-floating: #2b3341;
 
         /* Hovering Colours */
@@ -192,6 +198,8 @@
 
 /* Other */
 --scrollbars: none; /* none or unset */
+--call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
+--call-bg-colour: var(--background-accent); /* Image Overwrites */
 
   /* Spotify Crenshaw Plugin */
 --album-blur-amount: 2px;
@@ -218,17 +226,21 @@
 --borders-radius-bottom: 6px;
 --borders-radius-top: 4px;
 
---spotify-right: 1.6em;
+--spotify-right: 1.7rem;
 
 /* Watermark */
 --watermark-text: "LODE";
 --watermark-text-left: 12px;
+--win-minimise-color: #48c048b9;
+--win-maximise-color: #eab618ab;
+--win-close-color: #ec0c0c9d;
+--win-right: 14px;
 
  /* Header Colours Colors */
 --modal-normal-primary-color: #c6d4df;
 --modal-normal-secondary-color: #c6d4df;
---spotify-color: #38A897;
---playing-color: #50a397;
+--spotify-color: var(--alt-color2);
+--playing-color: var(--alt-color2);
 --streaming-color: #4d2b86;
 
  /* Header Colors */
@@ -244,8 +256,8 @@
 
  /* Text Colours */
 --text-normal: #111010;
---text-muted: #38A897;
---text-link: #38A897;
+--text-muted: var(--alt-color2);
+--text-link: var(--alt-color2);
 --channels-default: #242221;
 --interactive-normal: #080808;
 --interactive-hover: #1a1818;
@@ -263,7 +275,7 @@
 --background-secondary: #dce5ec;
 --background-secondary-alt: #dce5ec;
 --background-tertiary: #eceff3;
---background-accent: #38A897;
+--background-accent: var(--alt-color2);
 --background-accent-gradient: #0f7464;
 --background-floating: #bbc8d1;
 
@@ -330,21 +342,62 @@
 .container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
 .nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
 
+/* Windows Bar */
+
+#app-mount > div[class*="titleBar"] > div[class*="wordmark"] {
+    margin-top: 0rem;
+    margin-left: var(--spotify-right);
+  }
+  #app-mount > div[class*="titleBar"] {
+    display: grid;
+    justify-content: right;
+    grid-template-columns: min-content min-content min-content;
+    direction: rtl;
+    height: 1.72rem;
+    margin: 5px 0px 0px 0px;
+    margin-right: var(--win-right);
+  }
+  #app-mount > div[class*="titleBar"] > div[class*="winButton"] {
+    height: unset;
+    display: grid;
+    width: 2.0rem;
+    height: 1.72rem;
+    border-radius: 4px;
+  }
+  #app-mount > div[class*="titleBar"] > div[class*="winButton"] > svg {
+    height: 40%;
+    width: 100%;
+  }
+  #app-mount > div[class*="app"] {
+    margin-top: -0.40rem;
+  }
+  .messagesPopoutWrap-1MQ1bW {
+    background-color: var(--background-tertiary) !important;
+  }
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: var(--win-close-color);}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: var(--win-minimise-color);}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: var(--win-maximise-color);}
+
 /* WindowsInTopBar */
 /*
-.typeWindows-1za-n7{width:calc(100% - calc(72px + 240px));position:fixed;right:0;height:46px;z-index:2;background:0 0!important;margin:0}
-.platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{z-index:1}
-.winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798}
-.wordmarkWindows-1v0lYD{display:none}
-.platform-win .sidebar-2K8pFh{border-radius:0!important}
-.platform-win .title-3qD0b-{width:calc(100% - 80px)}
-.titleBar-AC4pGV>:nth-child(2):hover{background-color:#f771715e;border-radius:var(--hover-border-radius)}
-.titleBar-AC4pGV>:nth-child(3):hover{background-color:#f0ca574f;border-radius:var(--hover-border-radius)}
-.titleBar-AC4pGV>:nth-child(4):hover{background-color:#48c04879;border-radius:var(--hover-border-radius)}
-.container-1r6BKw.themed-ANHk51{background:var(--background-titlebar)}
-.platform-win .title-3qD0b-{width:calc(100% - 80px);background-color:transparent}
-.notice-3bPHh-,.notice-3uyY6c{background-color:var(--background-accent);top:80px;opacity:.9;border-radius:0 0 12px 12px;left:240px;margin-right:494px;margin-top:-35px}
-
+.typeWindows-1za-n7{
+  width:calc(100% - calc(722px + 240px));
+  position: fixed;
+  right: 15px;
+  height:40px;
+  z-index:2;
+  background:var(--secondary-background-alt)!important;margin:0px;
+}
+.platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+  z-index:1000000;
+}
+.winButton-iRh8-Z{top:12px;right:5px;z-index:67438274832798;}
+.wordmarkWindows-1v0lYD{display: none;}
+.platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
+.platform-win .title-3qD0b-{
+  width:calc(100% - 80px);
+}
+.typeWindows-1za-n7 {!important;margin:0px;}
 /* --- */
 .withFrame-haYltI {margin-top: 10px;}
 /* Settings Modal Under Channels Into Server List */
@@ -402,5 +455,3 @@
                          v1.0 (Lode)
 
     ----------------------------------------------------  */
-
-    
