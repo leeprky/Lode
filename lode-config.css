@@ -1,9 +1,7 @@
 /*  ------------------------------------------
-
          Lode Theme (POWERCORD/GOOSEMOD)
                      v1.0
                 - leeprky#2063 -
-
     ------------------------------------------  */
 
 /* Lode Base Source Code */
@@ -22,6 +20,7 @@
 /* Other Imports */
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+@import url(https://raw.githack.com/NYRI4/Discolored/master/main.css);
 
 /* Optional Imports */
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
@@ -31,7 +30,6 @@
 /* remove lines "74-187" & then enable this */
 /*
 @import url(https://raw.githack.com/leeprky/Lode/main/default/NaiveColors.css);
-
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */
@@ -55,11 +53,9 @@
     ----------------------------  */
 
 /*  ------------------------------------------
-
           Lode Customisable Configuration
                      v1.0
                 - leeprky#2063 -
-
     ------------------------------------------  */
 
 #app-mount {background-color: var(--background-tertiary);}
@@ -98,15 +94,24 @@
         /* ROUND THINGS */
     --borders-radius: 12px;
     --borders-radius-right: 6px;
-    --borders-radius-left: 6px;
+    --borders-radius-left: 8px;
     --borders-radius-bottom: 8px;
     --borders-radius-top: 2px;
+
+    --titlebar-borders-radius: 12px;
+    --titlebar-borders-radius-right: 12px;
+    --titlebar-borders-radius-left: 8px;
+    --titlebar-borders-radius-bottom: 10px;
+    --titlebar-borders-radius-top: 8px;
 
     --spotify-right: 1.7rem;
 
     /* Watermark */
     --watermark-text: "LODE";
-    --watermark-text-left: 3.3rem;
+    --watermark-text-top: 14px;
+    --watermark-text-left: 3.4rem;
+    --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
+
     --win-minimise-color: #48c048b9;
     --win-maximise-color: #eab618ab;
     --win-close-color: #ec0c0c9d;
@@ -195,7 +200,6 @@
   --alt-color: 83, 182, 167; /* RGB */
   --alt-color2: #53b6a7; /* HEX */
     /* --greenple-color: 0, 0, 0;
-
   /* Other */
   --scrollbars: none; /* none or unset */
   --call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
@@ -226,11 +230,20 @@
   --borders-radius-bottom: 6px;
   --borders-radius-top: 4px;
 
+  --titlebar-borders-radius: 12px;
+  --titlebar-borders-radius-right: 12px;
+  --titlebar-borders-radius-left: 8px;
+  --titlebar-borders-radius-bottom: 10px;
+  --titlebar-borders-radius-top: 8px;
+
   --spotify-right: 1.7rem;
 
     /* Watermark */
-  --watermark-text: "LODE";
-  --watermark-text-left: 3.3rem;
+    --watermark-text: "LODE";
+    --watermark-text-top: 14px;
+    --watermark-text-left: 3.4rem;
+    --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
+
   --win-minimise-color: #48c048b9;
   --win-maximise-color: #eab618ab;
   --win-close-color: #ec0c0c9d;
@@ -322,11 +335,9 @@
 .platform-win .scroller-1Bvpku {padding-top: 16px;}
 
 /*  ----------------------------------------------------
-
                   Optional Features
         Add A "/*" On The Lines Below The Comments
                   To Disable Them
-
     ----------------------------------------------------  */
 
 /* Spotify Crenshaw Plugin Blur */
@@ -433,7 +444,6 @@
 .header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
 .header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
 .user-details-center{text-align:center;margin-bottom:5px}
-
 /* --- */
 /* Optionals End */
 /* ----- */
@@ -449,9 +459,7 @@
     .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
 
     /*  ----------------------------------------------------
-
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
                          v1.0 (Lode)
-
     ----------------------------------------------------  */
