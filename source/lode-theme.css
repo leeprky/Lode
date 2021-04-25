@@ -1,6 +1,6 @@
 /*  ------------------------------------------
              Lode Source Code
-                  v0.1.8.2
+                  v1.0.1
               leeprky#2063
 ------------------------------------------  */
 
@@ -742,3 +742,31 @@ div[class*="tipTitle-"]:after {
 .quickSelectLabel-2r3iJ_ {
       display: none;
     }
+
+    
+    /* LUCKFIRES MIDNIGHT MARS TITLEBAR */
+    @keyframes Gradient{
+      0%{background-position:0 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0 50%}
+      }
+      #app-mount .titleBar-AC4pGV{z-index:5;background-color:var(--background-secondary);border-radius:var(--titlebar-borders-radius)!important;margin-top:var(--titlebar-borders-radius-top)!important;margin-bottom:var(--titlebar-borders-radius-bottom)!important;margin-right:var(--titlebar-borders-radius-right)!important;margin-left:var(--titlebar-borders-radius-left)!important;padding-top:0}
+      #app-mount .titleBar-AC4pGV .wordmark-2iDDfm svg{width:0}
+      #app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after{content:"LODE";position:absolute;font-family:Discord;background:linear-gradient(var(--watermark-gradient));animation:Gradient 4s ease infinite;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% 200%;font-weight:600;top:var(--watermark-text-top)}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z{background:var(--icon) 8px 0/15px 15px no-repeat;opacity:.75;margin-top:12px;left:-9px;margin-left:5px;transition:all .2s ease}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Minimize]{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-min.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Minimize]:hover{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-min-active.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Maximize]{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-max.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Maximize]:hover{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-max-active.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF-{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-close.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF-:hover{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-close-active.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z svg{color:transparent}
+    
+      /* settings area */
+    .layers-3iHuyZ,.platform-win .standardSidebarView-3F1I7i{border-color:transparent;background-color:var(--background-tertiary)}
+    .platform-win .layer-3QrUeG{background-color:transparent}
+    .sidebar-CFHs9e{width:280px;margin-right:10px}
+    .header-2RyJ0Y{font-size:16px;color:var(--background-accent)}
+    .sidebarRegionScroller-3MXcoP{border-radius:12px;margin-left:10px;margin-bottom:12px}
+    .contentRegionScroller-26nc1e{border-radius:12px;margin-left:10px;margin-bottom:12px;margin-right:12px}
+    .contentRegion-3nDuYy{border-radius:12px;margin-left:10px;margin-bottom:12px;margin-right:12px}
