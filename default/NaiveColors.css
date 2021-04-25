@@ -1,114 +1,113 @@
-
 /* Lode Naive */
 .theme-dark {
         
-         /* Lode Specific */
-    --alt-color: 228, 25, 112; /* RGB */
-    --alt-color2: #f8066f; /* HEX */
-    /* --greenple-color: 0, 0, 0;
+  /* Lode Specific */
+--alt-color: 228, 25, 112 !important; /* RGB */
+--alt-color2: #f8066f !important; /* HEX */
+/* --greenple-color: 0, 0, 0;
 
-    /* Other */
-    --scrollbars-display: none; /* none or unset */
+/* Other */
+--scrollbars-display: none !important; /* none or unset */
 
-         /* Spotify Crenshaw Plugin */
-    --album-blur-amount: 2px;
-  
-         /* Keeping Consistancy With Discord */ 
-    --serverlist-background: #242B3A;
-    --memberlist-background: #1d222e;
-    --win-titlebar: var(--background-tertiary);
+  /* Spotify Crenshaw Plugin */
+--album-blur-amount: 2px !important;
 
-         /* Making Things Round */ /* Four Numbers = Four Corners */
-    --modal-border-radius: 15px 15px 15px 15px;
-    --floating-border-radius: 15px 15px 15px 15px;
-    --expanded-border-radius: 15px 15px 15px 15px;
-    --hover-border-radius: 10px 10px 10px 10px;
-    --avatar-border-radius: 11.5px 11.5px 11.5px 11.5px; /* Serverlist Too */
-    --avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
-    --chat-text-border-radius: 12px 12px 12px 12px;
+  /* Keeping Consistancy With Discord */ 
+--serverlist-background: #242B3A !important;
+--memberlist-background: #1d222e !important;
+--win-titlebar: var(--background-tertiary) !important;
 
-        /* ROUND THINGS */
-    --borders-radius: 12px;
-    --borders-radius-right: 6px;
-    --borders-radius-left: 6px;
-    --borders-radius-bottom: 6px;
-    --borders-radius-top: 4px;
+  /* Making Things Round */ /* Four Numbers = Four Corners */
+--modal-border-radius: 15px 15px 15px 15px !important;
+--floating-border-radius: 15px 15px 15px 15px !important;
+--expanded-border-radius: 15px 15px 15px 15px !important;
+--hover-border-radius: 10px 10px 10px 10px !important;
+--avatar-border-radius: 11.5px 11.5px 11.5px 11.5px !important; /* Serverlist Too */
+--avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px !important;
+--chat-text-border-radius: 12px 12px 12px 12px !important;
 
-    --spotify-right: 1.6em;
-    /* Watermark */
-    --watermark-text: "LODE";
-    --watermark-text-left: 12px;
-    
-        /* Header Colours Colors */
-    --modal-normal-primary-color: #151924;
-    --modal-normal-secondary-color: #252B3B;
-    --spotify-color: #942052b0;
-    --playing-color: #8d1046ce;
-    --streaming-color: #4d2b86;
+ /* ROUND THINGS */
+--borders-radius: 12px !important;
+--borders-radius-right: 6px !important;
+--borders-radius-left: 6px !important;
+--borders-radius-bottom: 6px !important;
+--borders-radius-top: 4px !important;
 
-        /* Header Colors */
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
+--spotify-right: 1.6em !important;
+/* Watermark */
+--watermark-text: "LODE" !important;
+--watermark-text-left: 12px !important;
 
-        /* Powercord Toast Colors */
-    --toast-background: #191f30;
-    --toast-header: #252b3b;
-    --toast-content: #252b3b;
-    --toast-box-shadow: rgba(24, 21, 21, 0.932);
-    --toast-border: rgba(21, 22, 22, 0);
+ /* Header Colours Colors */
+--modal-normal-primary-color: #151924 !important;
+--modal-normal-secondary-color: #252B3B !important;
+--spotify-color: #942052b0 !important;
+--playing-color: #8d1046ce !important;
+--streaming-color: #4d2b86 !important;
 
-        /* Text Colours */
-    --text-normal: #dcddde;
-    --text-muted: #72767d;
-    --text-link: #f8066f;
-    --channels-default: #8e9297;
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #fff;
-    --interactive-muted: #4f545c;
+ /* Header Colors */
+--header-primary: #fff !important;
+--header-secondary: #b9bbbe !important;
 
-        /* Chat */
-    --channeltextarea-background: #0e0e0f;
-    --channeltextarea-background-hover: #252B3B;
+ /* Powercord Toast Colors */
+--toast-background: #191f30 !important;
+--toast-header: #252b3b !important;
+--toast-content: #252b3b !important;
+--toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
+--toast-border: rgba(21, 22, 22, 0) !important;
 
-        /* Background Colours */
-    --background-primary: #191f30;
-    --background-titlebar: #191f308f;
-    --background-primary-alt: #191f30;
-    --background-secondary: #252b3b;
-    --background-secondary-alt: #252b3b;
-    --background-tertiary: #202533;
-    --background-accent: #e51971fb;
-    --background-floating: #2b3341;
+ /* Text Colours */
+--text-normal: #dcddde !important;
+--text-muted: #72767d !important;
+--text-link: #f8066f !important;
+--channels-default: #8e9297 !important;
+--interactive-normal: #b9bbbe !important;
+--interactive-hover: #dcddde !important;
+--interactive-active: #fff !important;
+--interactive-muted: #4f545c !important;
 
-        /* Hovering Colours */
-    --background-modifier-hover: #e2277815;
-    --background-modifier-active: #e227783d;
-    --background-modifier-selected: #e2277815;
-    --background-modifier-accent: hsla(0,0%,100%,0.06);
-    --background-message-hover: transparent;
+ /* Chat */
+--channeltextarea-background: #0e0e0f !important;
+--channeltextarea-background-hover: #252B3B !important;
 
-        /* Mentioned  Colours */
-    --background-mentioned: rgba(250, 26, 101, 0.05);
-    --background-mentioned-hover: rgba(250, 26, 101, 0.08);
-    --background-mentioned-bar: var(--background-accent);
+ /* Background Colours */
+--background-primary: #191f30 !important;
+--background-titlebar: #191f308f !important;
+--background-primary-alt: #191f30 !important;
+--background-secondary: #252b3b !important;
+--background-secondary-alt: #252b3b !important;
+--background-tertiary: #202533 !important;
+--background-accent: #e51971fb !important;
+--background-floating: #2b3341 !important;
 
-    --background-help-warning: rgba(250,166,26,0.1);
-    --background-help-info: rgba(0,176,244,0.1);
+ /* Hovering Colours */
+--background-modifier-hover: #e2277815 !important;
+--background-modifier-active: #e227783d !important;
+--background-modifier-selected: #e2277815 !important;
+--background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+--background-message-hover: transparent !important;
 
-        /* Scrollbar Colours */
-    --scrollbar-thin-thumb: rgba(204, 29, 64, 0.185);
-    --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #a0193b3b;
-    --scrollbar-auto-track: #e5197118;
-    --scrollbar-auto-scrollbar-color-thumb: #9c203f9a;
+ /* Mentioned  Colours */
+--background-mentioned: rgba(250, 26, 101, 0.05) !important;
+--background-mentioned-hover: rgba(250, 26, 101, 0.08) !important;
+--background-mentioned-bar: var(--background-accent) !important;
 
-       /* Box Shadow On Floating Elements Colours */
-    --elevation-stroke: 0 0 0 1px rgba(26, 22, 22, 0.329);
-    --elevation-low: 0 1px 0 rgba(26, 22, 22, 0.329);
-    --elevation-medium: 0 4px 4px rgba(26, 22, 22, 0.329);
-    --elevation-high: 0 8px 16px rgba(26, 22, 22, 0.329);
+--background-help-warning: rgba(250,166,26,0.1) !important;
+--background-help-info: rgba(0,176,244,0.1) !important;
 
-    /* Other */
-    --radio-group-dot-foreground: var(--alt-color);
+ /* Scrollbar Colours */
+--scrollbar-thin-thumb: rgba(204, 29, 64, 0.185) !important;
+--scrollbar-thin-track: transparent !important;
+--scrollbar-auto-thumb: #a0193b3b !important;
+--scrollbar-auto-track: #e5197118 !important;
+--scrollbar-auto-scrollbar-color-thumb: #9c203f9a !important;
+
+/* Box Shadow On Floating Elements Colours */
+--elevation-stroke: 0 0 0 1px rgba(26, 22, 22, 0.329) !important;
+--elevation-low: 0 1px 0 rgba(26, 22, 22, 0.329) !important;
+--elevation-medium: 0 4px 4px rgba(26, 22, 22, 0.329) !important;
+--elevation-high: 0 8px 16px rgba(26, 22, 22, 0.329) !important;
+
+/* Other */
+--radio-group-dot-foreground: var(--alt-color) !important;
 }
