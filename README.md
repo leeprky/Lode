@@ -28,4 +28,4 @@ Check The GooseMods Theme Store OR Import The Theme.
 
 ## Previews
 
-![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/LodeDevAlpha.png)
+![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/v1.0.1.png)
