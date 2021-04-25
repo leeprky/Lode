@@ -716,25 +716,29 @@ div[class*="tipTitle-"]:after {
   background: 0 0 !important;
 }
 .wrapper-2qzCYF.minimum-28Z35l {
-  background-image: var(--call-bg);
-  background-color: var(--call-bg-color);
-  border-radius: 12px;
-  margin-left: 12px;
-  margin-right: 18px;
-  margin-top: 12px;
-}
+      background-image: var(--call-bg);
+      background-color: var(--call-bg-color);
+      background-position: center;
+      background-size: cover;
+      border-radius: 12px;
+      margin-left: 12px;
+      margin-right: 18px;
+      margin-top: 12px;
+    }
 .icon-22AiRD {
-  color: var(--text-normal);
-}
+      color: var(--text-normal);
+    }
 .root-217Brm {
-  background-image: var(--call-bg);
-  border-radius: 12px;
-}
+      background-image: var(--call-bg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 12px;
+    }
 .callContainer-36WRfH,
-.wrapper-2qzCYF.normal-1oavYI {
-  right: 18px;
-  margin-left: 9px;
-}
+    .wrapper-2qzCYF.normal-1oavYI {
+      right: 18px;
+      margin-left: 9px;
+    }
 .quickSelectLabel-2r3iJ_ {
-  display: none;
-}
+      display: none;
+    }
