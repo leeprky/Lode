@@ -754,12 +754,12 @@ div[class*="tipTitle-"]:after {
       #app-mount .titleBar-AC4pGV .wordmark-2iDDfm svg{width:0}
       #app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after{content:"LODE";position:absolute;font-family:Discord;background:linear-gradient(var(--watermark-gradient));animation:Gradient 4s ease infinite;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% 200%;font-weight:600;top:var(--watermark-text-top)}
       #app-mount .titleBar-AC4pGV .winButton-iRh8-Z{background:var(--icon) 8px 0/15px 15px no-repeat;opacity:.75;margin-top:12px;left:-9px;margin-left:5px;transition:all .2s ease}
-      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Minimize]{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-min.svg')}
-      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Minimize]:hover{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-min-active.svg')}
-      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Maximize]{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-max.svg')}
-      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Maximize]:hover{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-max-active.svg')}
-      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF-{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-close.svg')}
-      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF-:hover{--icon:url('https://raw.githubusercontent.com/LuckFire/midnight-mars/main/src/main/_assets/win-buttons/windows-close-active.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Minimize]{--icon:url('https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-min.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Minimize]:hover{--icon:url('https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-min-active.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Maximize]{--icon:url('https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-max.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label=Maximize]:hover{--icon:url('https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-max-active.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF-{--icon:url('https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-close.svg')}
+      #app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF-:hover{--icon:url('https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-close-active.svg')}
       #app-mount .titleBar-AC4pGV .winButton-iRh8-Z svg{color:transparent}
     
       /* settings area */
