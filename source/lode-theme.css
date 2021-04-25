@@ -175,3 +175,11 @@ div[class*=tipTitle-]:after{content:" | NO INTERNET LOL"}
 .powercord-snippet-apply:not(.applied) div:hover{border-radius:var(--hover-border-radius)}
 .powercord-toast{display:flex;flex-direction:column;background-color:var(--toast-background);border:1px solid var(--toast-border);box-shadow:0 2px 10px 0 var(--toast-box-shadow);box-sizing:border-box;border-radius:12px 3px 12px 3px;position:absolute;animation:slide-in .5s ease,shake 1.4s cubic-bezier(.36,.07,.19,.97) both;max-width:600px;min-width:223px;width:320px;right:280px;bottom:90px;z-index:999}
  .group-spacing-16 .divider-3_HH5L.beforeGroup-1rH1F0 {right: 35px;}
+.wrapper-3EGhDO{background-color:var(--background-secondary);border-radius:25px;padding:0}
+.colorable-1bkp8v.white-3GPOIp,.colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T{color:currentColor}
+.centerButton-3CaNcJ,.colorable-1bkp8v.primary-3NQg8g,.colorable-1bkp8v.primary-3NQg8g.active-1QRrIS,.colorable-1bkp8v.primary-3NQg8g:hover,.colorable-1bkp8v.red-33-Lnk,.colorable-1bkp8v.white-3GPOIp,.colorable-1bkp8v.white-3GPOIp.active-1QRrIS,.colorable-1bkp8v.white-3GPOIp:hover{background:0 0!important}
+.wrapper-2qzCYF.minimum-28Z35l{background-image:var(--call-bg);border-radius:12px;margin-left:12px;margin-right:18px;margin-top:12px}
+.icon-22AiRD{color:var(--text-normal)}
+.root-217Brm{background-image:var(--call-bg);border-radius:12px}
+.callContainer-36WRfH,.wrapper-2qzCYF.normal-1oavYI{right:18px;margin-left:9px}
+.quickSelectLabel-2r3iJ_{display:none}
