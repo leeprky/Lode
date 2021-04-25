@@ -28,3 +28,17 @@
 .theme-light .container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
 .theme-light .nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
 .theme-light .subtext-3CDbHg {color: var(--subtext-color)!important}
+
+/* Light Mode Fix */
+.theme-dark .form-26zE04, .theme-dark .root-1gCeng, .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background-color: #191f30;
+  }
+.theme-dark .footer-2gL1pp, .input--jS-j2 {
+  background-color: #252b3b;
+}
+.theme-dark .container-UC8Ug1 {
+  background-color: #252b3b;
+}
+.theme-dark .text-1FOLJS, .theme-dark .subtitle-Nw1LLR, .theme-dark .title-3w8xhj, .theme-dark .optionHeader-1-5lcp, .theme-dark .footerTitle-2CYZch, .theme-dark .subtitle-1Q3BuX, .theme-dark .title-XLSR78, .theme-dark .title-LqAd9K, .theme-dark .lookFilled-1Gx00P .contents-18-Yxp, .theme-dark .lookInverted-2D7oAl .contents-18-Yxp, .theme-dark .lookLink-9FtZy- .contents-18-Yxp, .theme-dark .lookOutlined-3sRXeN .contents-18-Yxp, .theme-dark .contents-18-Yxp, .theme-dark .colorHeaderSecondary-3Sp3Ft, .theme-dark .subtitle-1KdHaN, .theme-dark .title-Z_XiOC, .theme-dark .iconContainer-2B0ixr, .theme-dark .h5-18_1nd, .theme-dark .input-cIJ7To {
+  color: #f3efef;
+}
