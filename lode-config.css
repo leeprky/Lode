@@ -55,10 +55,12 @@
     ------------------------------------------  */
 
 /* Pre-Made Colour Schemes */
+/* DELETE .THEME-DARK CONTENTS */
 /* naive */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/NaiveColors.css); */
 /* midnight mars by #Luckfire */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/MidnightMars.css); */
+/* -- */
 
 #app-mount {background-color: var(--background-tertiary);}
 
@@ -76,7 +78,7 @@
 --call-bg-colour: var(--background-accent); /* Image Overwrites */
 
   /* Spotify Crenshaw Plugin */
---album-blur-amount: 2px;
+--album-blur-amount: 4px;
 --subtext-color: #000;
 
   /* Keeping Consistancy With Discord */ 
