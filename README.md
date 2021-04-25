@@ -8,12 +8,23 @@ Its My First Theme That I Have Built From The Ground Up, Hope You Enjoy The Alph
 ## Supports: Powercord | Goosemod | BetterDiscord
 ## And For: Glasscord & Lightmode
 
-## How To Install Lode
+## How To Install Lode For Powercord
 
 Open Command Prompt & Copy This:
-
 `cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Lode`
 > Refresh Discord
+
+## How To Install Lode For BetterDiscord
+
+Click Here > https://www.mediafire.com/file/fwbgh07h6be24z2/LodeBD.theme.css/file <
+Download The Theme & Place In Your /themes Folder For BetterDiscord.
+
+OR Go Here > https://raw.githubusercontent.com/leeprky/Lode/main/default/support/betterdiscord/LodeBD.theme.css <
+And Right Click `Save As` & Place In Themes Folder.
+
+## How To Install Lode For BetterDiscord 
+
+Check The GooseMods Theme Store OR Import The Theme.
 
 ## Previews
 
