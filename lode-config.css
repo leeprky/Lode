@@ -106,7 +106,7 @@
 
     /* Watermark */
     --watermark-text: "LODE";
-    --watermark-text-left: 12px;
+    --watermark-text-left: 3.3rem;
     --win-minimise-color: #48c048b9;
     --win-maximise-color: #eab618ab;
     --win-close-color: #ec0c0c9d;
@@ -192,123 +192,123 @@
 .theme-light {
         
   /* Lode Specific */
---alt-color: 83, 182, 167; /* RGB */
---alt-color2: #53b6a7; /* HEX */
-/* --greenple-color: 0, 0, 0;
+  --alt-color: 83, 182, 167; /* RGB */
+  --alt-color2: #53b6a7; /* HEX */
+    /* --greenple-color: 0, 0, 0;
 
-/* Other */
---scrollbars: none; /* none or unset */
---call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
---call-bg-colour: var(--background-accent); /* Image Overwrites */
+  /* Other */
+  --scrollbars: none; /* none or unset */
+  --call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
+  --call-bg-colour: var(--background-accent); /* Image Overwrites */
 
   /* Spotify Crenshaw Plugin */
---album-blur-amount: 2px;
---subtext-color: #fff;
+  --album-blur-amount: 2px;
+  --subtext-color: #fff;
 
   /* Keeping Consistancy With Discord */ 
---serverlist-background: #cad7e0;
---memberlist-background: #cad7e0;
---win-titlebar: var(--background-tertiary);
+  --serverlist-background: #cad7e0;
+  --memberlist-background: #cad7e0;
+  --win-titlebar: var(--background-tertiary);
 
   /* Making Things Round */ /* Four Numbers = Four Corners */
---modal-border-radius: 15px 15px 15px 15px;
---floating-border-radius: 15px 15px 15px 15px;
---expanded-border-radius: 15px 15px 15px 15px;
---hover-border-radius: 10px 10px 10px 10px;
---avatar-border-radius: 11.5px 11.5px 11.5px 11.5px; /* Serverlist Too */
---avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
---chat-text-border-radius: 12px 12px 12px 12px;
+  --modal-border-radius: 15px 15px 15px 15px;
+  --floating-border-radius: 15px 15px 15px 15px;
+  --expanded-border-radius: 15px 15px 15px 15px;
+  --hover-border-radius: 10px 10px 10px 10px;
+  --avatar-border-radius: 11.5px 11.5px 11.5px 11.5px; /* Serverlist Too */
+  --avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
+  --chat-text-border-radius: 12px 12px 12px 12px;
 
- /* ROUND THINGS */
---borders-radius: 12px;
---borders-radius-right: 6px;
---borders-radius-left: 6px;
---borders-radius-bottom: 6px;
---borders-radius-top: 4px;
+    /* ROUND THINGS */
+  --borders-radius: 12px;
+  --borders-radius-right: 6px;
+  --borders-radius-left: 6px;
+  --borders-radius-bottom: 6px;
+  --borders-radius-top: 4px;
 
---spotify-right: 1.7rem;
+  --spotify-right: 1.7rem;
 
-/* Watermark */
---watermark-text: "LODE";
---watermark-text-left: 12px;
---win-minimise-color: #48c048b9;
---win-maximise-color: #eab618ab;
---win-close-color: #ec0c0c9d;
---win-right: 14px;
+    /* Watermark */
+  --watermark-text: "LODE";
+  --watermark-text-left: 3.3rem;
+  --win-minimise-color: #48c048b9;
+  --win-maximise-color: #eab618ab;
+  --win-close-color: #ec0c0c9d;
+  --win-right: 14px;
 
  /* Header Colours Colors */
---modal-normal-primary-color: #c6d4df;
---modal-normal-secondary-color: #c6d4df;
---spotify-color: var(--alt-color2);
---playing-color: var(--alt-color2);
---streaming-color: #4d2b86;
+  --modal-normal-primary-color: #c6d4df;
+  --modal-normal-secondary-color: #c6d4df;
+  --spotify-color: var(--alt-color2);
+  --playing-color: var(--alt-color2);
+  --streaming-color: #4d2b86;
 
- /* Header Colors */
---header-primary: #0f0f0e;
---header-secondary: rgb(43, 45, 46);
+    /* Header Colors */
+  --header-primary: #0f0f0e;
+  --header-secondary: rgb(43, 45, 46);
 
  /* Powercord Toast Colors */
---toast-background: #e1e3eb;
---toast-header: #bdc0c7;
---toast-content: #e1e3eb;
---toast-box-shadow: rgba(24, 21, 21, 0.932);
---toast-border: rgba(21, 22, 22, 0);
+  --toast-background: #e1e3eb;
+  --toast-header: #bdc0c7;
+  --toast-content: #e1e3eb;
+  --toast-box-shadow: rgba(24, 21, 21, 0.932);
+  --toast-border: rgba(21, 22, 22, 0);
 
  /* Text Colours */
---text-normal: #111010;
---text-muted: var(--alt-color2);
---text-link: var(--alt-color2);
---channels-default: #242221;
---interactive-normal: #080808;
---interactive-hover: #1a1818;
---interactive-active: rgb(19, 17, 17);
---interactive-muted: #505355;
+  --text-normal: #111010;
+  --text-muted: var(--alt-color2);
+  --text-link: var(--alt-color2);
+  --channels-default: #242221;
+  --interactive-normal: #080808;
+  --interactive-hover: #1a1818;
+  --interactive-active: rgb(19, 17, 17);
+  --interactive-muted: #505355;
 
  /* Chat */
---channeltextarea-background: #cbcbda;
---channeltextarea-background-hover: #f5f6fa;
+  --channeltextarea-background: #cbcbda;
+  --channeltextarea-background-hover: #f5f6fa;
 
  /* Background Colours */
---background-primary: #cad7e0;
---background-titlebar: #cbd7e0;
---background-primary-alt: #cbd7e0;
---background-secondary: #dce5ec;
---background-secondary-alt: #dce5ec;
---background-tertiary: #eceff3;
---background-accent: var(--alt-color2);
---background-accent-gradient: #0f7464;
---background-floating: #bbc8d1;
+  --background-primary: #cad7e0;
+  --background-titlebar: #cbd7e0;
+  --background-primary-alt: #cbd7e0;
+  --background-secondary: #dce5ec;
+  --background-secondary-alt: #dce5ec;
+  --background-tertiary: #eceff3;
+  --background-accent: var(--alt-color2);
+  --background-accent-gradient: #0f7464;
+  --background-floating: #bbc8d1;
 
  /* Hovering Colours */
---background-modifier-hover: rgba(56, 168, 151, 0.411);
---background-modifier-active: rgba(56, 168, 151, 0.651);
---background-modifier-selected: rgba(56, 168, 151, 0.37);
---background-modifier-accent: rgba(56, 168, 151, 0.534);
---background-message-hover: transparent;
+  --background-modifier-hover: rgba(56, 168, 151, 0.411);
+  --background-modifier-active: rgba(56, 168, 151, 0.651);
+  --background-modifier-selected: rgba(56, 168, 151, 0.37);
+  --background-modifier-accent: rgba(56, 168, 151, 0.534);
+  --background-message-hover: transparent;
 
  /* Mentioned  Colours */
---background-mentioned: rgba(56, 168, 151, 0.308);
---background-mentioned-hover: rgba(56, 168, 151, 0.425);
---background-mentioned-bar: var(--background-accent);
+  --background-mentioned: rgba(56, 168, 151, 0.308);
+  --background-mentioned-hover: rgba(56, 168, 151, 0.425);
+  --background-mentioned-bar: var(--background-accent);
 
---background-help-warning: rgba(56, 168, 151, 0.233);
---background-help-info: rgba(244, 8, 0, 0.164);
+  --background-help-warning: rgba(56, 168, 151, 0.233);
+  --background-help-info: rgba(244, 8, 0, 0.164);
 
- /* Scrollbar Colours */
---scrollbar-thin-thumb: rgba(56, 168, 151, 0.397);
---scrollbar-thin-track: transparent;
---scrollbar-auto-thumb: rgba(56, 168, 151, 0.363);
---scrollbar-auto-track: rgba(56, 168, 151, 0.363);
---scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384);
+    /* Scrollbar Colours */
+  --scrollbar-thin-thumb: rgba(56, 168, 151, 0.397);
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: rgba(56, 168, 151, 0.363);
+  --scrollbar-auto-track: rgba(56, 168, 151, 0.363);
+  --scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384);
 
-/* Box Shadow On Floating Elements Colours */
---elevation-stroke: 0 0 0 1px rgba(22, 24, 26, 0.329);
---elevation-low: 0 1px 0 rgba(22, 25, 26, 0.329);
---elevation-medium: 0 4px 4px rgba(22, 25, 26, 0.329);
---elevation-high: 0 8px 16px rgba(22, 25, 26, 0.329);
+    /* Box Shadow On Floating Elements Colours */
+  --elevation-stroke: 0 0 0 1px rgba(22, 24, 26, 0.329);
+  --elevation-low: 0 1px 0 rgba(22, 25, 26, 0.329);
+  --elevation-medium: 0 4px 4px rgba(22, 25, 26, 0.329);
+  --elevation-high: 0 8px 16px rgba(22, 25, 26, 0.329);
 
-/* Other */
---radio-group-dot-foreground: var(--alt-color);
+    /* Other */
+  --radio-group-dot-foreground: var(--alt-color);
 }
 
 /* Lode Extras */
@@ -346,7 +346,7 @@
 
 #app-mount > div[class*="titleBar"] > div[class*="wordmark"] {
     margin-top: 0rem;
-    margin-left: var(--spotify-right);
+    margin-left: var(--watermark-text-left);
   }
   #app-mount > div[class*="titleBar"] {
     display: grid;
