@@ -346,7 +346,7 @@
 
 /* Spotify Crenshaw Plugin Blur */
 /* https://github.com/Crenshaw1312/SpotifyBackgrounds */
-
+/*
 .powercord-spotify, .powercord-spotify.hover, .container-3baos1{backdrop-filter: brightness(90%);border-radius: 12px;}
 .header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--album-blur-amount));}
 .headerFill-adLl4x, .header-QKLPzZ {background-color: transparent;}
@@ -358,7 +358,6 @@
 .nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
 
 /* Windows Bar */
-
 #app-mount>div[class*=titleBar]>div[class*=wordmark]{margin-top:0rem;margin-left:var(--watermark-text-left)}
 #app-mount>div[class*=titleBar]{display:grid;justify-content:right;grid-template-columns:min-content min-content min-content;direction:rtl;height:1.72rem;margin:5px 0 0 0;margin-right:var(--win-right)}
 #app-mount>div[class*=titleBar]>div[class*=winButton]{height:unset;display:grid;width:2rem;height:1.72rem;border-radius:4px}
@@ -368,6 +367,8 @@
 .titleBar-AC4pGV>:nth-child(2):hover{background-color:var(--win-close-color)}
 .titleBar-AC4pGV>:nth-child(3):hover{background-color:var(--win-minimise-color)}
 .titleBar-AC4pGV>:nth-child(4):hover{background-color:var(--win-maximise-color)}
+
+/* Linux Fix */
 
 /* --- */
 .withFrame-haYltI {margin-top: 10px;}
