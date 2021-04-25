@@ -179,7 +179,7 @@ div[class*=tipTitle-]:after{content:" | NO INTERNET LOL"}
 .wrapper-3EGhDO{background-color:var(--background-secondary);border-radius:25px;padding:0}
 .colorable-1bkp8v.white-3GPOIp,.colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T{color:currentColor}
 .centerButton-3CaNcJ,.colorable-1bkp8v.primary-3NQg8g,.colorable-1bkp8v.primary-3NQg8g.active-1QRrIS,.colorable-1bkp8v.primary-3NQg8g:hover,.colorable-1bkp8v.red-33-Lnk,.colorable-1bkp8v.white-3GPOIp,.colorable-1bkp8v.white-3GPOIp.active-1QRrIS,.colorable-1bkp8v.white-3GPOIp:hover{background:0 0!important}
-.wrapper-2qzCYF.minimum-28Z35l{background-image:var(--call-bg);border-radius:12px;margin-left:12px;margin-right:18px;margin-top:12px}
+.wrapper-2qzCYF.minimum-28Z35l{background-image:var(--call-bg); background-color: var(--call-bg-color); border-radius:12px;margin-left:12px;margin-right:18px;margin-top:12px}
 .icon-22AiRD{color:var(--text-normal)}
 .root-217Brm{background-image:var(--call-bg);border-radius:12px}
 .callContainer-36WRfH,.wrapper-2qzCYF.normal-1oavYI{right:18px;margin-left:9px}
