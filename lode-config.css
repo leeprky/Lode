@@ -17,6 +17,10 @@
 /* Optional Imports */
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
 
+/* Titlebar */
+/* Disable fi you cant see them in top right (windows) */
+@import url(https://raw.githack.com/leeprky/Lode/main/default/support/win-buttons/win-buttons.css);
+
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */
