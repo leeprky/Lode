@@ -2,7 +2,7 @@
 .theme-dark {
         
   /* Lode Specific */
---alt-color: 70, 43, 167; /* RGB */
+--alt-color: 70, 43, 167 !important; /* RGB */
 --alt-color2: #462ba7 !important; /* HEX */
 
 --green-color: #4aac8f !important;
