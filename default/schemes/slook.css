@@ -1,0 +1,200 @@
+/* Lode SLOOK Dark */
+.theme-dark {
+        
+  /* Lode Specific */
+--alt-color: 0, 140, 103 !important; /* RGB */
+--alt-color2: #008C67 !important; /* HEX */
+
+--green-color: #4aac8f !important;
+--green-bar-on: var(--green-color) !important;
+--green-bar-bg: #151925 !important;
+--green-slider-on: var(--green-color) !important;
+--green-slider-off: #19d5e280 !important;
+--green-slider-dot: #fff !important;
+
+/* Other */
+--scrollbars: none !important; /* none or unset */
+--call-bg: url(https://i.imgur.com/7QJkSkJ.png) !important; /* None To Disable */
+--call-bg-colour: var(--background-accent) !important; /* Image Overwrites */
+
+  /* Spotify Crenshaw Plugin */
+--album-blur-amount: 4px !important;
+--subtext-color: #000 !important;
+
+  /* Keeping Consistancy With Discord */ 
+--serverlist-background: var(--background-tertiary) !important;
+--memberlist-background: #1d222e !important;
+--win-titlebar: var(--background-tertiary) !important;
+
+  /* Making Things Round */ /* Four Numbers = Four Corners */
+--modal-border-radius: 15px 15px 15px 15px !important;
+--floating-border-radius: 15px 15px 15px 15px !important;
+--expanded-border-radius: 15px 15px 15px 15px !important;
+--hover-border-radius: 10px 10px 10px 10px !important;
+--avatar-border-radius: 11.5px 11.5px 11.5px 11.5px !important; /* Serverlist Too */
+--avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px !important;
+--chat-text-border-radius: 12px 12px 12px 12px !important;
+
+ /* ROUND THINGS */
+--borders-radius: 12px !important;
+--borders-radius-right: 6px !important;
+--borders-radius-left: 8px !important;
+--borders-radius-bottom: 8px !important;
+--borders-radius-top: 5px !important;
+
+--titlebar-borders-radius: 12px !important;
+--titlebar-borders-radius-right: 12px !important;
+--titlebar-borders-radius-left: 8px !important;
+--titlebar-borders-radius-bottom: 10px !important;
+--titlebar-borders-radius-top: 8px !important;
+
+--chatbox-border-radius: 22px !important;
+
+--spotify-right: 1.7rem !important;
+
+/* Watermark */
+--watermark-text: "LODE" !important;
+--watermark-text-top: 14px !important;
+--watermark-text-left: 3.4rem !important;
+--watermark-gradient: 270deg, rgb(0, 140, 103), rgb(80, 204, 253) !important;
+
+--win-minimise-color: #48c048b9 !important;
+--win-maximise-color: #eab618ab !important;
+--win-close-color: #ec0c0c9d !important;
+--win-right: 14px !important;
+
+ /* Header Colours Colors */
+--modal-normal-primary-color: #151924 !important;
+--modal-normal-secondary-color: #252B3B !important;
+--spotify-color: var(--alt-color2) !important;
+--playing-color: var(--alt-color2) !important;
+--streaming-color: #4d2b86 !important;
+
+ /* Header Colors */
+ --header-primary: #fff !important;
+ --header-secondary: #b9bbbe !important;
+
+ /* Powercord Toast Colors */
+--toast-background: #191f30 !important;
+--toast-header: #252b3b !important;
+--toast-content: #252b3b !important;
+--toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
+--toast-border: rgba(21, 22, 22, 0) !important;
+
+ /* Text Colours */
+ --text-normal: #dcddde !important;
+ --text-muted: #72767d !important;
+ --text-link: #008C67 !important;
+ --channels-default: #8e9297 !important;
+ --interactive-normal: #b9bbbe !important;
+ --interactive-hover: #dcddde !important;
+ --interactive-active: rgb(231, 222, 222) !important;
+ --interactive-muted: #313233 !important;
+
+ /* Chat */
+--channeltextarea-background: var(--background-primary) !important;
+--channeltextarea-background-hover: #252B3B !important;
+
+ /* Background Colours */
+ --background-primary: #24262b !important;
+ --background-primary-alt: #24262b !important;
+ --background-secondary: #1d1f22ad !important;
+ --background-secondary-alt: #1d1f22ad !important;
+ --background-tertiary: #2f3236 !important;
+ --background-accent: #1e1f20 !important;
+ --background-floating: #18191caf !important;
+--background-accent-gradient: var(--alt-color2) !important;
+--background-floating: #2b3341 !important;
+
+ /* Hovering Colours */
+ --background-modifier-hover: rgba(79,84,92,0.16) !important;
+ --background-modifier-active: rgba(79,84,92,0.24) !important;
+ --background-modifier-selected: rgba(14, 15, 15, 0.32) !important;
+ --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+--background-message-hover: transparent !important;
+
+ /* Mentioned  Colours */
+ --background-mentioned: rgba(89, 250, 26, 0.055) !important;
+ --background-mentioned-hover: rgba(58, 180, 20, 0.08) !important;
+--background-mentioned-bar: var(--background-accent) !important;
+
+--background-help-warning: rgba(56, 168, 151, 0.233) !important;
+--background-help-info: rgba(244, 8, 0, 0.164) !important;
+
+ /* Scrollbar Colours */
+--scrollbar-thin-thumb: rgba(56, 168, 151, 0.397) !important;
+--scrollbar-thin-track: transparent !important;
+--scrollbar-auto-thumb: rgba(56, 168, 151, 0.363) !important;
+--scrollbar-auto-track: rgba(56, 168, 151, 0.363) !important;
+--scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384) !important;
+
+/* Box Shadow On Floating Elements Colours */
+--elevation-stroke: 0 0 0 1px rgba(22, 24, 26, 0.329) !important;
+--elevation-low: 0 1px 0 rgba(22, 25, 26, 0.329) !important;
+--elevation-medium: 0 4px 4px rgba(22, 25, 26, 0.329) !important;
+--elevation-high: 0 8px 16px rgba(22, 25, 26, 0.329) !important;
+
+/* Other */
+--radio-group-dot-foreground: var(--alt-color) !important;
+}
+
+
+
+/* Lode Slook Light */
+.theme-light {
+  --alt-color: 0, 140, 103 !important;
+  --spotify-color: #008C67 !important;
+  --new-message-pill: #008C67 !important;
+  --header-primary: #0d0d0e !important;
+  --header-secondary: #2a2b2e !important;
+  --text-normal: #0d0d0e !important;
+  --text-muted: #747f8d !important;
+  --text-link: #28a318f1 !important;
+  --channels-default: #1f2022 !important;
+  --interactive-normal: #4f5660 !important;
+  --interactive-hover: #2e3338 !important;
+  --interactive-active: #40a113 !important;
+  --interactive-muted: #c2c5c7 !important;
+  --background-primary: rgb(216, 209, 203) !important;
+  --background-secondary: rgba(219, 214, 210, 0.61) !important;
+  --background-secondary-alt: #dad6d100 !important;
+  --background-tertiary: rgba(219, 214, 210, 0.61) !important;
+  --background-accent: #424344e5 !important;
+  --background-floating: rgba(226, 219, 215, 0.884) !important;
+  --background-modifier-hover: rgba(116,127,141,0.08) !important;
+  --background-modifier-active: rgba(116,127,141,0.16) !important;
+  --background-modifier-selected: rgba(116,127,141,0.24) !important;
+  --background-modifier-accent: rgba(6,6,7,0.08) !important;
+  --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+  --background-mentioned: rgba(63, 177, 18, 0.116) !important;
+  --background-message-hover: rgba(6,6,7,0.02) !important;
+  --background-help-warning: rgba(250,166,26,0.1) !important;
+  --background-help-info: rgba(0,103,224,0.1) !important;
+  --scrollbar-thin-thumb: rgba(79,84,92,0.3) !important;
+  --scrollbar-thin-track: transparent !important;
+  --scrollbar-auto-thumb: #ccc !important;
+  --scrollbar-auto-track: #f2f2f2 !important;
+  --scrollbar-auto-scrollbar-color-thumb: #e3e5e8 !important;
+  --scrollbar-auto-scrollbar-color-track: #f2f3f5 !important;
+  --elevation-stroke: 0 0 0 1px rgba(6,6,7,0.08) !important;
+  --elevation-low: 0 1px 0 rgba(6,6,7,0.1),0 1.5px 0 rgba(6,6,7,0.025),0 2px 0 rgba(6,6,7,0.025) !important;
+  --elevation-medium: 0 4px 4px rgba(0,0,0,0.08) !important;
+  --elevation-high: 0 8px 16px rgba(0,0,0,0.16) !important;
+  --logo-primary: #7289da !important;
+  --focus-primary: #00b0f4 !important;
+  --radio-group-dot-foreground: #4e5d94 !important;
+  --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4) !important;
+  --channeltextarea-background: #ebedef63 !important;
+  --activity-card-background: #fff !important;
+  --textbox-markdown-syntax: #6a7480 !important;
+  --deprecated-card-bg: #f8f9f9 !important;
+  --deprecated-card-editable-bg: rgba(246,246,247,0.6) !important;
+  --deprecated-store-bg: #f8f9f9 !important;
+  --deprecated-quickswitcher-input-background: #fff !important;
+  --deprecated-quickswitcher-input-placeholder: rgba(79,84,92,0.3) !important;
+  --deprecated-text-input-bg: rgba(79,84,92,0.02) !important;
+  --deprecated-text-input-border: rgba(79,84,92,0.3) !important;
+  --deprecated-text-input-border-hover: #b9bbbe !important;
+  --deprecated-text-input-border-disabled: #dcddde !important;
+  --deprecated-text-input-prefix: #b9bbbe !important;
+ }
