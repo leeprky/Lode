@@ -818,7 +818,7 @@ div[class*="tipTitle-"]:after {
 
     .scrollableContainer-2NUZem {
       background-color: var(--channeltextarea-background);
-      border-radius: var(--borders-radius);
+      border-radius: var(--chatbox-border-radius);
       padding-top: 5px;
     }
     .inner-MADQqc {
