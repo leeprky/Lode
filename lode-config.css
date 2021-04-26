@@ -1,6 +1,6 @@
 /*  ------------------------------------------
          Lode Theme (POWERCORD/GOOSEMOD)
-                     v1.1
+                     v1.0.3
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -31,7 +31,6 @@
     ----------------------------  */
 /*
     @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/BetterDefaultGlasscord.theme.css); 
-    @import url(https://raw.githack.com/leeprky/Lode/main/default/Lode-Cyan-Glasscord.css);
 /*
   < MAKE THE BACKGROUND COLOURS TRAMSPARENT: EXAMPLE BELOW:  >
     --background-primary: #191f3060;
@@ -50,32 +49,47 @@
 
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.1
+                     v1.0.3
                 - leeprky#2063 -
     ------------------------------------------  */
 
 /* Pre-Made Colour Schemes */
+/* Made For Lode */
+/* example */
+/* @import url(example); 
+
+/* My Other Themes */
+
 /* naive */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/NaiveColors.css); */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
+/* slook */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/slook.css); 
+
+/* Other Authers */
+
 /* midnight mars by #Luckfire */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/MidnightMars.css); */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/MidnightMars.css); 
 /* Nebula */
-/* @import url(); */
-/* DuvBox By */
-/* @import url(); */
-/* LilyPichu By */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/LilyPichu.css); */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/nebula.css); 
+/* DuvBox */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/duvbox.css); 
+
+/* LilyPichu */ 
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/LilyPichu.css); */
 /* Fey-Theme */
-/* @import url(); */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/fey.css); 
+
 /* Neptune */
-/* @import url(); */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/neptune.css); 
 /* Midnightcord */
-/* @import url(); */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/midnightcord.css); 
+
 /* -- */
 
 #app-mount {background-color: var(--background-tertiary);}
 
-/* Lode Cyan Dark */
+/* Lode Dark */
+
 .theme-dark {
         
   /* Lode Specific */
@@ -141,8 +155,8 @@
 --win-right: 14px;
 
  /* Header Colours Colors */
---modal-normal-primary-color: #151924;
---modal-normal-secondary-color: #252B3B;
+--modal-normal-primary-color: var(--background-secondary);
+--modal-normal-secondary-color: var(--background-secondary);
 --spotify-color: var(--alt-color2);
 --playing-color: var(--alt-color2);
 --streaming-color: #4d2b86;
@@ -152,9 +166,9 @@
 --header-secondary: rgb(159, 161, 163);
 
  /* Powercord Toast Colors */
---toast-background: #191f30 !important;
---toast-header: #252b3b !important;
---toast-content: #252b3b !important;
+--toast-background: var(--background-primary) !important;
+--toast-header: var(--background-secondary) !important;
+--toast-content: var(--background-primary) !important;
 --toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
 --toast-border: rgba(21, 22, 22, 0) !important;
 
@@ -170,7 +184,7 @@
 
  /* Chat */
 --channeltextarea-background: var(--background-primary);
---channeltextarea-background-hover: #252B3B;
+--channeltextarea-background-hover: var(--background-secondary);
 
  /* Background Colours */
 --background-primary: #191f30;
@@ -215,9 +229,8 @@
 --radio-group-dot-foreground: var(--alt-color);
 }
 
+/* Lode Light */
 
-
-/* Lode Cyan Light */
 .theme-light {
         
   /* Lode Specific */
@@ -454,11 +467,7 @@
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.1 (Lode)
+                         v1.0.3 (Lode)
     ----------------------------------------------------  */
-
-    .wrapper-3D2qGf {
-      border-radius: var(--hover-border-radius);
-    }
 
     
