@@ -1,6 +1,6 @@
 /*  ------------------------------------------
          Lode Theme (POWERCORD/GOOSEMOD)
-                     v1.0
+                     v1.1
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -50,7 +50,7 @@
 
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.0
+                     v1.1
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -81,7 +81,7 @@
 --subtext-color: #000;
 
   /* Keeping Consistancy With Discord */ 
---serverlist-background: #242B3A;
+--serverlist-background: #2C344D;
 --memberlist-background: #1d222e;
 --win-titlebar: var(--background-tertiary);
 
@@ -99,13 +99,15 @@
 --borders-radius-right: 6px;
 --borders-radius-left: 8px;
 --borders-radius-bottom: 8px;
---borders-radius-top: 2px;
+--borders-radius-top: 5px;
 
 --titlebar-borders-radius: 12px;
 --titlebar-borders-radius-right: 12px;
 --titlebar-borders-radius-left: 8px;
 --titlebar-borders-radius-bottom: 10px;
 --titlebar-borders-radius-top: 8px;
+
+--chatbox-border-radius: 22px;
 
 --spotify-right: 1.7rem;
 
@@ -132,11 +134,11 @@
 --header-secondary: rgb(159, 161, 163);
 
  /* Powercord Toast Colors */
---toast-background: #191f30;
---toast-header: #252b3b;
---toast-content: #252b3b;
---toast-box-shadow: rgba(24, 21, 21, 0.932);
---toast-border: rgba(21, 22, 22, 0);
+--toast-background: #191f30 !important;
+--toast-header: #252b3b !important;
+--toast-content: #252b3b !important;
+--toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
+--toast-border: rgba(21, 22, 22, 0) !important;
 
  /* Text Colours */
 --text-normal: #f7f4f4;
@@ -149,7 +151,7 @@
 --interactive-muted: #505355;
 
  /* Chat */
---channeltextarea-background: #0e0e0f;
+--channeltextarea-background: var(--background-primary);
 --channeltextarea-background-hover: #252B3B;
 
  /* Background Colours */
@@ -408,10 +410,12 @@
 
 /* Adjusted Server User Popout OPTION */
 /* Requires: Settings Modal Under Channels Into Server List */
-/*
+
 .form-2fGMdU{margin-right: 255px}
-.panels-j1Uci_{bottom: 2em}
-.membersWrap-2h-GB4{height: calc(100% - 130px)}
+.panels-j1Uci_{bottom: 1.8em}
+.membersWrap-2h-GB4{height: calc(100% - 95px)}
+
+/* Spotify Plugin Default Blur */
 
 /* --- */
 /* Optionals End */
@@ -430,5 +434,5 @@
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0 (Lode)
+                         v1.1 (Lode)
     ----------------------------------------------------  */
