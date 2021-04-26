@@ -4,6 +4,11 @@
                 - leeprky#2063 -
     ------------------------------------------  */
 
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css);
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
+@import url(https://raw.githack.com/leeprky/GreenBeGo/main/greenple-replacer.theme.css);
+
 /* Global Recolouring */
 .headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P{background:var(--spotify-color)}
 .attachButtonPlay-3iJ0mf{color:var(--spotify-color)}
