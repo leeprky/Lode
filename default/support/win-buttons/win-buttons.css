@@ -1,0 +1,49 @@
+#app-mount .titleBar-AC4pGV .winButton-iRh8-Z {
+    background: var(--icon) 8px 0/15px 15px no-repeat;
+    opacity: 0.75;
+    margin-top: 12px;
+    left: -9px;
+    margin-left: 5px;
+    transition: all 0.2s ease;
+}
+#app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label="Minimize"] {
+    --icon: url("https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-min.svg");
+}
+#app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label="Minimize"]:hover {
+    --icon: url("https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-min-active.svg");
+}
+#app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label="Maximize"] {
+    --icon: url("https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-max.svg");
+}
+#app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonMinMax-PBQ2gm[aria-label="Maximize"]:hover {
+    --icon: url("https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-max-active.svg");
+}
+#app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF- {
+    --icon: url("https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-close.svg");
+}
+#app-mount .titleBar-AC4pGV .winButton-iRh8-Z.winButtonClose-1HsbF-:hover {
+    --icon: url("https://raw.githubusercontent.com/leeprky/Lode/4a91bffb86839fbfb4f50c6dd596fc2cd8d61e50/default/support/win-buttons/windows-close-active.svg");
+}
+#app-mount .titleBar-AC4pGV .winButton-iRh8-Z svg {
+    color: transparent;
+}
+.typeWindows-1za-n7 > .wordmark-2iDDfm:before {
+    content: "v1.0.3";
+    color: #fff;
+    font-family: Discord;
+    font-size: 12px;
+    width: 10px;
+    height: 10px;
+}
+#app-mount .titleBar-AC4pGV .wordmark-2iDDfm svg {
+    margin-bottom: 11px;
+    margin-left: 4px;
+}
+.layers-3iHuyZ,
+.platform-win .standardSidebarView-3F1I7i {
+    border-color: transparent;
+    background-color: var(--background-tertiary);
+}
+.platform-win .layer-3QrUeG {
+    background-color: transparent;
+}
