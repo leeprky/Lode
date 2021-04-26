@@ -405,6 +405,14 @@
 .header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
 .header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
 .user-details-center{text-align:center;margin-bottom:5px}
+
+/* Adjusted Server User Popout OPTION */
+/* Requires: Settings Modal Under Channels Into Server List */
+/*
+.form-2fGMdU{margin-right: 255px}
+.panels-j1Uci_{bottom: 2em}
+.membersWrap-2h-GB4{height: calc(100% - 130px)}
+
 /* --- */
 /* Optionals End */
 /* ----- */
