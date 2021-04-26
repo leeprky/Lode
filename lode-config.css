@@ -1,6 +1,6 @@
 /*  ------------------------------------------
          Lode Theme (POWERCORD/GOOSEMOD)
-                     v1.1
+                     v1.0.3
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -44,7 +44,7 @@
 
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.1
+                     v1.0.3
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -380,7 +380,8 @@
 /*  ----------------------------------------------------
                   Optional Features
         Add A "/*" On The Lines Below The Comments
-                  To Disable Them
+              Or Remove The "/*" To Enable
+                   To Disable Them
     ----------------------------------------------------  */
 
 /* Spotify Crenshaw Plugin Blur */
@@ -395,6 +396,7 @@
 .nameTag-3uD-yy { margin-left: -7px;}
 .container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
 .nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
+
 /* Windows Bar */
 #app-mount>div[class*=titleBar]>div[class*=wordmark]{margin-top:0rem;margin-left:var(--watermark-text-left)}
 #app-mount>div[class*=titleBar]{display:grid;justify-content:right;grid-template-columns:min-content min-content min-content;direction:rtl;height:1.72rem;margin:5px 0 0 0;margin-right:var(--win-right)}
@@ -448,23 +450,24 @@
 /* Optionals End */
 /* ----- */
 
-    /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
-    .panels-j1Uci_{position:fixed !important;z-index:3}
-    .panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;backdrop-filter:blur(var(--album-blur-amount))}
-    [style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
-    [style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
-    .panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
+  /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
+.panels-j1Uci_{position:fixed !important;z-index:3}
+.panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;backdrop-filter:blur(var(--album-blur-amount))}
+[style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
+[style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
+.panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
 
-    /* Member Dot */
-    .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
+  /* Member Dot */
+.unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
 
-    /* Positioning */
+  /* Positioning */
 .form-2fGMdU{margin-right: 255px}
 .panels-j1Uci_{bottom: 1.8em}
 .membersWrap-2h-GB4{height: calc(100% - 95px) }
+
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.1 (Lode)
+                         v1.0.3 (Lode)
     ----------------------------------------------------  */
 
