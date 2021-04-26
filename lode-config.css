@@ -92,6 +92,9 @@
   /* Lode Specific */
 --alt-color: 56, 168, 151; /* RGB */
 --alt-color2: #1bb69f; /* HEX */
+         
+--icons-color: #eef3f2;
+--icons-color-hover: #1bb69f;
 
 --green-color: #4aac8f;
 --green-bar-on: var(--green-color);
@@ -409,7 +412,6 @@
 /* --- */
 .withFrame-haYltI {margin-top: 10px;}
 /* Settings Modal Under Channels Into Server List */
-
 .spotify-buttons{width:6em;margin-bottom:-4px}
 .spotify-extra-controls,.spotify-seek-elements{display:none!important}
 .powercord-spotify,.powercord-spotify.hover{height:57px}
