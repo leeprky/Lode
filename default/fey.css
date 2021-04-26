@@ -1,0 +1,139 @@
+/* Lode Cyan Fey */
+.theme-dark {
+        
+  /* Lode Specific */
+--alt-color: 82, 74, 102; /* RGB */
+--alt-color2: #524a66 !important; /* HEX */
+
+--green-color: #4aac8f !important;
+--green-bar-on: var(--green-color) !important;
+--green-bar-bg: #151925 !important;
+--green-slider-on: var(--green-color) !important;
+--green-slider-off: #19d5e280 !important;
+--green-slider-dot: #fff !important;
+
+/* Other */
+--scrollbars: none !important; /* none or unset */
+--call-bg: url(https://i.imgur.com/7QJkSkJ.png) !important; /* None To Disable */
+--call-bg-colour: var(--background-accent) !important; /* Image Overwrites */
+
+  /* Spotify Crenshaw Plugin */
+--album-blur-amount: 4px !important;
+--subtext-color: #000 !important;
+
+  /* Keeping Consistancy With Discord */ 
+--serverlist-background: var(--background-tertiary) !important;
+--memberlist-background: #1d222e !important;
+--win-titlebar: var(--background-tertiary) !important;
+
+  /* Making Things Round */ /* Four Numbers = Four Corners */
+--modal-border-radius: 15px 15px 15px 15px !important;
+--floating-border-radius: 15px 15px 15px 15px !important;
+--expanded-border-radius: 15px 15px 15px 15px !important;
+--hover-border-radius: 10px 10px 10px 10px !important;
+--avatar-border-radius: 11.5px 11.5px 11.5px 11.5px !important; /* Serverlist Too */
+--avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px !important;
+--chat-text-border-radius: 12px 12px 12px 12px !important;
+
+ /* ROUND THINGS */
+--borders-radius: 12px !important;
+--borders-radius-right: 6px !important;
+--borders-radius-left: 8px !important;
+--borders-radius-bottom: 8px !important;
+--borders-radius-top: 5px !important;
+
+--titlebar-borders-radius: 12px !important;
+--titlebar-borders-radius-right: 12px !important;
+--titlebar-borders-radius-left: 8px !important;
+--titlebar-borders-radius-bottom: 10px !important;
+--titlebar-borders-radius-top: 8px !important;
+
+--chatbox-border-radius: 22px !important;
+
+--spotify-right: 1.7rem !important;
+
+/* Watermark */
+--watermark-text: "LODE" !important;
+--watermark-text-top: 14px !important;
+--watermark-text-left: 3.4rem !important;
+--watermark-gradient: 270deg, rgb(214, 142, 58), rgb(117, 83, 45) !important;
+
+--win-minimise-color: #48c048b9 !important;
+--win-maximise-color: #eab618ab !important;
+--win-close-color: #ec0c0c9d !important;
+--win-right: 14px !important;
+
+ /* Header Colours Colors */
+--modal-normal-primary-color: #151924 !important;
+--modal-normal-secondary-color: #252B3B !important;
+--spotify-color: var(--alt-color2) !important;
+--playing-color: var(--alt-color2) !important;
+--streaming-color: #4d2b86 !important;
+
+ /* Header Colors */
+ --header-primary: #fff !important;
+ --header-secondary: #b9bbbe !important;
+
+ /* Powercord Toast Colors */
+--toast-background: #191f30 !important;
+--toast-header: #252b3b !important;
+--toast-content: #252b3b !important;
+--toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
+--toast-border: rgba(21, 22, 22, 0) !important;
+
+ /* Text Colours */
+ --text-normal: white !important;
+ --text-muted: #b2b5b8 !important;
+ --text-link: #e8a9e7 !important;
+--text-link: #458588 !important;
+--channels-default: #acaeb0 !important;
+--interactive-normal: #ffff !important;
+--interactive-hover: #dcddde !important;
+--interactive-active: #fff !important;
+--interactive-muted: #838485 !important;
+
+ /* Chat */
+--channeltextarea-background: var(--background-primary) !important;
+--channeltextarea-background-hover: var(--background-secondary) !important;
+
+ /* Background Colours */
+--background-primary: #2a2438 !important;
+--background-primary-alt: #221d2e !important;
+--background-secondary: #352f44 !important;
+--background-secondary-alt: #4b445e !important;
+--background-tertiary: #5c5470 !important;
+--background-accent: var(--alt-color2) !important;
+--background-accent-gradient: var(--alt-color2) !important;
+--background-floating: #5c5470 !important;
+
+ /* Hovering Colours */
+--background-modifier-hover: rgba(56, 168, 151, 0.233) !important;
+--background-modifier-active: rgba(56, 168, 151, 0.521) !important;
+--background-modifier-selected: rgba(56, 168, 151, 0.178) !important;
+--background-modifier-accent: rgba(56, 168, 151, 0.418) !important;
+--background-message-hover: transparent !important;
+
+ /* Mentioned  Colours */
+--background-mentioned: rgba(56, 168, 151, 0.233) !important;
+--background-mentioned-hover: rgba(56, 168, 151, 0.322) !important;
+--background-mentioned-bar: var(--background-accent) !important;
+
+--background-help-warning: rgba(56, 168, 151, 0.233) !important;
+--background-help-info: rgba(244, 8, 0, 0.164) !important;
+
+ /* Scrollbar Colours */
+--scrollbar-thin-thumb: rgba(56, 168, 151, 0.397) !important;
+--scrollbar-thin-track: transparent !important;
+--scrollbar-auto-thumb: rgba(56, 168, 151, 0.363) !important;
+--scrollbar-auto-track: rgba(56, 168, 151, 0.363) !important;
+--scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384) !important;
+
+/* Box Shadow On Floating Elements Colours */
+--elevation-stroke: 0 0 0 1px rgba(22, 24, 26, 0.329) !important;
+--elevation-low: 0 1px 0 rgba(22, 25, 26, 0.329) !important;
+--elevation-medium: 0 4px 4px rgba(22, 25, 26, 0.329) !important;
+--elevation-high: 0 8px 16px rgba(22, 25, 26, 0.329) !important;
+
+/* Other */
+--radio-group-dot-foreground: var(--alt-color) !important;
+}
