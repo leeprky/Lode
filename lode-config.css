@@ -7,24 +7,15 @@
 /* Lode Base Source Code */
 @import url(https://raw.githack.com/leeprky/Lode/main/source/lode-theme.css);
 
-/* My Imports */
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css);
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-@import url(https://raw.githack.com/leeprky/GreenBeGo/main/greenple-replacer.theme.css);
-
-/* Lode Imports */
-@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
-@import url(https://github.com/leeprky/Lode/blob/main/default/support/plugins/plugin-styles.css);
-
 /* Other Imports */
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
-@import url(https://raw.githack.com/NYRI4/Discolored/master/main.css);
+
+/* Visuals */
+@import url(https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css);
+@import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css);
 
 /* Optional Imports */
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
-/* @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/ServerListDrawer-Edit.css); */
 
 /*  ----------------------------
          GLASSCORD SUPPORT
@@ -63,16 +54,16 @@
 /* My Other Themes */
 
 /* naive */
-/* @import url(https://raw.github.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
+/* @import url(https://raw.githack.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
 /* slook */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/slook.css); 
 
 /* Other Authers */
 
 /* midnight mars by #Luckfire */
-/* @import url(https://raw.github.com/leeprky/Lode/blob/main/default/schemes/MidnightMars.css); 
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/MidnightMars.css); 
 /* Nebula */
-/* @import url(https://raw.github.com/leeprky/Lode/blob/main/default/schemes/nebula.css); 
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/nebula.css); 
 /* DuvBox */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/duvbox.css); 
 
@@ -471,3 +462,34 @@
                   THIS IS FOR DEBUGGING ETC
                          v1.1 (Lode)
     ----------------------------------------------------  */
+
+    :root {--blur: 2px; --blur-hover: 4px}
+/* Default Blur */
+[style*="background-image:"] .topSectionPlaying-1J5E4n, .header-QKLPzZ, .headerFill-adLl4x, .panels-j1Uci_::after, .headerTop-3C2Zn0, .activity-11LB_k,
+[style*="background-image:"] .topSectionPlaying-1J5E4n:hover, .header-QKLPzZ:hover, .headerFill-adLl4x:hover, .panels-j1Uci_::after, .headerTop-3C2Zn0:hover, .activity-11LB_k:hover {
+   backdrop-filter: blur(var(--blur));
+   background-color: rgba(7, 7, 7, 0.397);
+}
+/* Expanded Hover Blur */
+.inner-1ilYF7:hover .header-QKLPzZ,
+.inner-1ilYF7:hover .headerFill-adLl4x {
+   backdrop-filter: blur(var(--blur-hover));
+   background-color: rgba(7, 7, 7, 0.445);
+}
+/* Popout Hover Blur */
+.userPopout-3XzG_A:hover .headerTop-3C2Zn0,
+.userPopout-3XzG_A:hover .activity-11LB_k {
+   backdrop-filter: blur(var(--blur-hover));
+   background-color: rgba(7, 7, 7, 0.445);
+}
+/* PC-Spotify */
+[style*="background-image:"] .powercord-spotify:hover, [style*="background-image:"] > .container-3baos1:hover, [style*="background-image:"] .wrapper-24pKcD:hover {
+   backdrop-filter: brightness(100%);
+   backdrop-filter: blur(var(--blur-hover));
+}
+.panels-j1Uci_:hover .powercord-spotify, 
+.panels-j1Uci_:hover .container-3baos1 {
+   backdrop-filter: blur(var(--blur-hover));
+   background-color: rgba(7, 7, 7, 0.034);
+}
+
