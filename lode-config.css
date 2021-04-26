@@ -109,7 +109,7 @@
 --subtext-color: #000;
 
   /* Keeping Consistancy With Discord */ 
---serverlist-background: #2C344D;
+--serverlist-background: var(--background-tertiary);
 --memberlist-background: #1d222e;
 --win-titlebar: var(--background-tertiary);
 
