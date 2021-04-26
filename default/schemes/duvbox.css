@@ -11,7 +11,7 @@ pre > code {
     font-weight: 400;
 }
 
-/* Lode Duvbox */
+/* Lode Cyan Duvbox */
 .theme-dark {
         
   /* Lode Specific */
@@ -88,9 +88,9 @@ pre > code {
 --header-secondary: rgb(159, 161, 163) !important;
 
  /* Powercord Toast Colors */
---toast-background: #191f30 !important;
---toast-header: #252b3b !important;
---toast-content: #252b3b !important;
+--toast-background: var(--background-secondary) !important;
+--toast-header: var(--background-primary) !important;
+--toast-content: var(--background-secondary) !important;
 --toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
 --toast-border: rgba(21, 22, 22, 0) !important;
 
@@ -120,15 +120,15 @@ pre > code {
 --background-floating: #2b3341 !important;
 
  /* Hovering Colours */
---background-modifier-hover: rgba(56, 168, 151, 0.233) !important;
---background-modifier-active: rgba(56, 168, 151, 0.521) !important;
---background-modifier-selected: rgba(56, 168, 151, 0.178) !important;
---background-modifier-accent: rgba(56, 168, 151, 0.418) !important;
+--background-modifier-hover: rgba(168, 101, 56, 0.233) !important;
+--background-modifier-active: rgba(168, 123, 56, 0.521) !important;
+--background-modifier-selected: rgba(168, 110, 56, 0.178) !important;
+--background-modifier-accent: rgba(168, 116, 56, 0.418) !important;
 --background-message-hover: transparent !important;
 
  /* Mentioned  Colours */
---background-mentioned: rgba(56, 168, 151, 0.233) !important;
---background-mentioned-hover: rgba(56, 168, 151, 0.322) !important;
+--background-mentioned: rgba(168, 119, 56, 0.233) !important;
+--background-mentioned-hover: rgba(168, 110, 56, 0.322) !important;
 --background-mentioned-bar: var(--background-accent) !important;
 
 --background-help-warning: rgba(56, 168, 151, 0.233) !important;
