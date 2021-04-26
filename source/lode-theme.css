@@ -1,3 +1,6 @@
+/* My Base Imports */
+@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
+
 ::-webkit-scrollbar {
     display: var(--scrollbars);
 }
