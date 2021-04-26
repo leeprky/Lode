@@ -1,7 +1,7 @@
 /**
  * @name LodeTheme
  * @author Leeprky#2063
- * @version 1.0
+ * @version 1.0.3
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/lode
 */
@@ -9,7 +9,7 @@
 /*  ------------------------------------------
 
             Lode Theme (BETTERDISCORD)
-                      v1.0
+                      v1.0.3
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -21,7 +21,7 @@
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css);
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-/* @import url(https://raw.githack.com/leeprky/GreenpleBeGone/lode/greenple-replacer.theme.css); */
+@import url(https://raw.githack.com/leeprky/GreenBeGo/main/greenple-replacer.theme.css);
 
 /* Lode Imports */
 @import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
@@ -36,50 +36,61 @@
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
 /* @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/ServerListDrawer-Edit.css); */
 
-/*  ----------------------------
-         GLASSCORD SUPPORT
-    ----------------------------  */
-/*
-    @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/BetterDefaultGlasscord.theme.css); 
-    @import url(https://raw.githack.com/leeprky/Lode/main/default/Lode-Cyan-Glasscord.css);
-/*
-  < MAKE THE BACKGROUND COLOURS TRAMSPARENT: EXAMPLE BELOW:  >
-    --background-primary: #191f3060;
-    --background-primary-alt: #191f30ad;
-    --background-titlebar: #191f308f;
-    --background-secondary: #252b3b93;
-    --background-secondary-alt: #252b3bb4;
-    --background-tertiary: #252b3b3f;
-    --background-accent: #38A897;
-    --background-floating: #2b3341;
-*/
-    
-/*  ----------------------------
-       GLASSCORD SUPPORT END
-    ----------------------------  */
-
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.0
+                     v1.0.3
                 - leeprky#2063 -
     ------------------------------------------  */
 
 /* Pre-Made Colour Schemes */
+/* Made For Lode */
+/* example */
+/* @import url(example); 
+
+/* My Other Themes */
+
 /* naive */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/NaiveColors.css); */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
+/* slook */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/slook.css); 
+
+/* Other Authers */
+
 /* midnight mars by #Luckfire */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/MidnightMars.css); */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/MidnightMars.css); 
+/* Nebula */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/nebula.css); 
+/* DuvBox */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/duvbox.css); 
+
+/* LilyPichu */ 
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/LilyPichu.css); */
+/* Fey-Theme */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/fey.css); 
+
+/* Neptune */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/neptune.css); 
+/* Midnightcord */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/midnightcord.css); 
+
 /* -- */
 
 #app-mount {background-color: var(--background-tertiary);}
 
-/* Lode Cyan Dark */
+/* Lode Dark */
+
 .theme-dark {
         
   /* Lode Specific */
 --alt-color: 56, 168, 151; /* RGB */
---alt-color2: #38A897; /* HEX */
-/* --greenple-color: 0, 0, 0; */
+--alt-color2: #1bb69f; /* HEX */
+
+--green-color: #4aac8f;
+--green-bar-on: var(--green-color);
+--green-bar-bg: #151925;
+--green-slider-on: var(--green-color);
+--green-slider-off: #19d5e280;
+--green-slider-dot: #fff;
 
 /* Other */
 --scrollbars: none; /* none or unset */
@@ -91,7 +102,7 @@
 --subtext-color: #000;
 
   /* Keeping Consistancy With Discord */ 
---serverlist-background: #242B3A;
+--serverlist-background: #2C344D;
 --memberlist-background: #1d222e;
 --win-titlebar: var(--background-tertiary);
 
@@ -109,7 +120,7 @@
 --borders-radius-right: 6px;
 --borders-radius-left: 8px;
 --borders-radius-bottom: 8px;
---borders-radius-top: 2px;
+--borders-radius-top: 5px;
 
 --titlebar-borders-radius: 12px;
 --titlebar-borders-radius-right: 12px;
@@ -117,13 +128,15 @@
 --titlebar-borders-radius-bottom: 10px;
 --titlebar-borders-radius-top: 8px;
 
+--chatbox-border-radius: 22px;
+
 --spotify-right: 1.7rem;
 
 /* Watermark */
 --watermark-text: "LODE";
 --watermark-text-top: 14px;
 --watermark-text-left: 3.4rem;
---watermark-gradient: 270deg, #79a9d0, #1ddaa1;
+--watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
 
 --win-minimise-color: #48c048b9;
 --win-maximise-color: #eab618ab;
@@ -131,8 +144,8 @@
 --win-right: 14px;
 
  /* Header Colours Colors */
---modal-normal-primary-color: #151924;
---modal-normal-secondary-color: #252B3B;
+--modal-normal-primary-color: var(--background-secondary);
+--modal-normal-secondary-color: var(--background-secondary);
 --spotify-color: var(--alt-color2);
 --playing-color: var(--alt-color2);
 --streaming-color: #4d2b86;
@@ -142,11 +155,11 @@
 --header-secondary: rgb(159, 161, 163);
 
  /* Powercord Toast Colors */
---toast-background: #191f30;
---toast-header: #252b3b;
---toast-content: #252b3b;
---toast-box-shadow: rgba(24, 21, 21, 0.932);
---toast-border: rgba(21, 22, 22, 0);
+--toast-background: var(--background-primary) !important;
+--toast-header: var(--background-secondary) !important;
+--toast-content: var(--background-primary) !important;
+--toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
+--toast-border: rgba(21, 22, 22, 0) !important;
 
  /* Text Colours */
 --text-normal: #f7f4f4;
@@ -159,8 +172,8 @@
 --interactive-muted: #505355;
 
  /* Chat */
---channeltextarea-background: #0e0e0f;
---channeltextarea-background-hover: #252B3B;
+--channeltextarea-background: var(--background-primary);
+--channeltextarea-background-hover: var(--background-secondary);
 
  /* Background Colours */
 --background-primary: #191f30;
@@ -205,15 +218,21 @@
 --radio-group-dot-foreground: var(--alt-color);
 }
 
+/* Lode Light */
 
-
-/* Lode Cyan Light */
 .theme-light {
         
   /* Lode Specific */
   --alt-color: 83, 182, 167; /* RGB */
   --alt-color2: #53b6a7; /* HEX */
-    /* --greenple-color: 0, 0, 0;
+  
+  --green-color: #2C344D; 
+  --green-bar-on: var(--greenple-color);
+  --green-bar-bg: #151925;
+  --green-slider-on: var(--greenple-color);
+  --green-slider-off: rgb(48, 48, 54);
+  --green-slider-dot: #fff;
+
   /* Other */
   --scrollbars: none; /* none or unset */
   --call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
@@ -366,7 +385,6 @@
 .nameTag-3uD-yy { margin-left: -7px;}
 .container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
 .nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
-
 /* Windows Bar */
 #app-mount>div[class*=titleBar]>div[class*=wordmark]{margin-top:0rem;margin-left:var(--watermark-text-left)}
 #app-mount>div[class*=titleBar]{display:grid;justify-content:right;grid-template-columns:min-content min-content min-content;direction:rtl;height:1.72rem;margin:5px 0 0 0;margin-right:var(--win-right)}
@@ -415,6 +433,8 @@
 .header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
 .header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
 .user-details-center{text-align:center;margin-bottom:5px}
+/* Spotify Plugin Default Blur */
+
 /* --- */
 /* Optionals End */
 /* ----- */
@@ -429,8 +449,13 @@
     /* Member Dot */
     .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
 
+    /* Positioning */
+.form-2fGMdU{margin-right: 255px}
+.panels-j1Uci_{bottom: 1.8em}
+.membersWrap-2h-GB4{height: calc(100% - 95px) }
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0 (Lode)
+                         v1.0.3 (Lode)
     ----------------------------------------------------  */
+
