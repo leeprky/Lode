@@ -815,3 +815,18 @@ div[class*="tipTitle-"]:after {
     .contentColumnDefault-1VQkGM {
        max-width: calc(83vw) !important; 
     }
+
+    .scrollableContainer-2NUZem {
+      background-color: var(--channeltextarea-background);
+      border-radius: var(--borders-radius);
+      padding-top: 5px;
+    }
+    .inner-MADQqc {
+      margin-top: 5px;
+    }
+    .textAreaSlate-1ZzRVj {
+      margin-top: -5px;
+    }
+    .button-318s1X,  .attachWrapper-2TRKBi {
+      margin-top: -8px;
+    }
