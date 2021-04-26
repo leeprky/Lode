@@ -19,7 +19,7 @@
 
 /* Titlebar */
 /* Disable if you cant see them in top right (windows) */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/support/win-buttons/win-buttons.css);
+@import url(https://raw.githack.com/leeprky/Lode/main/default/support/win-buttons/win-buttons.css);
 
 /*  ----------------------------
          GLASSCORD SUPPORT
@@ -54,6 +54,7 @@
 /* Made For Lode */ /* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-cyan); - Default */
 /* example */
 /* @import url(example); 
+
 /* My Other Themes */
 
 /* naive */
@@ -69,14 +70,19 @@
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/nebula.css); 
 /* DuvBox */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/duvbox.css); 
+
 /* LilyPichu */ 
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/LilyPichu.css);
 /* Fey-Theme */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/fey.css); 
+
 /* Neptune */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/neptune.css); 
 /* Midnightcord */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/midnightcord.css); 
+/* CTP */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/ctp.css);
+
 /* -- */
 
 #app-mount {background-color: var(--background-tertiary);}
@@ -109,7 +115,7 @@
 --subtext-color: #000;
 
   /* Keeping Consistancy With Discord */ 
---serverlist-background: var(--background-tertiary);
+--serverlist-background: #2C344D;
 --memberlist-background: #1d222e;
 --win-titlebar: var(--background-tertiary);
 
@@ -145,11 +151,6 @@
 --watermark-text-left: 3.4rem;
 --watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
 
---win-minimise-color: #48c048b9;
---win-maximise-color: #eab618ab;
---win-close-color: #ec0c0c9d;
---win-right: 14px;
-
  /* Header Colours Colors */
 --modal-normal-primary-color: var(--background-secondary);
 --modal-normal-secondary-color: var(--background-secondary);
@@ -162,11 +163,11 @@
 --header-secondary: rgb(159, 161, 163);
 
  /* Powercord Toast Colors */
---toast-background: var(--background-primary) !important;
---toast-header: var(--background-secondary) !important;
---toast-content: var(--background-primary) !important;
---toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
---toast-border: rgba(21, 22, 22, 0) !important;
+--toast-background: var(--background-primary) ;
+--toast-header: var(--background-secondary) ;
+--toast-content: var(--background-primary) ;
+--toast-box-shadow: rgba(24, 21, 21, 0.932) ;
+--toast-border: rgba(21, 22, 22, 0);
 
  /* Text Colours */
 --text-normal: #f7f4f4;
@@ -232,9 +233,6 @@
   /* Lode Specific */
   --alt-color: 83, 182, 167; /* RGB */
   --alt-color2: #53b6a7; /* HEX */
-
---icons-color: #eef3f2;
---icons-color-hover: #1bb69f;
   
   --green-color: #2C344D; 
   --green-bar-on: var(--greenple-color);
@@ -282,15 +280,10 @@
   --spotify-right: 1.7rem;
 
     /* Watermark */
-    --watermark-text: "LODE";
-    --watermark-text-top: 14px;
-    --watermark-text-left: 3.4rem;
-    --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
-
-  --win-minimise-color: #48c048b9;
-  --win-maximise-color: #eab618ab;
-  --win-close-color: #ec0c0c9d;
-  --win-right: 14px;
+  --watermark-text: "LODE";
+  --watermark-text-top: 14px;
+  --watermark-text-left: 3.4rem;
+  --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
 
  /* Header Colours Colors */
   --modal-normal-primary-color: #c6d4df;
@@ -380,8 +373,7 @@
 /*  ----------------------------------------------------
                   Optional Features
         Add A "/*" On The Lines Below The Comments
-              Or Remove The "/*" To Enable
-                   To Disable Them
+                  To Disable Them
     ----------------------------------------------------  */
 
 /* Spotify Crenshaw Plugin Blur */
@@ -396,7 +388,6 @@
 .nameTag-3uD-yy { margin-left: -7px;}
 .container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
 .nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
-
 /* Windows Bar */
 #app-mount>div[class*=titleBar]>div[class*=wordmark]{margin-top:0rem;margin-left:var(--watermark-text-left)}
 #app-mount>div[class*=titleBar]{display:grid;justify-content:right;grid-template-columns:min-content min-content min-content;direction:rtl;height:1.72rem;margin:5px 0 0 0;margin-right:var(--win-right)}
@@ -450,17 +441,17 @@
 /* Optionals End */
 /* ----- */
 
-  /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
-.panels-j1Uci_{position:fixed !important;z-index:3}
-.panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;backdrop-filter:blur(var(--album-blur-amount))}
-[style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
-[style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
-.panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
+    /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
+    .panels-j1Uci_{position:fixed !important;z-index:3}
+    .panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;backdrop-filter:blur(var(--album-blur-amount))}
+    [style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
+    [style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
+    .panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
 
-  /* Member Dot */
-.unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
+    /* Member Dot */
+    .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
 
-  /* Positioning */
+    /* Positioning */
 .form-2fGMdU{margin-right: 255px}
 .panels-j1Uci_{bottom: 1.8em}
 .membersWrap-2h-GB4{height: calc(100% - 95px) }
@@ -470,4 +461,3 @@
                   THIS IS FOR DEBUGGING ETC
                          v1.0.3 (Lode)
     ----------------------------------------------------  */
-
