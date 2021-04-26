@@ -18,8 +18,8 @@
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
 
 /* Titlebar */
-/* Disable fi you cant see them in top right (windows) */
-@import url(https://raw.githack.com/leeprky/Lode/main/default/support/win-buttons/win-buttons.css);
+/* Disable if you cant see them in top right (windows) */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/support/win-buttons/win-buttons.css);
 
 /*  ----------------------------
          GLASSCORD SUPPORT
@@ -54,7 +54,6 @@
 /* Made For Lode */ /* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-cyan); - Default */
 /* example */
 /* @import url(example); 
-
 /* My Other Themes */
 
 /* naive */
@@ -62,7 +61,7 @@
 /* slook */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/slook.css); 
 
-/* Other Authers */
+/* Other User's Themes */
 
 /* midnight mars by #Luckfire */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/MidnightMars.css); 
@@ -70,17 +69,14 @@
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/nebula.css); 
 /* DuvBox */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/duvbox.css); 
-
 /* LilyPichu */ 
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/LilyPichu.css);
 /* Fey-Theme */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/fey.css); 
-
 /* Neptune */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/neptune.css); 
 /* Midnightcord */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/midnightcord.css); 
-
 /* -- */
 
 #app-mount {background-color: var(--background-tertiary);}
@@ -236,6 +232,9 @@
   /* Lode Specific */
   --alt-color: 83, 182, 167; /* RGB */
   --alt-color2: #53b6a7; /* HEX */
+
+--icons-color: #eef3f2;
+--icons-color-hover: #1bb69f;
   
   --green-color: #2C344D; 
   --green-bar-on: var(--greenple-color);
@@ -468,34 +467,4 @@
                   THIS IS FOR DEBUGGING ETC
                          v1.1 (Lode)
     ----------------------------------------------------  */
-
-    :root {--blur: 2px; --blur-hover: 4px}
-/* Default Blur */
-[style*="background-image:"] .topSectionPlaying-1J5E4n, .header-QKLPzZ, .headerFill-adLl4x, .panels-j1Uci_::after, .headerTop-3C2Zn0, .activity-11LB_k,
-[style*="background-image:"] .topSectionPlaying-1J5E4n:hover, .header-QKLPzZ:hover, .headerFill-adLl4x:hover, .panels-j1Uci_::after, .headerTop-3C2Zn0:hover, .activity-11LB_k:hover {
-   backdrop-filter: blur(var(--blur));
-   background-color: rgba(7, 7, 7, 0.397);
-}
-/* Expanded Hover Blur */
-.inner-1ilYF7:hover .header-QKLPzZ,
-.inner-1ilYF7:hover .headerFill-adLl4x {
-   backdrop-filter: blur(var(--blur-hover));
-   background-color: rgba(7, 7, 7, 0.445);
-}
-/* Popout Hover Blur */
-.userPopout-3XzG_A:hover .headerTop-3C2Zn0,
-.userPopout-3XzG_A:hover .activity-11LB_k {
-   backdrop-filter: blur(var(--blur-hover));
-   background-color: rgba(7, 7, 7, 0.445);
-}
-/* PC-Spotify */
-[style*="background-image:"] .powercord-spotify:hover, [style*="background-image:"] > .container-3baos1:hover, [style*="background-image:"] .wrapper-24pKcD:hover {
-   backdrop-filter: brightness(100%);
-   backdrop-filter: blur(var(--blur-hover));
-}
-.panels-j1Uci_:hover .powercord-spotify, 
-.panels-j1Uci_:hover .container-3baos1 {
-   backdrop-filter: blur(var(--blur-hover));
-   background-color: rgba(7, 7, 7, 0.034);
-}
 
