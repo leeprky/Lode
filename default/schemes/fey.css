@@ -56,7 +56,7 @@
 --watermark-text: "LODE" !important;
 --watermark-text-top: 14px !important;
 --watermark-text-left: 3.4rem !important;
---watermark-gradient: 270deg, rgb(214, 142, 58), rgb(117, 83, 45) !important;
+--watermark-gradient: 270deg, rgb(214, 58, 193), rgb(111, 45, 117) !important;
 
 --win-minimise-color: #48c048b9 !important;
 --win-maximise-color: #eab618ab !important;
