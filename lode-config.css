@@ -1,6 +1,6 @@
 /*  ------------------------------------------
          Lode Theme (POWERCORD/GOOSEMOD)
-                     v1.0.3
+                     v1.1
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -49,11 +49,13 @@
 
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.0.3
+                     v1.1
                 - leeprky#2063 -
     ------------------------------------------  */
 
 /* Pre-Made Colour Schemes */
+/* if they dont work delete the Lode Dark & Lode Light variables */
+
 /* Made For Lode */
 /* example */
 /* @import url(example); 
@@ -75,7 +77,7 @@
 /* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/duvbox.css); 
 
 /* LilyPichu */ 
-/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/LilyPichu.css); */
+/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/LilyPichu.css);
 /* Fey-Theme */
 /* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/fey.css); 
 
@@ -467,7 +469,5 @@
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0.3 (Lode)
+                         v1.1 (Lode)
     ----------------------------------------------------  */
-
-    
