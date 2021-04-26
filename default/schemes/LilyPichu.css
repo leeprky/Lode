@@ -16,7 +16,7 @@
 --subtext-color: #000 !important;
 
   /* Keeping Consistancy With Discord */ 
---background-secondary: #49292f !important;
+--serverlist-secondary: var(--background-tertiary) !important;
 --memberlist-background: #5e3640 !important;
 --win-titlebar: var(--background-tertiary) !important;
 
@@ -53,7 +53,7 @@
 --watermark-gradient: 270deg, #9b77da, #8ea6fc !important;
 
 --win-minimise-color: #48c048b9 !important;
---win-maximise-color: #eab618ab !important;
+--win-maximise-color: var(--background-secondary) !important;
 --win-close-color: #ec0c0c9d !important;
 --win-right: 14px !important;
 
