@@ -901,3 +901,8 @@ div[class*="tipTitle-"]:after {
 [class="progressBar-3u8FBM small-1CUeBa animating-3Qqqzp"] {
   background: linear-gradient(var(--toast-gradient)) !important;
 }
+    .container-2fRDfG {
+      width: calc(100% - 0px);
+      border-radius: 12px;
+      margin-bottom: 5px;
+    }
