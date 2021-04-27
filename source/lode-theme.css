@@ -898,3 +898,6 @@ div[class*="tipTitle-"]:after {
 .platform-win .scroller-1Bvpku {
     margin-top: -16px;
 }
+[class="progressBar-3u8FBM small-1CUeBa animating-3Qqqzp"] {
+  background: linear-gradient(var(--toast-gradient)) !important;
+}
