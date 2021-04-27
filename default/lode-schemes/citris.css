@@ -1,19 +1,40 @@
-/* Lode Dark */
+:root {
+
+    /* Gradients */
+    --default-gradient: 315deg, #7a8518 0%, #929424 74% !important;
+    --special-gradient: 315deg, #8980F0 0%, #D577F0 74% !important;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74% !important;
+    --yellow-gradient: 315deg, #C2831B 0%, #FFB740 74% !important;
+    --green-gradient: 315deg, #58d38b 0%, #58d38b 74% !important;
+    --grey-gradient: 315deg, #203A43 0%, #28434d 74% !important;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74% !important;
+    /* Transitions */
+    --font-normal: 500;
+    --font-hover: bold;
+    --font-size-hover: 15px;
+    --hover-transition: 0.1s linear;
+    --transform-normal: scale(1);
+    --hover-transform: scale(1.15);
+    --setting-hover-transform: scale(1.025);
+    --button-hover-transform: scale(1.03);
+  }
+
+/* Lode Citris */
 .theme-dark {
         
   /* Lode Specific */
---alt-color: 52, 180, 159 !important; /* RGB */
---alt-color2: #34b49f !important; /* HEX */
+--alt-color: 214, 235, 26 !important; /* RGB */
+--alt-color2: #daf01aad !important; /* HEX */
          
---icons-color: #f0fff6 !important;
---icons-color-hover: #58d38b !important;
+--icons-color: rgb(255, 255, 212) !important;
+--icons-color-hover: #97a70d !important;
 
---green-color: #58d38b !important;
+--green-color: #c4d42c7a !important;
 --green-bar-on: var(--green-color) !important;
---green-bar-bg: #151925 !important;
+--green-bar-bg: #15251f !important;
 --green-slider-on: var(--green-color) !important;
---green-slider-off: #06eff7c4 !important;
---green-slider-dot: #f0fff6 !important;
+--green-slider-off: #33b158c4 !important;
+--green-slider-dot: rgb(255, 255, 212) !important;
 
 /* Icons */
 --home-icon: url(https://discord.com/assets/89576a4bb71f927eb20e8aef987b499b.svg) !important;
@@ -44,7 +65,7 @@
  /* ROUND THINGS */
 --borders-radius: 12px !important;
 --borders-radius-right: 6px !important;
---borders-radius-left: 8px !important;
+--borders-radius-left: 6px !important;
 --borders-radius-bottom: 8px !important;
 --borders-radius-top: 6px !important;
 
@@ -62,7 +83,7 @@
 --watermark-text: "LODE" !important;
 --watermark-text-top: 14px !important;
 --watermark-text-left: 3.4rem !important;
---watermark-gradient: 270deg, rgb(132, 253, 207), rgb(80, 253, 152) !important;
+--watermark-gradient: 270deg, rgb(241, 253, 132), rgb(80, 253, 146) !important;
 
  /* Header Colours Colors */
 --modal-normal-primary-color: var(--background-secondary) !important;
@@ -81,16 +102,16 @@
 --toast-content: var(--background-primary)  !important;
 --toast-box-shadow: rgba(24, 21, 21, 0.932)  !important;
 --toast-border: rgba(21, 22, 22, 0) !important;
---toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127) !important;
+--toast-gradient: to right, rgb(165, 172, 64), rgb(53, 192, 88) !important;
 
  /* Text Colours */
---text-normal: #f8fffb !important;
---text-muted: #a39897 !important;
+--text-normal: rgb(255, 255, 212) !important;
+--text-muted: #a3a197 !important;
 --text-link: var(--alt-color2) !important;
---channels-default: #f8fffb !important;
---interactive-normal: #f0fff6 !important;
---interactive-hover: #ffffff !important;
---interactive-active: #fff !important;
+--channels-default: rgb(255, 255, 212) !important;
+--interactive-normal: rgb(255, 255, 212) !important;
+--interactive-hover: rgb(255, 255, 212) !important;
+--interactive-active: rgb(255, 255, 19) !important;
 --interactive-muted: #53615b !important;
 
  /* Chat */
@@ -98,26 +119,26 @@
 --channeltextarea-background-hover: var(--background-secondary) !important;
 
  /* Background Colours */
---background-primary: #0F2229 !important;
---background-titlebar: #191f308f !important;
---background-primary-alt: #0F2229 !important;
---background-secondary: #203A43 !important;
---background-secondary-alt: #203A43 !important;
---background-tertiary: #162a31 !important;
+--background-primary: #184745 !important;
+--background-titlebar: #184745 !important;
+--background-primary-alt: #184745 !important;
+--background-secondary: #204143 !important;
+--background-secondary-alt: #204143 !important;
+--background-tertiary: #0e2729 !important;
 --background-accent: var(--alt-color2) !important;
 --background-accent-gradient: var(--alt-color2) !important;
---background-floating: #162a31 !important;
+--background-floating: #0e2729 !important;
 
  /* Hovering Colours */
---background-modifier-hover: rgba(56, 168, 131, 0.199) !important;
---background-modifier-active: rgba(56, 168, 112, 0.507) !important;
---background-modifier-selected: rgba(56, 168, 112, 0.178) !important;
---background-modifier-accent: rgba(56, 168, 134, 0) !important;
+--background-modifier-hover: rgba(157, 168, 56, 0.199) !important;
+--background-modifier-active: rgba(161, 168, 56, 0.507) !important;
+--background-modifier-selected: rgba(157, 168, 56, 0.178) !important;
+--background-modifier-accent: rgba(161, 168, 56, 0) !important;
 --background-message-hover: transparent !important;
 
  /* Mentioned  Colours */
---background-mentioned: rgba(56, 168, 131, 0.199) !important;
---background-mentioned-hover: rgba(56, 168, 131, 0.329) !important;
+--background-mentioned: rgba(161, 168, 56, 0.199) !important;
+--background-mentioned-hover: rgba(168, 161, 56, 0.329) !important;
 --background-mentioned-bar: var(--background-accent) !important;
 
 --background-help-warning: rgba(56, 168, 151, 0.233) !important;
