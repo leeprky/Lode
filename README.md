@@ -38,10 +38,15 @@ This Theme Works Well With [Crenshaw's Spotify Plugin](https://github.com/Crensh
 Here to show you what customisation is possible
 
 Spotify Modal
+
 ![preview](https://i.imgur.com/wjLyzAk.png)
 
 Modals
+
 ![preview](https://i.imgur.com/PYxZqvG.png)
+
+Settings
+
 ![preview](https://i.imgur.com/i0zP1B3.png)
 
 # Lode Colour Schemes
