@@ -16,6 +16,7 @@
 
 /* Optional Imports */
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
+@import url(https://raw.githack.com/leeprky/Lode/main/default/support/gradients/luckfiregradientbuttons.css);
 
 /* Titlebar */
 /* Disable if you cant see them in top right (windows) */
@@ -88,29 +89,49 @@
 #app-mount {background-color: var(--background-tertiary);}
 
 /* Lode Dark */
+:root {
+
+    /* Gradients */
+    --default-gradient: 315deg, #257583 0%, #167B70 74%;
+    --special-gradient: 315deg, #8980F0 0%, #D577F0 74%;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+    --yellow-gradient: 315deg, #C2831B 0%, #FFB740 74%;
+    --green-gradient: 315deg, #58d38b 0%, #58d38b 74%;
+    --grey-gradient: 315deg, #203A43 0%, #28434d 74%;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%;
+    /* Transitions */
+    --font-normal: 500;
+    --font-hover: bold;
+    --font-size-hover: 15px;
+    --hover-transition: 0.1s linear;
+    --transform-normal: scale(1);
+    --hover-transform: scale(1.15);
+    --setting-hover-transform: scale(1.025);
+    --button-hover-transform: scale(1.03);
+  }
 
 .theme-dark {
         
   /* Lode Specific */
---alt-color: 56, 168, 151; /* RGB */
---alt-color2: #1bb69f; /* HEX */
+--alt-color: 52, 180, 159; /* RGB */
+--alt-color2: #34b49f; /* HEX */
          
---icons-color: #eef3f2;
---icons-color-hover: #1bb69f;
+--icons-color: #f0fff6;
+--icons-color-hover: #58d38b;
 
---green-color: #4aac8f;
+--green-color: #58d38b;
 --green-bar-on: var(--green-color);
 --green-bar-bg: #151925;
 --green-slider-on: var(--green-color);
---green-slider-off: #19d5e280;
---green-slider-dot: #fff;
+--green-slider-off: #06eff7c4;
+--green-slider-dot: #f0fff6;
 
 /* Icons */
 --home-icon: url(https://discord.com/assets/89576a4bb71f927eb20e8aef987b499b.svg);
 
 /* Other */
 --scrollbars: none; /* none or unset */
---call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
+--call-bg: url(); /* None To Disable */
 --call-bg-colour: var(--background-accent); /* Image Overwrites */
 
   /* Spotify Crenshaw Plugin */
@@ -118,8 +139,8 @@
 --subtext-color: #000;
 
   /* Keeping Consistancy With Discord */ 
---serverlist-background: #2C344D;
---memberlist-background: #1d222e;
+--serverlist-background: var(--background-tertiary);
+--memberlist-background: #0a151a;
 --win-titlebar: var(--background-tertiary);
 
   /* Making Things Round */ /* Four Numbers = Four Corners */
@@ -136,7 +157,7 @@
 --borders-radius-right: 6px;
 --borders-radius-left: 8px;
 --borders-radius-bottom: 8px;
---borders-radius-top: 5px;
+--borders-radius-top: 6px;
 
 --titlebar-borders-radius: 12px;
 --titlebar-borders-radius-right: 12px;
@@ -152,18 +173,18 @@
 --watermark-text: "LODE";
 --watermark-text-top: 14px;
 --watermark-text-left: 3.4rem;
---watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
+--watermark-gradient: 270deg, rgb(132, 253, 207), rgb(80, 253, 152);
 
  /* Header Colours Colors */
 --modal-normal-primary-color: var(--background-secondary);
 --modal-normal-secondary-color: var(--background-secondary);
 --spotify-color: var(--alt-color2);
 --playing-color: var(--alt-color2);
---streaming-color: #4d2b86;
+--streaming-color: #613aa3;
 
  /* Header Colors */
---header-primary: #EAE1DF;
---header-secondary: rgb(159, 161, 163);
+--header-primary: #f0fff6;
+--header-secondary: #a39897;
 
  /* Powercord Toast Colors */
 --toast-background: var(--background-primary) ;
@@ -174,40 +195,40 @@
 --toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
---text-normal: #f7f4f4;
+--text-normal: #f0fff6;
 --text-muted: #a39897;
 --text-link: var(--alt-color2);
---channels-default: #ddd5d3;
---interactive-normal: #EAE1DF;
---interactive-hover: #EAE1DF;
+--channels-default: #f0fff6;
+--interactive-normal: #f0fff6;
+--interactive-hover: #ffffff;
 --interactive-active: #fff;
---interactive-muted: #505355;
+--interactive-muted: #53615b;
 
  /* Chat */
 --channeltextarea-background: var(--background-primary);
 --channeltextarea-background-hover: var(--background-secondary);
 
  /* Background Colours */
---background-primary: #191f30;
+--background-primary: #0F2229;
 --background-titlebar: #191f308f;
---background-primary-alt: #191f30;
---background-secondary: #252b3b;
---background-secondary-alt: #252b3b;
---background-tertiary: #2c344d;
+--background-primary-alt: #0F2229;
+--background-secondary: #203A43;
+--background-secondary-alt: #203A43;
+--background-tertiary: #162a31;
 --background-accent: var(--alt-color2);
 --background-accent-gradient: var(--alt-color2);
---background-floating: #2b3341;
+--background-floating: #162a31;
 
  /* Hovering Colours */
---background-modifier-hover: rgba(56, 168, 151, 0.459);
---background-modifier-active: rgba(56, 168, 151, 0.521);
---background-modifier-selected: rgba(56, 168, 151, 0.178);
---background-modifier-accent: rgba(56, 168, 151, 0.418);
+--background-modifier-hover: rgba(56, 168, 131, 0.199);
+--background-modifier-active: rgba(56, 168, 112, 0.507);
+--background-modifier-selected: rgba(56, 168, 112, 0.178);
+--background-modifier-accent: rgba(56, 168, 134, 0);
 --background-message-hover: transparent;
 
  /* Mentioned  Colours */
---background-mentioned: rgba(56, 168, 151, 0.233);
---background-mentioned-hover: rgba(56, 168, 151, 0.322);
+--background-mentioned: rgba(56, 168, 131, 0.199);
+--background-mentioned-hover: rgba(56, 168, 131, 0.329);
 --background-mentioned-bar: var(--background-accent);
 
 --background-help-warning: rgba(56, 168, 151, 0.233);
@@ -221,10 +242,10 @@
 --scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384);
 
 /* Box Shadow On Floating Elements Colours */
---elevation-stroke: 0 0 0 1px rgba(22, 24, 26, 0.329);
---elevation-low: 0 1px 0 rgba(22, 25, 26, 0.329);
---elevation-medium: 0 4px 4px rgba(22, 25, 26, 0.329);
---elevation-high: 0 8px 16px rgba(22, 25, 26, 0.329);
+--elevation-stroke: 0 0 0 1px rgba(22, 26, 26, 0.329);
+--elevation-low: 0 1px 0 rgba(22, 26, 25, 0.329);
+--elevation-medium: 0 4px 4px rgba(22, 26, 25, 0.329);
+--elevation-high: 0 8px 16px rgba(22, 26, 25, 0.329);
 
 /* Other */
 --radio-group-dot-foreground: var(--alt-color);
