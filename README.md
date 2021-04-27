@@ -35,6 +35,7 @@ This Theme Works Well With [Crenshaw's Spotify Plugin](https://github.com/Crensh
 ![preview](https://crenshaw.otters.store/uploads/b1215eff-59ca-4766-99c4-8d7ffb87d6a7/5Ur1YhyM.png)
 
 # Examples
+Here to show you what customisation is possible
 
 Spotify Modal
 ![preview](https://i.imgur.com/wjLyzAk.png)
