@@ -54,8 +54,8 @@
 
 /* Made For Lode */ /* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-cyan); - Default */
 
-/* example */
-/* @import url(example); 
+/* Citric (Yellow & Green / Blue Colour */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/citris.css); 
 
 /* My Other Themes */
 
@@ -140,7 +140,7 @@
 --subtext-color: #000;
 
   /* Keeping Consistancy With Discord */ 
---serverlist-background: #2C344D;
+--serverlist-background: var(--background-tertiary);
 --memberlist-background: #1d222e;
 --win-titlebar: var(--background-tertiary);
 
