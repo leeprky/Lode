@@ -180,14 +180,6 @@
 --header-primary: #EAE1DF;
 --header-secondary: rgb(159, 161, 163);
 
- /* Powercord Toast Colors */
---toast-background: var(--background-primary) ;
---toast-header: var(--background-secondary) ;
---toast-content: #252B3B ;
---toast-box-shadow: rgba(24, 21, 21, 0.932) ;
---toast-border: rgba(21, 22, 22, 0);
---toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
-
  /* Text Colours */
 --text-normal: #f7f4f4;
 --text-muted: #a39897;
@@ -250,9 +242,14 @@
 .theme-light {
         
   /* Lode Specific */
+  --bd-color: #1bb69f;
+  --bd-color-hover: #16927f;
   --alt-color: 83, 182, 167; /* RGB */
   --alt-color2: #53b6a7; /* HEX */
   
+  --icons-color: #eef3f2;
+  --icons-color-hover: #1bb69f;
+            
   --green-color: #2C344D; 
   --green-bar-on: var(--greenple-color);
   --green-bar-bg: #151925;
@@ -261,7 +258,7 @@
   --green-slider-dot: #fff;
 
   /* Icons */
---home-icon: url(https://cdn.discordapp.com/attachments/733624227378495488/776180439010246656/home-icon.svg);
+  --home-icon: url(https://cdn.discordapp.com/attachments/733624227378495488/776180439010246656/home-icon.svg);
 
   /* Other */
   --scrollbars: none; /* none or unset */
@@ -317,14 +314,6 @@
     /* Header Colors */
   --header-primary: #0f0f0e;
   --header-secondary: rgb(43, 45, 46);
-
- /* Powercord Toast Colors */
-  --toast-background: #e1e3eb;
-  --toast-header: #bdc0c7;
-  --toast-content: #e1e3eb;
-  --toast-box-shadow: rgba(24, 21, 21, 0.932);
-  --toast-border: rgba(21, 22, 22, 0);
-  --toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
   --text-normal: #111010;
