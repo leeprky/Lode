@@ -918,3 +918,26 @@ div[class*="tipTitle-"]:after {
       margin-right: 500px;
       top: 100px;
     }
+    .warning-3C2pOH {
+        background: var(--background-help-warning);
+        border: 1px solid var(--yellow-color);
+        color: var(--interactive-active);
+    }
+    .warning-3C2pOH .icon-1jlFSw {
+      color: 1px solid var(--yellow-color);
+    }
+    .theme-dark .channelWarning-3e1Pz4, .theme-dark .warningIcon-2dFY7P {
+      color: var(--yellow-color);
+  }
+    .content-1Wq3SX {
+      margin-left: -30px;
+      margin-right: 9px;
+      border-radius: 12px;
+    }
+
+    .menu-3sdvDG {
+      left: -35px;
+    }
+    .label-22pbtT {
+      margin-left: 30px;
+    }
