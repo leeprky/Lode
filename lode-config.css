@@ -121,6 +121,7 @@
 --icons-color: #eef3f2;
 --icons-color-hover: #1bb69f;
 
+--yellow-color: #1bb69f;
 --green-color: #4aac8f;
 --green-bar-on: var(--green-color);
 --green-bar-bg: #151925;
@@ -133,7 +134,7 @@
 
 /* Other */
 --scrollbars: none; /* none or unset */
---call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
+--call-bg: url(https://i.imgur.com/iCMBq4x.jpg); /* None To Disable */
 --call-bg-colour: var(--background-accent); /* Image Overwrites */
 
   /* Spotify Crenshaw Plugin */
@@ -446,7 +447,7 @@
 .powercord-spotify{background-position-x:center;background-position-y:center;border-radius:var(--borders-radius);background-image:var(--spotify-background-image);background-position:center;z-index:1;background-size:cover}
 .avatar-SmRMf2 .spotify-cover{display:none}
 .panels-j1Uci_{transition:height .5s;z-index:902;position:fixed;right:var(--spotify-right);bottom:5em;border-radius:1em!important;width:240px}
-.bannerImage-3KhIJ6{opacity:1;transition:opacity .5s}
+.bannerImage-3KhIJ6{opacity:1;transition:opacity .5s;}
 .membersWrap-2h-GB4{background-color:var(--background-secondary);height:calc(100% - 160px);transition:height .5s;border-radius:var(--borders-radius);position:absolute;right:1em;top:.5em;overflow:hidden}
 .chatContent-a9vAAp{position:absolute;width:100%;height:100%}
 .divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 290px)}
