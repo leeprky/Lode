@@ -1,4 +1,4 @@
-# Lode ![GitHub Releases][downloads-badge] 
+# Lode
 A Easy to customise bubbily discord theme with lots of **customisation/flexability** to adjust to your likings.
 
 ![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/PreviewEdit.jpg)
