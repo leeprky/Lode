@@ -168,6 +168,7 @@
 --toast-content: var(--background-primary) ;
 --toast-box-shadow: rgba(24, 21, 21, 0.932) ;
 --toast-border: rgba(21, 22, 22, 0);
+--toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
 --text-normal: #f7f4f4;
@@ -195,7 +196,7 @@
 --background-floating: #2b3341;
 
  /* Hovering Colours */
---background-modifier-hover: rgba(56, 168, 151, 0.233);
+--background-modifier-hover: rgba(56, 168, 151, 0.459);
 --background-modifier-active: rgba(56, 168, 151, 0.521);
 --background-modifier-selected: rgba(56, 168, 151, 0.178);
 --background-modifier-accent: rgba(56, 168, 151, 0.418);
@@ -302,6 +303,7 @@
   --toast-content: #e1e3eb;
   --toast-box-shadow: rgba(24, 21, 21, 0.932);
   --toast-border: rgba(21, 22, 22, 0);
+  --toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
   --text-normal: #111010;
@@ -435,21 +437,16 @@
 .header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
 .header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
 .user-details-center{text-align:center;margin-bottom:5px}
-/* Spotify Plugin Default Blur */
 
 /* --- */
 /* Optionals End */
 /* ----- */
 
-    /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
-    .panels-j1Uci_{position:fixed !important;z-index:3}
-    .panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;backdrop-filter:blur(var(--album-blur-amount))}
-    [style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
-    [style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
-    .panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
+/* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
+ .panels-j1Uci_{position:fixed !important;z-index:3}
 
-    /* Member Dot */
-    .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
+/* Member Dot */
+ .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
 
     /* Positioning */
 .form-2fGMdU{margin-right: 255px}
