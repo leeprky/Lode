@@ -17,24 +17,21 @@
 /* Lode Base Source Code */
 @import url(https://raw.githack.com/leeprky/Lode/main/source/lode-theme.css);
 
-/* My Imports */
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css);
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-@import url(https://raw.githack.com/leeprky/GreenBeGo/main/greenple-replacer.theme.css);
-
-/* Lode Imports */
-@import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
-@import url(https://github.com/leeprky/Lode/blob/main/default/support/plugins/plugin-styles.css);
-
 /* Other Imports */
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
-@import url(https://raw.githack.com/NYRI4/Discolored/master/main.css);
+
+/* Visuals */
+@import url(https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css);
+@import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css);
 
 /* Optional Imports */
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
-/* @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/ServerListDrawer-Edit.css); */
+@import url(https://raw.githack.com/leeprky/Lode/main/default/support/gradients/luckfiregradientbuttons.css);
+@import url(https://raw.githack.com/leeprky/Lode/main/default/support/dtm/svg.css);
+
+/* Titlebar */
+/* Disable if you cant see them in top right (windows) */
+@import url(https://raw.githack.com/leeprky/Lode/main/default/support/win-buttons/win-buttons.css);
 
 /*  ------------------------------------------
           Lode Customisable Configuration
@@ -43,47 +40,76 @@
     ------------------------------------------  */
 
 /* Pre-Made Colour Schemes */
-/* Made For Lode */
-/* example */
-/* @import url(example); 
+/* Disabled ATM */
+/* if they dont work delete the Lode Dark & Lode Light variables */
+
+/* Made For Lode */ /* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-cyan); - Default */
+
+/* Citric (Yellow & Green / Blue Colour */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/citris.css); 
 
 /* My Other Themes */
 
 /* naive */
-/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
+/* @import url(https://raw.githack.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
 /* slook */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/slook.css); 
 
-/* Other Authers */
+/* Other User's Themes */
 
 /* midnight mars by #Luckfire */
-/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/MidnightMars.css); 
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/MidnightMars.css); 
 /* Nebula */
-/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/nebula.css); 
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/nebula.css); 
 /* DuvBox */
-/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/duvbox.css); 
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/duvbox.css); 
 
 /* LilyPichu */ 
-/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/LilyPichu.css); */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/LilyPichu.css);
 /* Fey-Theme */
-/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/fey.css); 
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/fey.css); 
 
 /* Neptune */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/neptune.css); 
 /* Midnightcord */
-/* @import url(https://github.com/leeprky/Lode/blob/main/default/schemes/midnightcord.css); 
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/midnightcord.css); 
+/* CTP */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/ctp.css);
 
 /* -- */
 
 #app-mount {background-color: var(--background-tertiary);}
 
-/* Lode Dark */
+:root {
 
+    /* Gradients */
+    --default-gradient: 315deg, #257583 0%, #167B70 74%;
+    --special-gradient: 315deg, #8980F0 0%, #D577F0 74%;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+    --yellow-gradient: 315deg, #C2831B 0%, #FFB740 74%;
+    --green-gradient: 315deg, #58d38b 0%, #58d38b 74%;
+    --grey-gradient: 315deg, #203A43 0%, #28434d 74%;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%;
+    /* Transitions */
+    --font-normal: 500;
+    --font-hover: bold;
+    --font-size-hover: 15px;
+    --hover-transition: 0.1s linear;
+    --transform-normal: scale(1);
+    --hover-transform: scale(1.15);
+    --setting-hover-transform: scale(1.025);
+    --button-hover-transform: scale(1.03);
+  }
+
+/* Lode Dark */
 .theme-dark {
         
   /* Lode Specific */
 --alt-color: 56, 168, 151; /* RGB */
 --alt-color2: #1bb69f; /* HEX */
+         
+--icons-color: #eef3f2;
+--icons-color-hover: #1bb69f;
 
 --green-color: #4aac8f;
 --green-bar-on: var(--green-color);
@@ -91,6 +117,9 @@
 --green-slider-on: var(--green-color);
 --green-slider-off: #19d5e280;
 --green-slider-dot: #fff;
+
+/* Icons */
+--home-icon: url(https://discord.com/assets/89576a4bb71f927eb20e8aef987b499b.svg);
 
 /* Other */
 --scrollbars: none; /* none or unset */
@@ -102,7 +131,7 @@
 --subtext-color: #000;
 
   /* Keeping Consistancy With Discord */ 
---serverlist-background: #2C344D;
+--serverlist-background: var(--background-tertiary);
 --memberlist-background: #1d222e;
 --win-titlebar: var(--background-tertiary);
 
@@ -138,11 +167,6 @@
 --watermark-text-left: 3.4rem;
 --watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
 
---win-minimise-color: #48c048b9;
---win-maximise-color: #eab618ab;
---win-close-color: #ec0c0c9d;
---win-right: 14px;
-
  /* Header Colours Colors */
 --modal-normal-primary-color: var(--background-secondary);
 --modal-normal-secondary-color: var(--background-secondary);
@@ -155,11 +179,12 @@
 --header-secondary: rgb(159, 161, 163);
 
  /* Powercord Toast Colors */
---toast-background: var(--background-primary) !important;
---toast-header: var(--background-secondary) !important;
---toast-content: var(--background-primary) !important;
---toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
---toast-border: rgba(21, 22, 22, 0) !important;
+--toast-background: var(--background-primary) ;
+--toast-header: var(--background-secondary) ;
+--toast-content: #252B3B ;
+--toast-box-shadow: rgba(24, 21, 21, 0.932) ;
+--toast-border: rgba(21, 22, 22, 0);
+--toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
 --text-normal: #f7f4f4;
@@ -187,7 +212,7 @@
 --background-floating: #2b3341;
 
  /* Hovering Colours */
---background-modifier-hover: rgba(56, 168, 151, 0.233);
+--background-modifier-hover: rgba(56, 168, 151, 0.459);
 --background-modifier-active: rgba(56, 168, 151, 0.521);
 --background-modifier-selected: rgba(56, 168, 151, 0.178);
 --background-modifier-accent: rgba(56, 168, 151, 0.418);
@@ -233,6 +258,9 @@
   --green-slider-off: rgb(48, 48, 54);
   --green-slider-dot: #fff;
 
+  /* Icons */
+--home-icon: url(https://cdn.discordapp.com/attachments/733624227378495488/776180439010246656/home-icon.svg);
+
   /* Other */
   --scrollbars: none; /* none or unset */
   --call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
@@ -272,15 +300,10 @@
   --spotify-right: 1.7rem;
 
     /* Watermark */
-    --watermark-text: "LODE";
-    --watermark-text-top: 14px;
-    --watermark-text-left: 3.4rem;
-    --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
-
-  --win-minimise-color: #48c048b9;
-  --win-maximise-color: #eab618ab;
-  --win-close-color: #ec0c0c9d;
-  --win-right: 14px;
+  --watermark-text: "LODE";
+  --watermark-text-top: 14px;
+  --watermark-text-left: 3.4rem;
+  --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
 
  /* Header Colours Colors */
   --modal-normal-primary-color: #c6d4df;
@@ -299,6 +322,7 @@
   --toast-content: #e1e3eb;
   --toast-box-shadow: rgba(24, 21, 21, 0.932);
   --toast-border: rgba(21, 22, 22, 0);
+  --toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
   --text-normal: #111010;
@@ -401,7 +425,6 @@
 /* --- */
 .withFrame-haYltI {margin-top: 10px;}
 /* Settings Modal Under Channels Into Server List */
-
 .spotify-buttons{width:6em;margin-bottom:-4px}
 .spotify-extra-controls,.spotify-seek-elements{display:none!important}
 .powercord-spotify,.powercord-spotify.hover{height:57px}
@@ -453,9 +476,9 @@
 .form-2fGMdU{margin-right: 255px}
 .panels-j1Uci_{bottom: 1.8em}
 .membersWrap-2h-GB4{height: calc(100% - 95px) }
+
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
                          v1.0.3 (Lode)
     ----------------------------------------------------  */
-
