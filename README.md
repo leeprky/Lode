@@ -27,7 +27,7 @@ Addons Used In Lode:
 - **[snappercord](https://github.com/v-briese)** | [Settings-Icons](https://github.com/snappercord/Settings-Icons).
 
 Snippits Taken From These Themes:
-- **[Luckfire](https://github.com/Luckfire)** | [LuckfireGradientButtons](https://raw.githack.com/leeprky/Lode/main/default/support/gradients/luckfiregradientbuttons.css) 
-- [MidnightMars](https://github.com/LuckFire/midnight-mars).
+- **[Luckfire](https://github.com/Luckfire)** | [LuckfireGradientButtons](https://raw.githack.com/leeprky/Lode/main/default/support/gradients/luckfiregradientbuttons.css) |[MidnightMars](https://github.com/LuckFire/midnight-mars).
+
 - **[gabe7384](https://github.com/gabe7384)** | [DTM-Revamp](https://github.com/gabe7384/DTM-16-Revamp).
 
