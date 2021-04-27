@@ -27,6 +27,9 @@ Navigate To The Themes Section & Filter By My Name *Leeprky* And Click Install.
 Thank you for checking out/downloading my Theme :)
 Direct Message Me On @Discord Or Join By **[github.com/leeprky](https://discord.gg/Ff3rqAYB89)** For More Help/Information For Installing/Support. Enjoy :)
 
+This Theme Works Well With [Crenshaw's Spotify Plugin](https://github.com/Crenshaw1312/ActivityBackgrounds) So Check It Out!
+![preview](https://crenshaw.otters.store/uploads/b1215eff-59ca-4766-99c4-8d7ffb87d6a7/5Ur1YhyM.png)
+
 # Examples
 
 Spotify Modal
