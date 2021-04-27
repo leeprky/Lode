@@ -912,3 +912,9 @@ div[class*="tipTitle-"]:after {
     .layout-2DM8Md {
       margin-right: 10px;
     }
+    .notice-3bPHh-, .notice-3uyY6c {
+      border-radius: var(--hover-border-radius);
+      margin-left: 15px;
+      margin-right: 500px;
+      top: 100px;
+    }
