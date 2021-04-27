@@ -1,4 +1,3 @@
-![preview](https://i.imgur.com/6cfo1bL.png)
 ## Lode v1.0
 
 Lode is an easy to customise theme based on Slook/Naive's Features And Now Its Bubblified with revamped styles & Everything is fully themed for you with FullyThemedDiscord and automatic rounding, all you need to do is change it in the config...
@@ -30,5 +29,6 @@ Check The GooseMods Theme Store OR Import The Theme.
 
 ![preview](https://i.imgur.com/mqOvoID.png)
 ![preview](https://i.imgur.com/bl9T0oz.png)
+![preview](https://i.imgur.com/CJYMKRN.png)
 ![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/LodeModal.png)
 ![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/LodeModalExpanded.png)
