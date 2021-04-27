@@ -123,7 +123,7 @@
 
 /* Other */
 --scrollbars: none; /* none or unset */
---call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
+--call-bg: url(); /* None To Disable */
 --call-bg-colour: var(--background-accent); /* Image Overwrites */
 
   /* Spotify Crenshaw Plugin */
