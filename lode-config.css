@@ -190,7 +190,7 @@
  /* Powercord Toast Colors */
 --toast-background: var(--background-primary) ;
 --toast-header: var(--background-secondary) ;
---toast-content: var(--background-primary) ;
+--toast-content: #252B3B ;
 --toast-box-shadow: rgba(24, 21, 21, 0.932) ;
 --toast-border: rgba(21, 22, 22, 0);
 --toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
