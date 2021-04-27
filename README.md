@@ -23,6 +23,72 @@ Then Right Click > Save As & Put Into Your Themes Folder!
 For **Goosemod** Users:
 Navigate To The Themes Section & Filter By My Name *Leeprky* And Click Install.
 
+
+Thank you for checking out/downloading my Theme :)
+Direct Message Me On @Discord Or Join By **[github.com/leeprky](https://discord.gg/Ff3rqAYB89)** For More Help/Information For Installing/Support. Enjoy :)
+
+# Examples
+
+Spotify Modal
+![preview](https://i.imgur.com/wjLyzAk.png)
+
+Modals
+![preview](https://i.imgur.com/PYxZqvG.png)
+![preview](https://i.imgur.com/i0zP1B3.png)
+
+# Lode Colour Schemes
+
+Citris
+![preview](https://i.imgur.com/CJYMKRN.png)
+
+# Pre-Made Themes
+
+My Themes
+
+Naive
+By **[Me](https://github.com/leeprky)**
+![preview](https://i.imgur.com/itp5OcK.png)
+
+SLOOK
+By **[Me](https://github.com/leeprky)**
+![preview](https://i.imgur.com/LKOsm1h.png)
+
+External Themes
+
+MidnightMars
+By **[Luckfire](https://github.com/Luckfire)**
+![preview](https://i.imgur.com/a21PTpa.png)
+
+Duvbox
+By **[CircuitRCAY](CircuitRCAY)**
+![preview](https://i.imgur.com/1mUv5g1.png)
+
+Nebula
+By **[Pavui](https://github.com/Pavui)**
+![preview](https://i.imgur.com/eVohefD.png)
+
+Fey
+By **[oknabonjour](https://github.com/oknabonjour)**
+![preview](https://i.imgur.com/j9lY603.png)
+
+LilyPichu
+By **[NYRI4](https://github.com/NYRI4)**
+![preview](https://i.imgur.com/P1EWTRy.png)
+
+Midnightcord
+By **[spinfish](https://github.com/spinfish)**
+![preview](https://i.imgur.com/byMI066.png)
+
+Neptune
+By **[killua](https://github.com/killua)**
+![preview](https://i.imgur.com/61lxOyr.png)
+
+CTP
+By **[ccrashtek](https://github.com/ccrashtek)**
+![preview](https://i.imgur.com/9XQddpD.png)
+
+# Addons
+
 Addons Used In Lode:
 - **[Tropical](https://github.com/Tropix126)** | [USRBG](https://github.com/Discord-Custom-Covers/usrbg).
 - **[NYRI4](https://github.com/NYRI4)** | [Discolored](https://github.com/NYRI4/Discolored).
