@@ -4,15 +4,18 @@ A Easy to customise bubbily discord theme with lots of **customisation/flexabili
 ![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/PreviewEdit.jpg)
 
 ## How To Install Lode?
+
 Its Simple!
 
 For **Powercord** Users:
+
 1. Open CMD & Type:
 ```
 cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Lode
 ```
 
 For **Betterdiscord** Users:
+
 Click The Link Below:
 [Download](https://raw.githubusercontent.com/leeprky/Lode/main/default/support/betterdiscord/LodeBD.theme.css)
 Then Right Click > Save As & Put Into Your Themes Folder!
