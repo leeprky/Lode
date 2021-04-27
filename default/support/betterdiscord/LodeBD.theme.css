@@ -80,7 +80,6 @@
 
 #app-mount {background-color: var(--background-tertiary);}
 
-/* Disabled ATM */
 :root {
 
     /* Gradients */
@@ -478,6 +477,10 @@
 .panels-j1Uci_{bottom: 1.8em}
 .membersWrap-2h-GB4{height: calc(100% - 95px) }
 
+/* BETTERDISCORD ADDITONS */
+.activity-11LB_k {
+  background-color: rgba(0, 0, 0, 0);
+}
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
