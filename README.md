@@ -1,34 +1,33 @@
-## Lode v1.0
+# Lode
+A Easy to customise bubbily discord theme with lots of **customisation/flexability** to adjust to your likings.
 
-Lode is an easy to customise theme based on Slook/Naive's Features And Now Its Bubblified with revamped styles & Everything is fully themed for you with FullyThemedDiscord and automatic rounding, all you need to do is change it in the config...
+![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/PreviewEdit.jpg)
 
-Its My First Theme That I Have Built From The Ground Up, Hope You Enjoy The Alpha
+## How To Install Lode?
+Its Simple!
 
-## Supports: Powercord | Goosemod | BetterDiscord
-## And For: Glasscord & Lightmode
+For **Powercord** Users:
+1. Open CMD & Type:
+```
+cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Lode
+```
 
-## How To Install Lode For Powercord
+For **Betterdiscord** Users:
+Click The Link Below:
+[Download](https://raw.githubusercontent.com/leeprky/Lode/main/default/support/betterdiscord/LodeBD.theme.css)
+Then Right Click > Save As & Put Into Your Themes Folder!
 
-Open Command Prompt & Copy This:
-`cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Lode`
-> Refresh Discord
+For **Goosemod** Users:
+Navigate To The Themes Section & Filter By My Name *Leeprky* And Click Install.
 
-## How To Install Lode For BetterDiscord
+Addons Used In Lode:
+- **[Tropical](https://github.com/Tropix126)** | [USRBG](https://github.com/Discord-Custom-Covers/usrbg).
+- **[NYRI4](https://github.com/NYRI4)** | [Discolored](https://github.com/NYRI4/Discolored).
+- **[snappercord](https://github.com/snappercord)** | [Settings-Icons](https://github.com/snappercord/Settings-Icons).
+- **[snappercord](https://github.com/v-briese)** | [Settings-Icons](https://github.com/snappercord/Settings-Icons).
 
-Click Here > https://www.mediafire.com/file/fwbgh07h6be24z2/LodeBD.theme.css/file <
-Download The Theme & Place In Your /themes Folder For BetterDiscord.
+Snippits Taken From These Themes:
+- **[Luckfire](https://github.com/Luckfire)** | [LuckfireGradientButtons](https://raw.githack.com/leeprky/Lode/main/default/support/gradients/luckfiregradientbuttons.css) 
+- [MidnightMars](https://github.com/LuckFire/midnight-mars).
+- **[gabe7384](https://github.com/gabe7384)** | [DTM-Revamp](https://github.com/gabe7384/DTM-16-Revamp).
 
-OR Go Here > https://raw.githubusercontent.com/leeprky/Lode/main/default/support/betterdiscord/LodeBD.theme.css <
-And Right Click `Save As` & Place In Themes Folder.
-
-## How To Install Lode For BetterDiscord 
-
-Check The GooseMods Theme Store OR Import The Theme.
-
-## Previews
-
-![preview](https://i.imgur.com/mqOvoID.png)
-![preview](https://i.imgur.com/bl9T0oz.png)
-![preview](https://i.imgur.com/CJYMKRN.png)
-![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/LodeModal.png)
-![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/LodeModalExpanded.png)
