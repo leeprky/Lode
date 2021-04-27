@@ -21,8 +21,10 @@ Click The Link Below:
 Then Right Click > Save As & Put Into Your Themes Folder!
 
 For **Goosemod** Users:
+
 Navigate To The Themes Section & Filter By My Name *Leeprky* And Click Install.
 
+# Extras 
 
 Thank you for checking out/downloading my Theme :)
 Direct Message Me On @Discord Or Join By **[github.com/leeprky](https://discord.gg/Ff3rqAYB89)** For More Help/Information For Installing/Support. Enjoy :)
