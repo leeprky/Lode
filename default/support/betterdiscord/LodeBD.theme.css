@@ -105,6 +105,8 @@
 .theme-dark {
         
   /* Lode Specific */
+--bd-color: #1bb69f;
+--bd-color-hover: #16927f;
 --alt-color: 56, 168, 151; /* RGB */
 --alt-color2: #1bb69f; /* HEX */
          
@@ -123,7 +125,7 @@
 
 /* Other */
 --scrollbars: none; /* none or unset */
---call-bg: url(); /* None To Disable */
+--call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
 --call-bg-colour: var(--background-accent); /* Image Overwrites */
 
   /* Spotify Crenshaw Plugin */
@@ -481,8 +483,21 @@
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0);
 }
+.scroller-305q3I {
+  border-radius: 12px;
+}
 .theme-dark .perksModal-fSYqOq {
   background-color: var(--background-primary);
+}
+/* Bd Blue */
+.bd-button, .bd-server-tag, .bd-addon-views .bd-view-button.selected  {
+  background-color: var(--bd-color); 
+}
+.bd-button:hover {
+  background-color: var(--bd-color-hover); 
+}
+#bd-pub-button:hover {
+  background-color: var(--bd-color-hover); 
 }
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
