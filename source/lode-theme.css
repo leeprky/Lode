@@ -1,3 +1,9 @@
+/*  ------------------------------------------
+                  Lode Source
+                     v1.0.3
+                - leeprky#2063 -
+    ------------------------------------------  */
+
 /* My Base Imports */
 @import url(https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css);
 
@@ -229,7 +235,6 @@
 .headerTop-3C2Zn0 {
   min-height: 250px;
   padding: 0;
-  background-color: var(--modal-normal-secondary-color);
 }
 .headerTop-3C2Zn0 .avatarWrapper-3H_478 {
   left: 0;
