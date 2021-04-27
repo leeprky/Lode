@@ -28,6 +28,7 @@ Check The GooseMods Theme Store OR Import The Theme.
 
 ## Previews
 
-![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/LodeTheme.png)
+![preview](https://i.imgur.com/mqOvoID.png)
+![preview](https://i.imgur.com/bl9T0oz.png)
 ![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/LodeModal.png)
 ![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/LodeModalExpanded.png)
