@@ -481,6 +481,9 @@
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0);
 }
+.theme-dark .perksModal-fSYqOq {
+  background-color: var(--background-primary);
+}
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
