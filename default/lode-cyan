@@ -1,10 +1,11 @@
-/* Lode Dark */
-
 .theme-dark {
         
   /* Lode Specific */
 --alt-color: 56, 168, 151; /* RGB */
 --alt-color2: #1bb69f; /* HEX */
+         
+--icons-color: #eef3f2;
+--icons-color-hover: #1bb69f;
 
 --green-color: #4aac8f;
 --green-bar-on: var(--green-color);
@@ -12,6 +13,9 @@
 --green-slider-on: var(--green-color);
 --green-slider-off: #19d5e280;
 --green-slider-dot: #fff;
+
+/* Icons */
+--home-icon: url(https://discord.com/assets/89576a4bb71f927eb20e8aef987b499b.svg);
 
 /* Other */
 --scrollbars: none; /* none or unset */
@@ -59,11 +63,6 @@
 --watermark-text-left: 3.4rem;
 --watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
 
---win-minimise-color: #48c048b9;
---win-maximise-color: #eab618ab;
---win-close-color: #ec0c0c9d;
---win-right: 14px;
-
  /* Header Colours Colors */
 --modal-normal-primary-color: var(--background-secondary);
 --modal-normal-secondary-color: var(--background-secondary);
@@ -76,11 +75,12 @@
 --header-secondary: rgb(159, 161, 163);
 
  /* Powercord Toast Colors */
---toast-background: var(--background-primary) !important;
---toast-header: var(--background-secondary) !important;
---toast-content: var(--background-primary) !important;
---toast-box-shadow: rgba(24, 21, 21, 0.932) !important;
---toast-border: rgba(21, 22, 22, 0) !important;
+--toast-background: var(--background-primary) ;
+--toast-header: var(--background-secondary) ;
+--toast-content: var(--background-primary) ;
+--toast-box-shadow: rgba(24, 21, 21, 0.932) ;
+--toast-border: rgba(21, 22, 22, 0);
+--toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
 --text-normal: #f7f4f4;
@@ -108,7 +108,7 @@
 --background-floating: #2b3341;
 
  /* Hovering Colours */
---background-modifier-hover: rgba(56, 168, 151, 0.233);
+--background-modifier-hover: rgba(56, 168, 151, 0.459);
 --background-modifier-active: rgba(56, 168, 151, 0.521);
 --background-modifier-selected: rgba(56, 168, 151, 0.178);
 --background-modifier-accent: rgba(56, 168, 151, 0.418);
@@ -154,6 +154,9 @@
   --green-slider-off: rgb(48, 48, 54);
   --green-slider-dot: #fff;
 
+  /* Icons */
+--home-icon: url(https://cdn.discordapp.com/attachments/733624227378495488/776180439010246656/home-icon.svg);
+
   /* Other */
   --scrollbars: none; /* none or unset */
   --call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
@@ -193,15 +196,10 @@
   --spotify-right: 1.7rem;
 
     /* Watermark */
-    --watermark-text: "LODE";
-    --watermark-text-top: 14px;
-    --watermark-text-left: 3.4rem;
-    --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
-
-  --win-minimise-color: #48c048b9;
-  --win-maximise-color: #eab618ab;
-  --win-close-color: #ec0c0c9d;
-  --win-right: 14px;
+  --watermark-text: "LODE";
+  --watermark-text-top: 14px;
+  --watermark-text-left: 3.4rem;
+  --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
 
  /* Header Colours Colors */
   --modal-normal-primary-color: #c6d4df;
@@ -220,6 +218,7 @@
   --toast-content: #e1e3eb;
   --toast-box-shadow: rgba(24, 21, 21, 0.932);
   --toast-border: rgba(21, 22, 22, 0);
+  --toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
   --text-normal: #111010;
@@ -277,3 +276,13 @@
     /* Other */
   --radio-group-dot-foreground: var(--alt-color);
 }
+
+/* Lode Extras */
+.guilds-1SWlCJ{background-color:var(--serverlist-background)}
+.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
+.guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
+.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background-light)}
+.powercord-toast .contents{background-color:var(--toast-content)}
+
+/* MemberList Scroller */
+.platform-win .scroller-1Bvpku {padding-top: 16px;}
