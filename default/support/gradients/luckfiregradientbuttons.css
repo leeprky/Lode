@@ -1,0 +1,141 @@
+    /**
+    * @name Gradient Buttons V2
+    * @version 2.2.5
+    * @descriptionAdd some spice to your buttons.. with gradients!
+    * @author LuckFire#4800
+    *
+    * @website https://github.com/LuckFire
+    * @source https://github.com/LuckFire/GradientButtons-v2/tree/main/src
+**/
+
+#app-mount .menu-3sdvDG .item-1tOPte:not(#user-context-user-volume) {
+  font-weight: var(--font-normal);
+  transition: var(--hover-transition);
+}
+#app-mount .menu-3sdvDG .item-1tOPte:not(#user-context-user-volume).focused-3afm-j,
+#app-mount .menu-3sdvDG .item-1tOPte:not(#user-context-user-volume):active {
+  font-size: var(--font-size-hover);
+  font-weight: var(--font-hover);
+  background: linear-gradient(var(--default-gradient));
+}
+#app-mount .menu-3sdvDG .item-1tOPte:not(#user-context-user-volume).focused-3afm-j.colorPremium-p4p7qO,
+#app-mount .menu-3sdvDG .item-1tOPte:not(#user-context-user-volume):active.colorPremium-p4p7qO {
+  background: linear-gradient(var(--special-gradient));
+}
+#app-mount .menu-3sdvDG .item-1tOPte:not(#user-context-user-volume).focused-3afm-j.colorDanger-2qLCe1,
+#app-mount .menu-3sdvDG .item-1tOPte:not(#user-context-user-volume):active.colorDanger-2qLCe1 {
+  background: linear-gradient(var(--red-gradient));
+}
+
+#app-mount .wrapper-2aW0bm .button-1ZiXG9 img,
+#app-mount .wrapper-2aW0bm .button-1ZiXG9 svg {
+  transform: var(--transform-normal);
+  transition: var(--hover-transition);
+}
+#app-mount .wrapper-2aW0bm .button-1ZiXG9:hover img,
+#app-mount .wrapper-2aW0bm .button-1ZiXG9:hover svg {
+  transform: var(--hover-transform);
+  color: #fff;
+}
+#app-mount .wrapper-2aW0bm .button-1ZiXG9:not(.dangerous-2r8KxV):hover {
+  background: linear-gradient(var(--default-gradient));
+  color: #fff;
+}
+#app-mount .wrapper-2aW0bm .button-1ZiXG9.dangerous-2r8KxV:hover {
+  background: linear-gradient(var(--red-gradient));
+  color: #fff;
+}
+
+#app-mount #status-picker .item-1tOPte.focused-3afm-j,
+#app-mount #status-picker .item-1tOPte:active {
+  transition: var(--hover-transition);
+}
+#app-mount #status-picker .item-1tOPte.focused-3afm-j .statusItem-33LqPf svg foreignObject .status-1AY8sU,
+#app-mount #status-picker .item-1tOPte:active .statusItem-33LqPf svg foreignObject .status-1AY8sU {
+  background: #fff !important;
+}
+#app-mount #status-picker .item-1tOPte.focused-3afm-j#status-picker-online,
+#app-mount #status-picker .item-1tOPte:active#status-picker-online {
+  background: linear-gradient(var(--green-gradient));
+}
+#app-mount #status-picker .item-1tOPte.focused-3afm-j#status-picker-idle,
+#app-mount #status-picker .item-1tOPte:active#status-picker-idle {
+  background: linear-gradient(var(--yellow-gradient));
+}
+#app-mount #status-picker .item-1tOPte.focused-3afm-j#status-picker-dnd,
+#app-mount #status-picker .item-1tOPte:active#status-picker-dnd {
+  background: linear-gradient(var(--red-gradient));
+}
+#app-mount #status-picker .item-1tOPte.focused-3afm-j#status-picker-invisible,
+#app-mount #status-picker .item-1tOPte:active#status-picker-invisible {
+  background: linear-gradient(var(--grey-gradient));
+}
+
+#app-mount .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+  transform: var(--transform-normal);
+  transition: var(--hover-transition);
+}
+#app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  background: linear-gradient(var(--default-gradient));
+}
+#app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+  transform: var(--hover-transform);
+}
+#app-mount .circleIconButton-jET_ig svg {
+  transform: var(--transform-normal);
+}
+#app-mount .circleIconButton-jET_ig.selected-ugP_am {
+  background: linear-gradient(var(--green-gradient));
+}
+#app-mount .circleIconButton-jET_ig.selected-ugP_am svg {
+  transform: var(--hover-transform);
+}
+
+#app-mount .side-8zPYf6 .item-PXvHYJ {
+  transform: var(--transform-normal);
+  transition: var(--hover-transition);
+}
+#app-mount .side-8zPYf6 .item-PXvHYJ:hover {
+  transform: var(--setting-hover-transform);
+}
+#app-mount .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha {
+  background: linear-gradient(var(--default-gradient));
+}
+#app-mount .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"]:active,
+#app-mount .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"][aria-selected=true],
+#app-mount .side-8zPYf6 .item-PXvHYJ[aria-controls=GUILD_PREMIUM-tab]:active,
+#app-mount .side-8zPYf6 .item-PXvHYJ[aria-controls=GUILD_PREMIUM-tab][aria-selected=true] {
+  background: linear-gradient(var(--special-gradient));
+  color: #fff;
+}
+
+#app-mount .lookFilled-1Gx00P {
+  transform: var(--transform-normal);
+  transition: 0.15s linear;
+}
+#app-mount .lookFilled-1Gx00P:hover {
+  transform: var(--button-hover-transform);
+}
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:not(.buttonActive-3FrkXp) {
+  background: linear-gradient(var(--default-gradient));
+}
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV,
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  background: linear-gradient(var(--grey-gradient));
+}
+#app-mount .lookFilled-1Gx00P.buttonColor-7qQbGO.disabled-158sUq {
+  background: linear-gradient(var(--grey-gradient));
+}
+#app-mount .lookFilled-1Gx00P.buttonColor-7qQbGO.disabled-158sUq:hover {
+  transform: var(--transform-normal);
+}
+#app-mount .lookFilled-1Gx00P.colorGreen-29iAKY,
+#app-mount .lookFilled-1Gx00P.buttonActive-3FrkXp {
+  background: linear-gradient(var(--green-gradient));
+}
+#app-mount .lookFilled-1Gx00P.colorYellow-2JqYwt {
+  background: linear-gradient(var(--yellow-gradient));
+}
+#app-mount .lookFilled-1Gx00P.colorRed-1TFJan {
+  background: linear-gradient(var(--red-gradient));
+}
