@@ -11,7 +11,8 @@
 
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://raw.githack.com/NYRI4/Discolored/master/main.css);
-@import url(https://github.com/leeprky/Lode/blob/main/default/support/plugins/plugin-styles.css);
+@import url(https://raw.githack.com/leeprky/Lode/main/default/support/plugins/plugin-styles.css);
+@import url(https://raw.githack.com/leeprky/Lode/main/default/support/radial/radiusstatus.css);
 
 /* Global Recolouring */
 .headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P{background:var(--spotify-color)}
