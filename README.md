@@ -50,6 +50,8 @@ Settings
 
 # Lode Colour Schemes
 
+Crimson
+![preview](https://i.imgur.com/LUaPLLf.png)
 Citris
 ![preview](https://i.imgur.com/CJYMKRN.png)
 
