@@ -111,7 +111,7 @@
     --button-hover-transform: scale(1.03);
 
     /* Radial Status */
-    --rs-small-spacing: 2px;  /* Spacing between avatar and status | MUST end in px */
+    --rs-small-spacing: 0px;  /* Spacing between avatar and status | MUST end in px */
     --rs-width: 2px;  /* Width/thickness of status border */
     --rs-avatar-shape: var(--avatar-border-radius);  /* 50% for round - 0% for square */
     --rs-online-color: var(--alt-color2);  /* Colour for online status */
