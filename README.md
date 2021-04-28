@@ -17,9 +17,8 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Lode
 
 For **Betterdiscord** Users:
 
-1. [Download](https://raw.githubusercontent.com/leeprky/Lode/main/default/support/betterdiscord/LodeBD.theme.css) This
+CLick > [Download](https://betterdiscord.net/ghdl?id=3682)
 
-2. Then Right Click > Save As & Put Into Your Themes Folder!
 
 
 For **Goosemod** Users:
