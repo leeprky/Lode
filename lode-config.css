@@ -1,6 +1,6 @@
 /*  ------------------------------------------
          Lode Theme (POWERCORD/GOOSEMOD)
-                     v1.0.3
+                     v1.0.5
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -46,7 +46,7 @@
 
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.0.3
+                     v1.0.5
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -109,6 +109,19 @@
     --hover-transform: scale(1.15);
     --setting-hover-transform: scale(1.025);
     --button-hover-transform: scale(1.03);
+
+    /* Radial Status */
+    --rs-small-spacing: 2px;  /* Spacing between avatar and status | MUST end in px */
+    --rs-width: 2px;  /* Width/thickness of status border */
+    --rs-avatar-shape: var(--avatar-border-radius);  /* 50% for round - 0% for square */
+    --rs-online-color: var(--alt-color2);  /* Colour for online status */
+    --rs-idle-color: #faa61a;  /* Colour for idle status */
+    --rs-dnd-color: #f04747;  /* Colour for dnd status */
+    --rs-offline-color: #636b75;  /* Colour for offline status */
+    --rs-streaming-color: #643da7;  /* Colour for streaming status */
+    --rs-invisible-color: #747f8d;  /* Colour for invisible status - Note: this will only show for your own invisibility */
+    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+    --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
   }
 
 /* Lode Dark */
@@ -151,7 +164,7 @@
 --floating-border-radius: 15px 15px 15px 15px;
 --expanded-border-radius: 15px 15px 15px 15px;
 --hover-border-radius: 10px 10px 10px 10px;
---avatar-border-radius: 11.5px 11.5px 11.5px 11.5px; /* Serverlist Too */
+--avatar-border-radius: 11.5px; /* Serverlist Too */
 --avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
 --chat-text-border-radius: 12px 12px 12px 12px;
 
@@ -492,5 +505,5 @@
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0.3 (Lode)
+                         v1.0.5 (Lode)
     ----------------------------------------------------  */
