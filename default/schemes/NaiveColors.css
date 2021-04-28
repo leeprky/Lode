@@ -2,41 +2,22 @@
 .theme-dark {
         
   /* Lode Specific */
---alt-color: 228, 25, 112 !important; /* RGB */
---alt-color2: #f8066f !important; /* HEX */
-/* --greenple-color: 0, 0, 0;
+--bd-color: #f8066f !important;
+--bd-color-hover: #f8066f !important;
+--alt-color: 56, 168, 151 !important; /* RGB */
+--alt-color2: #1bb69f !important; /* HEX */
+         
+--icons-color: #eef3f2!important;
+--icons-color-hover: #1bb69f!important;
 
-/* Other */
---scrollbars-display: none !important; /* none or unset */
+--green-color: #4aac8f!important;
+--green-bar-on: var(--green-color)!important;
+--green-bar-bg: #151925!important;
+--green-slider-on: var(--green-color)!important;
+--green-slider-off: #19d5e280!important;
+--green-slider-dot: #fff!important;
 
-  /* Spotify Crenshaw Plugin */
---album-blur-amount: 2px !important;
-
-  /* Keeping Consistancy With Discord */ 
---serverlist-background: #242B3A !important;
---memberlist-background: #1d222e !important;
---win-titlebar: var(--background-tertiary) !important;
-
-  /* Making Things Round */ /* Four Numbers = Four Corners */
---modal-border-radius: 15px 15px 15px 15px !important;
---floating-border-radius: 15px 15px 15px 15px !important;
---expanded-border-radius: 15px 15px 15px 15px !important;
---hover-border-radius: 10px 10px 10px 10px !important;
---avatar-border-radius: 11.5px 11.5px 11.5px 11.5px !important; /* Serverlist Too */
---avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px !important;
---chat-text-border-radius: 12px 12px 12px 12px !important;
-
- /* ROUND THINGS */
---borders-radius: 12px !important;
---borders-radius-right: 6px !important;
---borders-radius-left: 6px !important;
---borders-radius-bottom: 6px !important;
---borders-radius-top: 4px !important;
-
---spotify-right: 1.6em !important;
-/* Watermark */
---watermark-text: "LODE" !important;
---watermark-text-left: 12px !important;
+--watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172) !important;
 
  /* Header Colours Colors */
 --modal-normal-primary-color: #151924 !important;
