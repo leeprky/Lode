@@ -362,18 +362,6 @@
                   To Disable Them
     ----------------------------------------------------  */
 
-/* Spotify Crenshaw Plugin Blur */
-/* https://github.com/Crenshaw1312/SpotifyBackgrounds */
-/*
-.powercord-spotify, .powercord-spotify.hover, .container-3baos1{backdrop-filter: brightness(90%);border-radius: 12px;}
-.header-QKLPzZ, .headerFill-adLl4x {backdrop-filter: blur(var(--album-blur-amount));}
-.headerFill-adLl4x, .header-QKLPzZ {background-color: transparent;}
-.activityUserPopout-2yItg2, .headerTop-3C2Zn0 {backdrop-filter: blur(var(--album-blur-amount));}
-.avatar-SmRMf2.spotify-cover {display: none;}
-.subtext-3CDbHg {color: var(--text-normal)}
-.nameTag-3uD-yy { margin-left: -7px;}
-.container-3baos1 .avatar-SmRMf2 {margin-left: -5px;}
-.nameTag-3uD-yy.canCopy-2VBT7N {margin-left: 0px;}
 /* Windows Bar */
 #app-mount>div[class*=titleBar]>div[class*=wordmark]{margin-top:0rem;margin-left:var(--watermark-text-left)}
 #app-mount>div[class*=titleBar]{display:grid;justify-content:right;grid-template-columns:min-content min-content min-content;direction:rtl;height:1.72rem;margin:5px 0 0 0;margin-right:var(--win-right)}
@@ -385,31 +373,9 @@
 .titleBar-AC4pGV>:nth-child(3):hover{background-color:var(--win-minimise-color)}
 .titleBar-AC4pGV>:nth-child(4):hover{background-color:var(--win-maximise-color)}
 
-/* Linux Fix */
-
 /* --- */
+
 .withFrame-haYltI {margin-top: 10px;}
-/* Settings Modal Under Channels Into Server List */
-.spotify-buttons{width:6em;margin-bottom:-4px}
-.spotify-extra-controls,.spotify-seek-elements{display:none!important}
-.powercord-spotify,.powercord-spotify.hover{height:57px}
-.powercord-spotify.hover .spotify-extra-controls+.spotify-seek{margin-top:3px!important}
-.powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar{height:2px}
-.spotify-seek-bar-cursor{border:none!important;width:15px;height:15px}
-.spotify-title div:first-child{margin-top:-1px!important;margin-bottom:3px}
-.powercord-spotify{background-position-x:center;background-position-y:center;border-radius:var(--borders-radius);background-image:var(--spotify-background-image);background-position:center;z-index:1;background-size:cover}
-.avatar-SmRMf2 .spotify-cover{display:none}
-.panels-j1Uci_{transition:height .5s;z-index:902;position:fixed;right:var(--spotify-right);bottom:5em;border-radius:1em!important;width:240px}
-.bannerImage-3KhIJ6{opacity:1;transition:opacity .5s}
-.membersWrap-2h-GB4{background-color:var(--background-secondary);height:calc(100% - 160px);transition:height .5s;border-radius:var(--borders-radius);position:absolute;right:1em;top:.5em;overflow:hidden}
-.chatContent-a9vAAp{position:absolute;width:100%;height:100%}
-.divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 290px)}
-.container-2fRDfG{width:calc(100% - 260px)}
-.message-2qnXI6[role=listitem]{width:calc(100% - 365px);border-radius:1em}
-.searchResultsWrap-3-pOjs{z-index:903;height:calc(100% - 100px);position:absolute;right:1em;border-radius:1em}
-.container-3baos1 .noWrap-3jynv6{width:100px;opacity:1}
-.button-14-BFJ{transition:.2s}
-.button-14-BFJ:hover{padding-bottom:0;transition:.2}
 
 /* Horizontal Modals OPTION*/
 /*
@@ -420,21 +386,12 @@
 .header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
 .header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
 .user-details-center{text-align:center;margin-bottom:5px}
-/* Spotify Plugin Default Blur */
 
 /* --- */
 /* Optionals End */
 /* ----- */
 
-    /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
-    .panels-j1Uci_{position:fixed !important;z-index:3}
-    .panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;backdrop-filter:blur(var(--album-blur-amount))}
-    [style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
-    [style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
-    .panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
-
-    /* Member Dot */
-    .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
+.unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
 
     /* Positioning */
 .form-2fGMdU{margin-right: 255px}
