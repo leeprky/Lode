@@ -1,6 +1,6 @@
 /*  ------------------------------------------
                   Lode Source
-                     v1.0.3
+                     v1.0.4
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -938,3 +938,25 @@ div[class*="tipTitle-"]:after {
     .label-22pbtT {
       margin-left: 30px;
     }
+/* Settings Modal Under Channels Into Server List */
+.spotify-buttons{width:6em;margin-bottom:-4px}
+.spotify-extra-controls,.spotify-seek-elements{display:none!important}
+.powercord-spotify,.powercord-spotify.hover{height:57px}
+.powercord-spotify.hover .spotify-extra-controls+.spotify-seek{margin-top:3px!important}
+.powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar{height:2px}
+.spotify-seek-bar-cursor{border:none!important;width:15px;height:15px}
+.spotify-title div:first-child{margin-top:-1px!important;margin-bottom:3px}
+.powercord-spotify{background-position-x:center;background-position-y:center;border-radius:var(--borders-radius);background-image:var(--spotify-background-image);background-position:center;z-index:1;background-size:cover}
+.avatar-SmRMf2 .spotify-cover{display:none}
+.panels-j1Uci_{transition:height .5s;z-index:902;position:fixed;right:var(--spotify-right);bottom:5em;border-radius:1em!important;width:240px}
+.bannerImage-3KhIJ6{opacity:1;transition:opacity .5s}
+.membersWrap-2h-GB4{background-color:var(--background-secondary);height:calc(100% - 160px);transition:height .5s;border-radius:var(--borders-radius);position:absolute;right:1em;top:.5em;overflow:hidden}
+.chatContent-a9vAAp{position:absolute;width:100%;height:100%}
+.divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 290px)}
+.container-2fRDfG{width:calc(100% - 260px)}
+.message-2qnXI6[role=listitem]{width:calc(100% - 365px);border-radius:1em}
+.searchResultsWrap-3-pOjs{z-index:903;height:calc(100% - 100px);position:absolute;right:1em;border-radius:1em}
+.container-3baos1 .noWrap-3jynv6{width:100px;opacity:1}
+.button-14-BFJ{transition:.2s}
+.button-14-BFJ:hover{padding-bottom:0;transition:.2}
+
