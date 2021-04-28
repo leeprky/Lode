@@ -960,3 +960,5 @@ div[class*="tipTitle-"]:after {
 .button-14-BFJ{transition:.2s}
 .button-14-BFJ:hover{padding-bottom:0;transition:.2}
 
+/* Fix Search Window */
+.searchResultsWrap-3-pOjs { right: unset; width: calc(100% - 15px); margin-left: 0.5em}
