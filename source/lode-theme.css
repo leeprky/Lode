@@ -752,7 +752,7 @@ div[class*="tipTitle-"]:after {
     width: 0;
 }
 #app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after {
-    content: "LODE";
+    content: var(--watermark-text);
     position: absolute;
     font-family: Discord;
     background: linear-gradient(var(--watermark-gradient));
