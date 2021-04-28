@@ -2,61 +2,13 @@
 .theme-dark {
         
   /* Lode Specific */
+--bd-color:  #c5536c;
+--bd-color-hover:  #c5536c;
 --alt-color: 197, 83, 108 !important; /* RGB */
 --alt-color2: #c5536c !important; /* HEX */
-/* --greenple-color: 0, 0, 0 !important; */
 
-/* Other */
---scrollbars: none !important; /* none or unset */
---call-bg: url(https://i.imgur.com/7QJkSkJ.png) !important; /* None To Disable */
---call-bg-colour: var(--background-accent) !important; /* Image Overwrites */
-
-  /* Spotify Crenshaw Plugin */
---album-blur-amount: 2px !important;
---subtext-color: #000 !important;
-
-  /* Keeping Consistancy With Discord */ 
---serverlist-secondary: var(--background-tertiary) !important;
---memberlist-background: #5e3640 !important;
---win-titlebar: var(--background-tertiary) !important;
-
-  /* Making Things Round */ /* Four Numbers = Four Corners */
---modal-border-radius: 15px 15px 15px 15px !important;
---floating-border-radius: 15px 15px 15px 15px !important;
---expanded-border-radius: 15px 15px 15px 15px !important;
---hover-border-radius: 10px 10px 10px 10px !important;
---avatar-border-radius: 11.5px 11.5px 11.5px 11.5px !important; /* Serverlist Too */
---avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px !important;
---chat-text-border-radius: 12px 12px 12px 12px !important;
-
- /* ROUND THINGS */
---borders-radius: 12px !important;
---borders-radius-right: 6px !important;
---borders-radius-left: 8px !important;
---borders-radius-bottom: 8px !important;
---borders-radius-top: 2px !important;
-
---titlebar-borders-radius: 12px !important;
---titlebar-borders-radius-right: 12px !important;
---titlebar-borders-radius-left: 8px !important;
---titlebar-borders-radius-bottom: 10px !important;
---titlebar-borders-radius-top: 8px !important;
-        
---chatbox-border-radius: 22px !important;
-
---spotify-right: 1.7rem !important;
-
-/* Watermark */
---watermark-text: "LODE" !important;
---watermark-text-top: 14px !important;
---watermark-text-left: 3.4rem !important;
 --watermark-gradient: 270deg, #9b77da, #8ea6fc !important;
-
---win-minimise-color: #48c048b9 !important;
---win-maximise-color: var(--background-secondary) !important;
---win-close-color: #ec0c0c9d !important;
---win-right: 14px !important;
-
+       
  /* Header Colours Colors */
 --modal-normal-primary-color: #151924 !important;
 --modal-normal-secondary-color: #252B3B !important;
@@ -67,12 +19,6 @@
  /* Header Colors */
 --header-primary: var(--text-normal) !important;
 --header-secondary: #c9c9c9 !important;
-
- /* Powercord Toast Colors */
- --toast-background: #5e3640 !important;
- --toast-header: #3b1d24 !important;
- --toast-contents: #49292f !important;
- --toast-border: #49292f !important;
 
  /* Text Colours */
 --text-normal: #fbfbfb !important;
