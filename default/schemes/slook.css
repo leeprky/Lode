@@ -12,6 +12,8 @@
 --green-slider-off: #19d5e280 !important;
 --green-slider-dot: #fff !important;
 
+--watermark-gradient: 270deg, rgb(0, 140, 103), rgb(80, 204, 253) !important;
+        
  /* Text Colours */
  --text-normal: #dcddde !important;
  --text-muted: #72767d !important;
