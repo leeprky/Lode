@@ -494,3 +494,6 @@
                   THIS IS FOR DEBUGGING ETC
                          v1.0.3 (Lode)
     ----------------------------------------------------  */
+
+/* Fix Search Window */
+.searchResultsWrap-3-pOjs { right: unset; width: calc(100% - 15px); margin-left: 0.5em}
