@@ -106,7 +106,6 @@ Addons Used In Lode:
 - **[Tropical](https://github.com/Tropix126)** | [USRBG](https://github.com/Discord-Custom-Covers/usrbg).
 - **[NYRI4](https://github.com/NYRI4)** | [Discolored](https://github.com/NYRI4/Discolored).
 - **[snappercord](https://github.com/snappercord)** | [Settings-Icons](https://github.com/snappercord/Settings-Icons).
-- **[snappercord](https://github.com/v-briese)** | [Settings-Icons](https://github.com/snappercord/Settings-Icons).
 
 Snippits Taken From These Themes:
 - **[Luckfire](https://github.com/Luckfire)** | [LuckfireGradientButtons](https://raw.githack.com/leeprky/Lode/main/default/support/gradients/luckfiregradientbuttons.css) | [MidnightMars](https://github.com/LuckFire/midnight-mars).
