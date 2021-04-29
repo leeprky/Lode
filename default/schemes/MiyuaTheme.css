@@ -1,1 +1,187 @@
-/* Placehold */
+:root {
+
+    /* Gradients */
+    --default-gradient: 315deg, #c90f5a 0%, #b61052 74%!important;
+    --special-gradient: 315deg, #8980F0 0%, #D577F0 74%!important;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74%!important;
+    --yellow-gradient: 315deg, #C2831B 0%, #FFB740 74%!important;
+    --green-gradient: 315deg, #58d38b 0%, #58d38b 74%!important;
+    --grey-gradient: 315deg, #203A43 0%, #28434d 74%!important;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%!important;
+    /* Transitions */
+    --font-normal: 500!important;
+    --font-hover: bold!important;
+    --font-size-hover: 15px!important;
+    --hover-transition: 0.1s linear!important;
+    --transform-normal: scale(1)!important;
+    --hover-transform: scale(1.15)!important;
+    --setting-hover-transform: scale(1.025)!important;
+    --button-hover-transform: scale(1.03)!important;
+
+    /* Radial Status */
+    --rs-small-spacing: 0px!important;  /* Spacing between avatar and status | MUST end in px */
+    --rs-width: 2px!important;  /* Width/thickness of status border */
+    --rs-avatar-shape: var(--avatar-border-radius)!important;  /* 50% for round - 0% for square */
+    --rs-online-color: var(--alt-color2)!important;  /* Colour for online status */
+    --rs-idle-color: #faa61a!important;  /* Colour for idle status */
+    --rs-dnd-color: #f04747!important;  /* Colour for dnd status */
+    --rs-offline-color: #636b75!important;  /* Colour for offline status */
+    --rs-streaming-color: #643da7!important;  /* Colour for streaming status */
+    --rs-invisible-color: #747f8d!important;  /* Colour for invisible status - Note: this will only show for your own invisibility */
+    --rs-phone-visible: block!important; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+    --rs-phone-color: var(--rs-online-color)!important; /* Colour of the ring and phone icon when a user is on their phone |  */
+  }
+
+/* Lode Dark */
+.theme-dark {
+        
+  /* Lode Specific */
+--alt-color: 222, 15, 97 !important; /* RGB */
+--alt-color2: #DE0F61 !important; /* HEX */
+         
+--icons-color: #eef3f2 !important;
+--icons-color-hover: #DE0F61 !important;
+
+--green-color: #DE0F61 !important;
+--green-bar-on: var(--green-color) !important;
+--green-bar-bg: #323142 !important;
+--green-slider-on: var(--green-color) !important;
+--green-slider-off: #c41058 !important;
+--green-slider-dot: #fff !important;
+
+/* Other */
+--scrollbars: none !important; /* none or unset */
+--call-bg: url(https://i.imgur.com/7QJkSkJ.png) !important; /* None To Disable */
+--call-bg-colour: var(--background-accent) !important; /* Image Overwrites */
+
+  /* Spotify Crenshaw Plugin */
+--album-blur-amount: 4px !important;
+--subtext-color: #000 !important;
+
+  /* Keeping Consistancy With Discord */ 
+--memberlist-background: #1E1D29 !important;
+--background-accent: #DE0F61;
+
+/* Watermark */
+--watermark-gradient: 270deg, #c02086, rgb(250, 149, 162) !important;
+
+ /* Header Colours Colors */
+--modal-normal-primary-color: var(--background-secondary) !important;
+--modal-normal-secondary-color: var(--background-secondary) !important;
+--spotify-color: var(--alt-color2) !important;
+--playing-color: var(--alt-color2) !important;
+--streaming-color: #4d2b86 !important;
+
+ /* Mentioned  Colours */
+ --background-mentioned: rgba(250, 26, 101, 0.05) !important;
+ --background-mentioned-hover: rgba(250, 26, 101, 0.08) !important;
+ --background-mentioned-bar: var(--background-accent) !important;
+
+ /* Chat */
+--channeltextarea-background: var(--background-primary) !important;
+--channeltextarea-background-hover: var(--background-secondary) !important;
+
+--background-mentioned-bar: var(--background-accent) !important;
+
+}
+
+:root{
+ 
+  /* Dark Mode Base Colors (you can easily change the colors of the dark theme below)*/ 
+  
+  --Dark_Background_001:#1E1D29!important; /* Main background color for stuff like chat in dark mode*/
+  --Dark_Background_002:#1A1822!important; /* Secondary background color for stuff like channel list and member drawer in dark mode */
+  --Dark_Background_003:#121216!important; /* Dark background color of the theme in dark mode*/
+  --Dark_Transparent_001: #1A1822EF!important;
+  --Dark_Transparent_002: #12121683!important;
+  
+  /* Light Mode Base Colors (you can easily change the colors of the light theme below)*/
+  
+  --Light_Background_001: #e6e6e6!important;  /* Main background color for stuff like chat in light mode */
+  --Light_Background_002: #d4d0ff!important;  /* Secondary background color for stuff like channel list and member drawer in light mode */
+  --Light_Background_003: #c0c0e9!important;   /* Dark background color of the theme in dark mode*/
+  
+  
+  
+  /* Main Accent Colors of the theme (you can easily change the accent colors here */
+  
+  --Accent_001: #AA6DA3!important;    /* Secondary accent color of the theme */
+  --Accent_002: #AA6DA346!important;
+  --Accent_003: #AA6DA315!important;
+  
+  --Accent_004: #DE0F61!important;    /* Main accent color of the theme */
+  --Accent_005: #DE0F6146!important;
+  --Accent_006: #de0f6215!important;
+  
+  --Accent_007: #DB8736!important;    /* Third  accent color of the theme */
+  --Accent_008: #DB873646!important;
+  --Accent_009: #DB873615!important;
+  
+  
+  /* Spotify Color of the theme (you can easily change the color of spotify stuff here) */
+  
+  --spotify-color: var(--Accent_004) !important; 
+  
+  }
+  
+  
+  
+  
+  
+  /* Applying The Dark Mode Base Colors To Discord's Dark Mode */
+  .theme-dark {
+  --background-primary: var(--Dark_Background_001);
+  --background-secondary: var(--Dark_Background_002);
+  --background-tertiary:  var(--Dark_Background_002);
+  --background-secondary-alt: var(--Dark_Background_002);
+  --background-accent: var(--Dark_Background_003);
+  --channeltextarea-background: var(--Dark_Background_002); 
+  --scrollbar-thin-thumb: var(--Dark_Background_003 );
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: var(--Dark_Background_003);
+  --scrollbar-auto-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: var(--Dark_Background_003);
+  --scrollbar-auto-scrollbar-color-track: var(--Dark_Background_002);
+  --background-message-hover: var(--Accent_003);
+  --activity-card-background: var(--Accent_004);
+  --toast-header: var(--Dark_Background_003);
+  --toast-contents: var(--Dark_Background_002);
+  --toast-background: var(--Dark_Background_002);
+  --deprecated-quickswitcher-input-background: var(--Dark_Background_003);
+  --background-modifier-selected: var(--Accent_002) !important; 
+  --background-modifier-hover: var(--Accent_003);
+  --background-modifier-active: var(--Accent_003);
+  --background-floating: var(--Dark_Background_001);
+  --deprecated-store-bg: var(--Dark_Background_001);
+  }
+  
+  
+  
+  
+  
+  
+  /* Applying The Light Mode Base Colors To Discord's Light Mode */
+  .theme-light {
+    --background-primary: var(--Light_Background_001);
+    --background-secondary: var(--Light_Background_002);
+    --background-tertiary: var(--Light_Background_002);
+    --background-secondary-alt: var(--Accent_001);
+    --background-accent: var(--Light_Background_003);
+    --channeltextarea-background: var(--Light_Background_002); 
+    --scrollbar-thin-thumb: var(--Light_Background_003);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--Light_Background_003);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: var(--Light_Background_003);
+    --scrollbar-auto-scrollbar-color-track: var(--Light_Background_002);
+    --background-message-hover: var(--Accent_003);
+    --toast-header: var(--Light_Background_003);
+    --toast-contents: var(--Light_Background_002);
+    --toast-background: var(--Light_Background_002);
+    --deprecated-quickswitcher-input-background: var(--Light_Background_003);
+    --background-modifier-selected: var(--Accent_002); 
+    --background-modifier-hover: var(--Accent_003);
+    --background-modifier-active: var(--Accent_002);
+    --background-floating: var(--Light_Background_001);
+    --deprecated-store-bg: var(--Light_Background_001);
+  } 
