@@ -51,7 +51,7 @@
 --background-message-hover: transparent!important;
 
  /* Mentioned  Colours */
---background-mentioned: rgba(9, 119, 92, 0.281) !important;
+--background-mentioned: rgba(9, 119, 92, 0.075) !important;
 --background-mentioned-hover: rgba(9, 119, 92, 0.616) !important;
 --background-mentioned-bar: var(--background-accent) !important;
 
