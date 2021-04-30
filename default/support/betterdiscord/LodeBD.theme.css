@@ -34,6 +34,50 @@
 /* Disable if you cant see them in top right (windows) */
 @import url(https://raw.githack.com/leeprky/Lode/main/default/support/win-buttons/win-buttons.css);
 
+/*  ------------------------------------------
+          Lode Customisable Configuration
+                     v1.0.5
+                - leeprky#2063 -
+    ------------------------------------------  */
+
+/* Lode Colour Schemes */
+
+/* Citric (Yellow & Green / Blue Colour */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/citris.css); 
+
+/* Crimson ( Maroon )*/
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/crimson.css);
+
+/* Pre-Made Colour Schemes */
+
+/* naive */
+/* @import url(https://raw.githack.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
+/* slook */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/slook.css); 
+
+/* Other User's Themes */
+
+/* midnight mars by #Luckfire */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/MidnightMars.css); 
+/* Nebula */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/nebula.css); 
+/* DuvBox */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/duvbox.css); 
+/* LilyPichu */ 
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/LilyPichu.css);
+/* Fey-Theme */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/fey.css); 
+/* Miyua */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/MiyuaTheme.css);
+/* Neptune */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/neptune.css); 
+/* Midnightcord */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/midnightcord.css); 
+/* CTP */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/ctp.css);
+
+/* -- */
+
 /*
 USRBG Profile Modals by Tropix126.
 =========================================== */
@@ -92,50 +136,6 @@ USRBG Popouts by Tropix126.
 .userPopout-3XzG_A  .footer-1fjuF6 {
 	z-index: 1;
 }
-
-/*  ------------------------------------------
-          Lode Customisable Configuration
-                     v1.0.5
-                - leeprky#2063 -
-    ------------------------------------------  */
-
-/* Lode Colour Schemes */
-
-/* Citric (Yellow & Green / Blue Colour */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/citris.css); 
-
-/* Crimson ( Maroon )*/
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/crimson.css);
-
-/* Pre-Made Colour Schemes */
-
-/* naive */
-/* @import url(https://raw.githack.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
-/* slook */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/slook.css); 
-
-/* Other User's Themes */
-
-/* midnight mars by #Luckfire */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/MidnightMars.css); 
-/* Nebula */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/nebula.css); 
-/* DuvBox */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/duvbox.css); 
-/* LilyPichu */ 
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/LilyPichu.css);
-/* Fey-Theme */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/fey.css); 
-/* Miyua */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/MiyuaTheme.css);
-/* Neptune */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/neptune.css); 
-/* Midnightcord */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/midnightcord.css); 
-/* CTP */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/ctp.css);
-
-/* -- */
 
 #app-mount {background-color: var(--background-tertiary);}
 
