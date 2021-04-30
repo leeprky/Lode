@@ -3,18 +3,18 @@
         
   /* Lode Specific */
 --alt-color: 9, 119, 91 !important; /* RGB */
---alt-color2: #09775B!important; /* HEX */
+--alt-color2: #09775B !important; /* HEX */
          
---icons-color: #eef3f2;!important;
---icons-color-hover: #09775B!important;
+--icons-color: #eef3f2 !important;
+--icons-color-hover: #09775B !important;
 
---yellow-color: #09775B!important;
---green-color: #09775B!important;
---green-bar-on: var(--green-color)!important;
---green-bar-bg: #151925!important;
---green-slider-on: var(--green-color)!important;
---green-slider-off: #2ffddb80!important;
---green-slider-dot: #fff!important;
+--yellow-color: #09775B !important;
+--green-color: #09775B !important;
+--green-bar-on: var(--green-color) !important;
+--green-bar-bg: #151925 !important;
+--green-slider-on: var(--green-color) !important;
+--green-slider-off: #2ffddb80 !important;
+--green-slider-dot: #fff !important;
 
 --watermark-gradient: 270deg, rgb(9, 119, 91), rgb(37, 179, 79) !important;
         
