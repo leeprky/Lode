@@ -1,18 +1,22 @@
-/* Lode SLOOK Dark */
+/* Lode SLOOK */
 .theme-dark {
         
   /* Lode Specific */
---alt-color: 0, 140, 103 !important; /* RGB */
---alt-color2: #008C67 !important; /* HEX */
+--alt-color: 9, 119, 91 !important; /* RGB */
+--alt-color2: #09775B!important; /* HEX */
+         
+--icons-color: #eef3f2;!important;
+--icons-color-hover: #09775B!important;
 
---green-color: #4aac8f !important;
---green-bar-on: var(--green-color) !important;
---green-bar-bg: #151925 !important;
---green-slider-on: var(--green-color) !important;
---green-slider-off: #19d5e280 !important;
---green-slider-dot: #fff !important;
+--yellow-color: #09775B!important;
+--green-color: #09775B!important;
+--green-bar-on: var(--green-color)!important;
+--green-bar-bg: #151925!important;
+--green-slider-on: var(--green-color)!important;
+--green-slider-off: #2ffddb80!important;
+--green-slider-dot: #fff!important;
 
---watermark-gradient: 270deg, rgb(0, 140, 103), rgb(80, 204, 253) !important;
+--watermark-gradient: 270deg, rgb(9, 119, 91), rgb(37, 179, 79) !important;
         
  /* Text Colours */
  --text-normal: #dcddde !important;
@@ -31,25 +35,25 @@
  /* Background Colours */
  --background-primary: #24262b !important;
  --background-primary-alt: #24262b !important;
- --background-secondary: #1d1f22ad !important;
- --background-secondary-alt: #1d1f22ad !important;
+ --background-secondary: #1d1f22 !important;
+ --background-secondary-alt: #1d1f22 !important;
  --background-tertiary: #2f3236 !important;
  --background-accent: #1e1f20 !important;
- --background-floating: #18191caf !important;
+ --background-floating: #18191c !important;
 --background-accent-gradient: var(--alt-color2) !important;
 --background-floating: #2b3341 !important;
 
  /* Hovering Colours */
- --background-modifier-hover: rgba(79,84,92,0.16) !important;
- --background-modifier-active: rgba(79,84,92,0.24) !important;
- --background-modifier-selected: rgba(14, 15, 15, 0.32) !important;
- --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
---background-message-hover: transparent !important;
+--background-modifier-hover: rgba(9, 119, 92, 0.411)!important;
+--background-modifier-active: rgba(9, 119, 92, 0.678)!important;
+--background-modifier-selected: rgba(9, 119, 92, 0.521)!important;
+--background-modifier-accent: rgba(9, 119, 92, 0.123)!important;
+--background-message-hover: transparent!important;
 
  /* Mentioned  Colours */
- --background-mentioned: rgba(89, 250, 26, 0.055) !important;
- --background-mentioned-hover: rgba(58, 180, 20, 0.08) !important;
---background-mentioned-bar: var(--background-accent) !important;
+--background-mentioned: rgb(9, 119, 91)!important;
+--background-mentioned-hover: rgb(9, 119, 91)!important;
+--background-mentioned-bar: var(--background-accent)!important;
 
  /* Scrollbar Colours */
 --scrollbar-thin-thumb: rgba(56, 168, 140, 0.397) !important;
