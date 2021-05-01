@@ -545,7 +545,19 @@ USRBG Popouts by Tropix126.
 .header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
 .header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
 .user-details-center{text-align:center;margin-bottom:5px}
-/* Spotify Plugin Default Blur */
+
+/* Modal Avatar Size */
+    .footer-1fjuF6{padding-bottom:17.5px;margin-top:-15px}
+    .bodyTitle-Y0qMQz{display:none}
+    .bodyInnerWrapper-Z8WDxe:before{content:"Roles";font-weight:700;font-size:16px;margin-left:85px;color:var(--header-secondary)}
+    .headerTop-3C2Zn0{min-height:250px;padding:0}
+    .headerTop-3C2Zn0 .avatarWrapper-3H_478{left:0;bottom:9px;top:-15px;width:255px}
+    .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA{height:260px!important;width:250px!important;left:-4px}
+    .avatarHint-1qgaV3{width:100%;height:100%;border-radius:0}
+    .avatarHintInner-Dco91E{font-size:.4em;text-shadow:1px 1px 3px #ddd}
+    .headerTop-3C2Zn0 foreignObject{mask:none!important}
+    .headerTop-3C2Zn0 rect{border-radius:0;x:0;y:79.25;width:80px;height:3px;mask:none}
+    .headerText-2sdzFM{padding-bottom:5px}
 
 /* --- */
 /* Optionals End */
