@@ -220,3 +220,5 @@
     .button-14-BFJ:hover{padding-bottom:0;transition:.2}
     .container-1a3EgQ{margin-left:var(--borders-radius-left);right:var(--borders-radius-right);border-radius:var(--borders-radius);margin-bottom:var(--borders-radius-bottom);margin-top:var(--borders-radius-top)}
     .searchResultsWrap-3-pOjs{right:unset;width:calc(100% - 15px);margin-left:.5em}
+   .jumpToPresentBar-G1R9s6 { bottom: 12px; border-radius: var(--hover-border-radius); opacity: .85; padding-bottom: 1px;}
+   .newMessagesBar-265mhP { top: 2px; border-radius: var(--hover-border-radius); opacity: .85; padding-bottom: 1px; }
