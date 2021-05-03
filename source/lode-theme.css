@@ -146,7 +146,8 @@
     .wrapper-2qzCYF.minimum-28Z35l{background-image:var(--call-bg);background-color:var(--call-bg-color);background-position:center;background-size:cover;border-radius:12px;margin-left:12px;margin-right:18px;margin-top:12px}
     .icon-22AiRD{color:var(--text-normal)}
     .root-217Brm{background-image:var(--call-bg);background-position:center;background-size:cover;border-radius:12px}
-    .callContainer-36WRfH,.wrapper-2qzCYF.normal-1oavYI{right:18px;margin-left:9px}
+    .callContainer-36WRfH, .wrapper-2qzCYF.normal-1oavYI {right: 0px; ;margin-left: 0px;}
+    .videoControls-24w7Xp {margin-left: 0px;}
     .quickSelectLabel-2r3iJ_{display:none}
     @keyframes Gradient { 0%{background-position:0 50%} 50%{background-position:100% 50%} 100%{background-position:0 50%} }
     #app-mount .titleBar-AC4pGV{z-index:5;background-color:var(--background-secondary);border-radius:var(--titlebar-borders-radius)!important;margin-top:var(--titlebar-borders-radius-top)!important;margin-bottom:var(--titlebar-borders-radius-bottom)!important;margin-right:var(--titlebar-borders-radius-right)!important;margin-left:var(--titlebar-borders-radius-left)!important;padding-top:0}
