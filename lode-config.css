@@ -211,7 +211,7 @@ USRBG Popouts by Tropix126.
 
 /* Other */
 --scrollbars: none; /* none or unset */
---call-bg: url(https://i.imgur.com/iCMBq4x.jpg); /* None To Disable */
+--call-bg: url(); /* None To Disable */
 --call-bg-colour: var(--background-accent); /* Image Overwrites */
 
   /* Spotify Crenshaw Plugin */
