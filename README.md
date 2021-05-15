@@ -1,5 +1,5 @@
 # Lode
-A Easy to customise bubbily discord theme with lots of **customisation/flexability** to adjust to your likings.
+An easy-to-customize bubbly discord theme with lots of **customization/flexibility** to adjust to your likings.
 
 ![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/PreviewEdit.jpg)
 
