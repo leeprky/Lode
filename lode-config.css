@@ -1,11 +1,11 @@
 /*  ------------------------------------------
          Lode Theme (POWERCORD/GOOSEMOD)
-                     v1.0.6
+                     v1.0.7
                 - leeprky#2063 -
     ------------------------------------------  */
 
 /* Lode Base Source Code */
-@import url(https://raw.githack.com/leeprky/Lode/main/source/lode-theme.css);
+@import url(https://leeprky.github.io/themes/lode/lode-theme.css);
 
 /* Other Imports */
 
@@ -15,13 +15,13 @@
 
 /* Optional Imports */
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
-@import url(https://raw.githack.com/leeprky/Lode/main/default/support/gradients/luckfiregradientbuttons.css);
-@import url(https://raw.githack.com/leeprky/Lode/main/default/support/dtm/svg.css); /*
+@import url(https://leeprky.github.io/themes/lode/default/support/gradients);
+@import url(https://leeprky.github.io/themes/lode/default/support/dtm/svg.css); /*
 @import url(https://raw.githack.com/leeprky/Lode/main/default/support/radial/radiusstatus.css);
 
 /* Titlebar */
 /* Disable if you cant see them in top right (windows) */
-@import url(https://raw.githack.com/leeprky/Lode/main/default/support/win-buttons/win-buttons.css);
+@import url(https://leeprky.github.io/themes/themes/lode/default/support/win-buttons/win-buttons.css);
 
 /*  ----------------------------
          GLASSCORD SUPPORT
@@ -46,7 +46,7 @@
 
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.0.6
+                     v1.0.7
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -251,7 +251,7 @@ USRBG Popouts by Tropix126.
 
 /* Watermark */
 --watermark-text: "LODE";
---watermark-version: "v1.0.6";
+--watermark-version: "v1.0.7";
 --watermark-text-top: 14px;
 --watermark-text-left: 3.4rem;
 --watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
@@ -586,5 +586,5 @@ USRBG Popouts by Tropix126.
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0.6 (Lode)
+                         v1.0.7 (Lode)
     ----------------------------------------------------  */
