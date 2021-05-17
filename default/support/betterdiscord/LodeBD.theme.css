@@ -15,10 +15,9 @@
     ------------------------------------------  */
 
 /* Lode Base Source Code */
-@import url(https://raw.githack.com/leeprky/Lode/main/source/lode-theme.css);
+@import url(https://leeprky.github.io/themes/lode/lode-theme.css);
 
 /* Other Imports */
-@import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 
 /* Visuals */
 @import url(https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css);
@@ -26,13 +25,13 @@
 
 /* Optional Imports */
 /* @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css); */
-@import url(https://raw.githack.com/leeprky/Lode/main/default/support/gradients/luckfiregradientbuttons.css);
-@import url(https://raw.githack.com/leeprky/Lode/main/default/support/dtm/svg.css); /*
+@import url(https://leeprky.github.io/themes/lode/default/support/gradients);
+@import url(https://leeprky.github.io/themes/lode/default/support/dtm/svg.css); /*
 @import url(https://raw.githack.com/leeprky/Lode/main/default/support/radial/radiusstatus.css);
 
 /* Titlebar */
 /* Disable if you cant see them in top right (windows) */
-@import url(https://raw.githack.com/leeprky/Lode/main/default/support/win-buttons/win-buttons.css);
+@import url(https://leeprky.github.io/themes/lode/default/support/win-buttons/win-buttons.css);
 
 /*  ------------------------------------------
           Lode Customisable Configuration
