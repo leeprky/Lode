@@ -1,11 +1,11 @@
 /*  ------------------------------------------
                   Lode Source
-                     v1.0.4
+                     v1.0.7
                 - leeprky#2063 -
     ------------------------------------------  */
 
 /* My Base Imports */
-@import "https://raw.githack.com/leeprky/Lode/main/source/extra-variables.css";
+@import url("https://leeprky.github.io/themes/lode/extra-variables.css");
 
     ::-webkit-scrollbar{display:var(--scrollbars)}
     .avatar-1BDn8e.clickable-1bVtEA{width:48px;height:48px;left:12px}
