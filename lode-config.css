@@ -1,11 +1,17 @@
 /*  ------------------------------------------
          Lode Theme (POWERCORD/GOOSEMOD)
-                     v1.0.7
+                     v1.0.8
                 - leeprky#2063 -
     ------------------------------------------  */
 
 /* Lode Base Source Code */
 @import url(https://leeprky.github.io/themes/lode/lode-theme.css);
+
+/* Rebrand Imports */
+/* 
+@import url(https://leeprky.github.io/themes/lode/rebrand/modal.css);
+*/
+
 
 /* Other Imports */
 
@@ -190,6 +196,32 @@ USRBG Popouts by Tropix126.
 
 /* Lode Dark */
 .theme-dark {
+
+  /* DiscordRebrand */
+  --profile-banner-header: var(--alt-color2);
+
+  --text-warning: var(--yellow-color);
+  --text-danger: #ed4245;
+  --info-positive-background: rgba(59,165,92,0.1);
+  --info-positive-foreground: var(--green-color);
+  --info-warning-background: rgba(250,166,26,0.1);
+  --info-warning-foreground: var(--yellow-color);
+  --info-danger-background: rgba(237,66,69,0.1);
+  --info-danger-foreground: #ed4245;
+  --status-positive-background: var(--green-color);
+  --status-positive-text: #fff;
+  --status-warning-background: var(--yellow-color);
+  --status-danger-background: #ed4245;
+  --status-danger-text: #fff;
+  --focus-primary: var(--alt-color2);
+
+  --settings-icon-color: white;
+  --settings-subscriptions: var(--alt-color2);
+  --settings-hypesquad: var(--yellow-color);
+  --settings-logout: #f04747;
+  --settings-alt-focused: white;
+  --settings-guild-premium: var(--alt-color2);
+  --settings-guild-delete: #f04747;
         
   /* Lode Specific */
 --alt-color: 56, 168, 151; /* RGB */
@@ -251,7 +283,7 @@ USRBG Popouts by Tropix126.
 
 /* Watermark */
 --watermark-text: "LODE";
---watermark-version: "v1.0.7";
+--watermark-version: "v1.0.8";
 --watermark-text-top: 14px;
 --watermark-text-left: 3.4rem;
 --watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
@@ -336,6 +368,32 @@ USRBG Popouts by Tropix126.
 
 .theme-light {
         
+    /* DiscordRebrand */
+    --profile-banner-header: var(--alt-color2);
+
+    --text-warning: #faa61a;
+    --text-danger: #ed4245;
+    --info-positive-background: rgba(59,165,92,0.1);
+    --info-positive-foreground: #3ba55c;
+    --info-warning-background: rgba(250,166,26,0.1);
+    --info-warning-foreground: #faa61a;
+    --info-danger-background: rgba(237,66,69,0.1);
+    --info-danger-foreground: #ed4245;
+    --status-positive-background: #3ba55c;
+    --status-positive-text: #fff;
+    --status-warning-background: #faa61a;
+    --status-danger-background: #ed4245;
+    --status-danger-text: #fff;
+    --focus-primary: #00b0f4;
+  
+    --settings-icon-color: white;
+    --settings-subscriptions: #7289da;
+    --settings-hypesquad: #fbb848;
+    --settings-logout: #f04747;
+    --settings-alt-focused: white;
+    --settings-guild-premium: #7289da;
+    --settings-guild-delete: #f04747;
+
   /* Lode Specific */
   --alt-color: 83, 182, 167; /* RGB */
   --alt-color2: #53b6a7; /* HEX */
@@ -586,5 +644,46 @@ USRBG Popouts by Tropix126.
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0.7 (Lode)
+                         v1.0.8 (Lode)
     ----------------------------------------------------  */
+
+    .profileBanner-j34RzR {
+      height: 80px;
+      background-color: var(--profile-banner-header) !important;
+      border-radius: var(--borders-radius);
+      margin-top: var(--borders-radius-top);
+      margin-bottom: var(--borders-radius-bottom);
+      margin-left: var(--borders-radius-left);
+      margin-right: var(--borders-radius-right);
+  }
+
+  .headerTop-2y3V6H {
+    background-color: transparent;
+    margin-top: -15px;
+  }
+  .avatarPositionNormal-1CZUPk {
+    top: 35px;
+    margin-left: 10px;
+}
+.profileBadges-1dm1_q, .spinner-3YTkt9 {
+  position: absolute;
+  top: 15px;
+  right: 22.5px;
+}
+
+.activity-fViXj7 {
+  background-color: #0202028e;
+  border-radius: var(--borders-radius);
+}
+
+.headerTextNormal-2mGWX3, .body-ZAhrcj {
+  margin-left: 10px;
+}
+.buttonsWrapper-2spIeK {
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
