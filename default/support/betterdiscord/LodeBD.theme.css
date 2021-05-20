@@ -1,21 +1,25 @@
 /**
  * @name LodeTheme
  * @author Leeprky#2063
- * @version 1.0.7
+ * @version 1.0.8
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/lode
 */
 
 /*  ------------------------------------------
-
-            Lode Theme (BETTERDISCORD)
-                      v1.0.7
+         Lode Theme (POWERCORD/GOOSEMOD)
+                     v1.0.8
                 - leeprky#2063 -
-
     ------------------------------------------  */
 
 /* Lode Base Source Code */
 @import url(https://leeprky.github.io/themes/lode/lode-theme.css);
+
+/* Rebrand Imports */
+/* 
+@import url(https://leeprky.github.io/themes/lode/rebrand/modal.css);
+*/
+
 
 /* Other Imports */
 
@@ -35,11 +39,14 @@
 
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.0.7
+                     v1.0.8
                 - leeprky#2063 -
     ------------------------------------------  */
 
-/* Lode Colour Schemes */
+/* Pre-Made Colour Schemes */
+/* if they dont work delete the Lode Dark & Lode Light variables */
+
+/* Made For Lode */ /* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-cyan); - Default */
 
 /* Citric (Yellow & Green / Blue Colour */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/citris.css); 
@@ -47,7 +54,7 @@
 /* Crimson ( Maroon )*/
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/crimson.css);
 
-/* Pre-Made Colour Schemes */
+/* My Other Themes */
 
 /* naive */
 /* @import url(https://raw.githack.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
@@ -62,12 +69,13 @@
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/nebula.css); 
 /* DuvBox */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/duvbox.css); 
+/* Miyua */
+/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/MiyuaTheme.css);
 /* LilyPichu */ 
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/LilyPichu.css);
 /* Fey-Theme */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/fey.css); 
-/* Miyua */
-/* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/MiyuaTheme.css);
+
 /* Neptune */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/neptune.css); 
 /* Midnightcord */
@@ -98,6 +106,7 @@ USRBG Profile Modals by Tropix126.
   background: var(--user-background) center/cover no-repeat;
   -webkit-mask: linear-gradient(black, transparent 80%);
 }
+
 .headerInfo-30uryT,
 .tabBarItem-1b8RUP,
 .activity-1ythUs {
@@ -108,7 +117,6 @@ USRBG Profile Modals by Tropix126.
 /*
 USRBG Popouts by Tropix126.
 =========================================== */
-@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
 .userPopout-3XzG_A {
 	transform:translateZ(0);
@@ -130,6 +138,7 @@ USRBG Popouts by Tropix126.
 	background-image: var(--user-background);
 	-webkit-mask-image: linear-gradient(#000, transparent);
 }
+
 .userPopout-3XzG_A  .header-2BwW8b,
 .userPopout-3XzG_A  .scroller-2FKFPG,
 .userPopout-3XzG_A  .footer-1fjuF6 {
@@ -157,7 +166,7 @@ USRBG Popouts by Tropix126.
     --hover-transform: scale(1.15);
     --setting-hover-transform: scale(1.025);
     --button-hover-transform: scale(1.03);
-            
+
     /* Radial Status */
     --rs-small-spacing: 0px;  /* Spacing between avatar and status | MUST end in px */
     --rs-width: 2px;  /* Width/thickness of status border */
@@ -174,16 +183,41 @@ USRBG Popouts by Tropix126.
 
 /* Lode Dark */
 .theme-dark {
+
+  /* DiscordRebrand */
+  --profile-banner-header: var(--alt-color2);
+
+  --text-warning: var(--yellow-color);
+  --text-danger: #ed4245;
+  --info-positive-background: rgba(59,165,92,0.1);
+  --info-positive-foreground: var(--green-color);
+  --info-warning-background: rgba(250,166,26,0.1);
+  --info-warning-foreground: var(--yellow-color);
+  --info-danger-background: rgba(237,66,69,0.1);
+  --info-danger-foreground: #ed4245;
+  --status-positive-background: var(--green-color);
+  --status-positive-text: #fff;
+  --status-warning-background: var(--yellow-color);
+  --status-danger-background: #ed4245;
+  --status-danger-text: #fff;
+  --focus-primary: var(--alt-color2);
+
+  --settings-icon-color: white;
+  --settings-subscriptions: var(--alt-color2);
+  --settings-hypesquad: var(--yellow-color);
+  --settings-logout: #f04747;
+  --settings-alt-focused: white;
+  --settings-guild-premium: var(--alt-color2);
+  --settings-guild-delete: #f04747;
         
   /* Lode Specific */
---bd-color: #1bb69f;
---bd-color-hover: #16927f;
 --alt-color: 56, 168, 151; /* RGB */
 --alt-color2: #1bb69f; /* HEX */
          
 --icons-color: #eef3f2;
 --icons-color-hover: #1bb69f;
 
+--yellow-color: #1bb69f;
 --green-color: #4aac8f;
 --green-bar-on: var(--green-color);
 --green-bar-bg: #151925;
@@ -196,8 +230,12 @@ USRBG Popouts by Tropix126.
 
 /* Other */
 --scrollbars: none; /* none or unset */
---call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
+--call-bg: url(); /* None To Disable */
 --call-bg-colour: var(--background-accent); /* Image Overwrites */
+
+  /* Spotify Crenshaw Plugin */
+--album-blur-amount: 4px;
+--subtext-color: #000;
 
   /* Keeping Consistancy With Discord */ 
 --serverlist-background: var(--background-tertiary);
@@ -209,12 +247,12 @@ USRBG Popouts by Tropix126.
 --floating-border-radius: 15px 15px 15px 15px;
 --expanded-border-radius: 15px 15px 15px 15px;
 --hover-border-radius: 10px 10px 10px 10px;
---avatar-border-radius: 11.5px; /* Serverlist Top */
+--avatar-border-radius: 11.5px; /* Serverlist Too */
 --avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
 --chat-text-border-radius: 12px 12px 12px 12px;
 
  /* ROUND THINGS */
---borders-radius: 12px;
+--borders-radius: 18px;
 --borders-radius-right: 6px;
 --borders-radius-left: 8px;
 --borders-radius-bottom: 8px;
@@ -232,7 +270,7 @@ USRBG Popouts by Tropix126.
 
 /* Watermark */
 --watermark-text: "LODE";
---watermark-version: "v1.0.7";
+--watermark-version: "v1.0.8";
 --watermark-text-top: 14px;
 --watermark-text-left: 3.4rem;
 --watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
@@ -247,6 +285,14 @@ USRBG Popouts by Tropix126.
  /* Header Colors */
 --header-primary: #EAE1DF;
 --header-secondary: rgb(159, 161, 163);
+
+ /* Powercord Toast Colors */
+--toast-background: var(--background-primary) ;
+--toast-header: var(--background-secondary) ;
+--toast-content: #252B3B ;
+--toast-box-shadow: rgba(24, 21, 21, 0.932) ;
+--toast-border: rgba(21, 22, 22, 0);
+--toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
 --text-normal: #f7f4f4;
@@ -309,15 +355,36 @@ USRBG Popouts by Tropix126.
 
 .theme-light {
         
+    /* DiscordRebrand */
+    --profile-banner-header: var(--alt-color2);
+
+    --text-warning: #faa61a;
+    --text-danger: #ed4245;
+    --info-positive-background: rgba(59,165,92,0.1);
+    --info-positive-foreground: #3ba55c;
+    --info-warning-background: rgba(250,166,26,0.1);
+    --info-warning-foreground: #faa61a;
+    --info-danger-background: rgba(237,66,69,0.1);
+    --info-danger-foreground: #ed4245;
+    --status-positive-background: #3ba55c;
+    --status-positive-text: #fff;
+    --status-warning-background: #faa61a;
+    --status-danger-background: #ed4245;
+    --status-danger-text: #fff;
+    --focus-primary: #00b0f4;
+  
+    --settings-icon-color: white;
+    --settings-subscriptions: #7289da;
+    --settings-hypesquad: #fbb848;
+    --settings-logout: #f04747;
+    --settings-alt-focused: white;
+    --settings-guild-premium: #7289da;
+    --settings-guild-delete: #f04747;
+
   /* Lode Specific */
-  --bd-color: #1bb69f;
-  --bd-color-hover: #16927f;
   --alt-color: 83, 182, 167; /* RGB */
   --alt-color2: #53b6a7; /* HEX */
   
-  --icons-color: #eef3f2;
-  --icons-color-hover: #1bb69f;
-            
   --green-color: #2C344D; 
   --green-bar-on: var(--greenple-color);
   --green-bar-bg: #151925;
@@ -326,13 +393,16 @@ USRBG Popouts by Tropix126.
   --green-slider-dot: #fff;
 
   /* Icons */
-  --home-icon: url(https://cdn.discordapp.com/attachments/733624227378495488/776180439010246656/home-icon.svg);
+--home-icon: url(https://cdn.discordapp.com/attachments/733624227378495488/776180439010246656/home-icon.svg);
 
   /* Other */
   --scrollbars: none; /* none or unset */
-  --call-bg: url(https://i.imgur.com/7QJkSkJ.png); /* None To Disable */
+  --call-bg: url(); /* None To Disable */
   --call-bg-colour: var(--background-accent); /* Image Overwrites */
 
+  /* Spotify Crenshaw Plugin */
+  --album-blur-amount: 2px;
+  --subtext-color: #fff;
 
   /* Keeping Consistancy With Discord */ 
   --serverlist-background: #cad7e0;
@@ -365,7 +435,6 @@ USRBG Popouts by Tropix126.
 
     /* Watermark */
   --watermark-text: "LODE";
-  --watermark-version: "v1.0.7";
   --watermark-text-top: 14px;
   --watermark-text-left: 3.4rem;
   --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
@@ -380,6 +449,14 @@ USRBG Popouts by Tropix126.
     /* Header Colors */
   --header-primary: #0f0f0e;
   --header-secondary: rgb(43, 45, 46);
+
+ /* Powercord Toast Colors */
+  --toast-background: #e1e3eb;
+  --toast-header: #bdc0c7;
+  --toast-content: #e1e3eb;
+  --toast-box-shadow: rgba(24, 21, 21, 0.932);
+  --toast-border: rgba(21, 22, 22, 0);
+  --toast-gradient: to right, rgb(64, 102, 172), rgb(53, 192, 127);
 
  /* Text Colours */
   --text-normal: #111010;
@@ -466,35 +543,7 @@ USRBG Popouts by Tropix126.
 .titleBar-AC4pGV>:nth-child(4):hover{background-color:var(--win-maximise-color)}
 
 /* --- */
-
 .withFrame-haYltI {margin-top: 10px;}
-
-/* Horizontal Modals OPTION*/
-/*
-.userPopout-3XzG_A{width:500px;-webkit-box-orient:horizontal;flex-direction:row;height:240px}
-.footer-1fjuF6{display:none}
-.header-2BwW8b{width:250px;height:240px;border-radius:var(--modal-border-radius);overflow:hidden auto}
-.header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
-.header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
-.header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
-.user-details-center{text-align:center;margin-bottom:5px}
-*/
-
-/* Optioanl Modal Avatar Size */
-
-    .footer-1fjuF6{padding-bottom:17.5px;margin-top:-15px}
-    .bodyTitle-Y0qMQz{display:none}
-    .bodyInnerWrapper-Z8WDxe:before{content:"Roles";font-weight:700;font-size:16px;margin-left:85px;color:var(--header-secondary)}
-    .headerTop-3C2Zn0{min-height:250px;padding:0}
-    .headerTop-3C2Zn0 .avatarWrapper-3H_478{left:0;bottom:9px;top:-15px;width:255px}
-    .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA{height:260px!important;width:250px!important;left:-4px}
-    .avatarHint-1qgaV3{width:100%;height:100%;border-radius:0}
-    .avatarHintInner-Dco91E{font-size:.4em;text-shadow:1px 1px 3px #ddd}
-    .headerTop-3C2Zn0 foreignObject{mask:none!important}
-    .headerTop-3C2Zn0 rect{border-radius:0;x:0;y:79.25;width:80px;height:3px;mask:none}
-    .headerText-2sdzFM{padding-bottom:5px}
-
-/* */
 
 /* Settings Modal Under Channels Into Server List */
 .spotify-buttons{width:6em;margin-bottom:-4px}
@@ -518,11 +567,42 @@ USRBG Popouts by Tropix126.
 .button-14-BFJ{transition:.2s}
 .button-14-BFJ:hover{padding-bottom:0;transition:.2}
 
+/* Horizontal Modals OPTION*/
+/*
+.userPopout-3XzG_A{width:500px;-webkit-box-orient:horizontal;flex-direction:row;height:240px}
+.footer-1fjuF6{display:none}
+.header-2BwW8b{width:250px;height:240px;border-radius:var(--modal-border-radius);overflow:hidden auto}
+.header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
+.header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
+.header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
+.user-details-center{text-align:center;margin-bottom:5px}
+
+/* Modal Avatar Size */
+    .footer-1fjuF6{padding-bottom:17.5px;margin-top:-15px}
+    .bodyTitle-Y0qMQz{display:none}
+    .bodyInnerWrapper-Z8WDxe:before{content:"Roles";font-weight:700;font-size:16px;margin-left:85px;color:var(--header-secondary)}
+    .headerTop-3C2Zn0{min-height:250px;padding:0}
+    .headerTop-3C2Zn0 .avatarWrapper-3H_478{left:0;bottom:9px;top:-15px;width:255px}
+    .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA{height:260px!important;width:250px!important;left:-4px}
+    .avatarHint-1qgaV3{width:100%;height:100%;border-radius:0}
+    .avatarHintInner-Dco91E{font-size:.4em;text-shadow:1px 1px 3px #ddd}
+    .headerTop-3C2Zn0 foreignObject{mask:none!important}
+    .headerTop-3C2Zn0 rect{border-radius:0;x:0;y:79.25;width:80px;height:3px;mask:none}
+    .headerText-2sdzFM{padding-bottom:5px}
+
 /* --- */
 /* Optionals End */
 /* ----- */
 
-.unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
+    /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
+    .panels-j1Uci_{position:fixed !important;z-index:3}
+    .panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;backdrop-filter:blur(var(--album-blur-amount))}
+    [style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
+    [style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
+    .panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
+
+    /* Member Dot */
+    .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
 
     /* Positioning */
 .form-2fGMdU{margin-right: 255px}
@@ -533,6 +613,7 @@ USRBG Popouts by Tropix126.
       border-radius: 12px;
       margin-bottom: 5px;
     }
+
 /* BETTERDISCORD ADDITONS */
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0);
@@ -556,8 +637,9 @@ USRBG Popouts by Tropix126.
 .cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
   background-color: transparent;
 }
+
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0.6 (Lode)
+                         v1.0.8 (Lode)
     ----------------------------------------------------  */
