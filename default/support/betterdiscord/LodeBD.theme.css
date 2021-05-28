@@ -280,6 +280,7 @@ USRBG Profile Modals by Tropix126.
 --interactive-muted: #505355;
          
 --modal-bg: #252B3B; 
+--popout-width: 480px;
 
  /* Chat */
 --channeltextarea-background: var(--background-primary);
