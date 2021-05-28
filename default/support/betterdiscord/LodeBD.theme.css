@@ -1,7 +1,7 @@
 /**
  * @name LodeTheme
  * @author Leeprky#2063
- * @version 1.0.8
+ * @version 1.0.9
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/Lode
  * @updateUrl https://github.com/leeprky/Lode/blob/main/default/support/betterdiscord/LodeBD.theme.css
@@ -19,13 +19,13 @@
 
 /* Lode Base Source Code */
 @import url(https://leeprky.github.io/themes/lode/lode-theme.css);
+@import url(https://leeprky.github.io/themes/lode/rebrand/modal.css);
 @import url('https://leeprky.github.io/snippits/coolsniipitsforthemes.css');
 
 /* Rebrand Imports */
 /* 
 @import url(https://leeprky.github.io/themes/lode/rebrand/modal.css);
 */
-
 
 /* Other Imports */
 
@@ -45,7 +45,7 @@
 
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.0.8
+                     v1.0.9
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -118,37 +118,6 @@ USRBG Profile Modals by Tropix126.
 .activity-1ythUs {
   z-index: 1;
   position: relative;
-}
-
-/*
-USRBG Popouts by Tropix126.
-=========================================== */
-
-.userPopout-3XzG_A {
-	transform:translateZ(0);
-}
-
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	pointer-events: none;
-	opacity: .5;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: var(--user-popout-position) center;
-	background-image: var(--user-background);
-	-webkit-mask-image: linear-gradient(#000, transparent);
-}
-
-.userPopout-3XzG_A  .header-2BwW8b,
-.userPopout-3XzG_A  .scroller-2FKFPG,
-.userPopout-3XzG_A  .footer-1fjuF6 {
-	z-index: 1;
 }
 
 #app-mount {background-color: var(--background-tertiary);}
@@ -276,7 +245,7 @@ USRBG Popouts by Tropix126.
 
 /* Watermark */
 --watermark-text: "LODE";
---watermark-version: "v1.0.8";
+--watermark-version: "v1.0.9";
 --watermark-text-top: 14px;
 --watermark-text-left: 3.4rem;
 --watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
@@ -647,5 +616,5 @@ USRBG Popouts by Tropix126.
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0.8 (Lode)
+                         v1.0.9 (Lode)
     ----------------------------------------------------  */
