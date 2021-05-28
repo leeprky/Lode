@@ -257,6 +257,8 @@
 --interactive-hover: #EAE1DF;
 --interactive-active: #fff;
 --interactive-muted: #505355;
+         
+--modal-bg: #252B3B; 
 
  /* Chat */
 --channeltextarea-background: var(--background-primary);
