@@ -608,6 +608,7 @@
 .avatarHint-1E3LMl foreignObject{mask:none}
 .profileBadges-3cJaE1{position:absolute;top:72.5px;left:-16px;justify-content:center}
 .setIdentityLink-OpBDR6{margin-left:190px;margin-top:-18px}
-.roleCircle-3xAZ1j {border-radius: 10%;width: 3.5px;height: 20px;padding: 0;margin-left: -5.5px;margin-right: 8px;}
-.role-2irmRk {font-size: 12px;font-weight: 500;border: 0px solid;background-color: #3e434754;border-radius: 0px;-webkit-box-sizing: border-box;box-sizing: border-box;height: 22px;margin: 0 8px 4px 0;padding: 4px;}
 .aboutMeSection-3bipSD {padding-top: 3px;margin-left: 120PX;background-color: transparent;}
+.bodyInnerWrapper-Z8WDxe:before {
+  margin-left: 190px;
+}
