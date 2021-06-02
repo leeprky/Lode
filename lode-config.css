@@ -591,43 +591,23 @@
                          v1.0.8 (Lode)
     ----------------------------------------------------  */
 
-    .profileBanner-j34RzR {
-      height: 80px;
-      background-color: var(--profile-banner-header) !important;
-      border-radius: var(--borders-radius);
-      margin-top: var(--borders-radius-top);
-      margin-bottom: var(--borders-radius-bottom);
-      margin-left: var(--borders-radius-left);
-      margin-right: var(--borders-radius-right);
-  }
-
-  .headerTop-2y3V6H {
-    background-color: transparent;
-    margin-top: -15px;
-  }
-  .avatarPositionNormal-1CZUPk {
-    top: 35px;
-    margin-left: 10px;
-}
-.profileBadges-1dm1_q, .spinner-3YTkt9 {
-  position: absolute;
-  top: 15px;
-  right: 22.5px;
-}
-
-.activity-fViXj7 {
-  background-color: #0202028e;
-  border-radius: var(--borders-radius);
-}
-
-.headerTextNormal-2mGWX3, .body-ZAhrcj {
-  margin-left: 10px;
-}
-.buttonsWrapper-2spIeK {
-  margin-top: 12px;
-  margin-left: 10px;
-  margin-right: 10px;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-}
+/* Canary Fix */
+.profileBanner-33-uE1 {height: 90px;}
+.userPopout-3XzG_A{width: var(--popout-width)!important}
+.note-3HfJZ5{margin-left:0}
+.userSelectText-1o1dQ7{margin-left:120px!important;margin-bottom:5px!important;margin-top:-55px}
+.customStatus-3NamXG{margin-top:5px!important;margin-left:120px;width:330px!important}
+.headerNormal-1l1Znk{background-color:var(--modal-bg)}
+.body-3iLsc4, .footer-1fjuF6 {background-color:var(--modal-bg)}
+.avatar-22FtUu {background-color:var(--modal-bg)!important; border-color: var(--modal-bg)}
+.headerTop-2cWpdB{background-color:var(--modal-bg);height:30px}
+.theme-dark .body-3iLsc4,.theme-dark .footer-1fjuF6{background-color:var(--modal-bg)}
+.avatar-22FtUu.wrapper-3t9DeA{width:100px!important;height:100px!important;bottom:-30px!important}
+.avatarHint-1E3LMl{width:100px!important;height:100px!important;border-radius:50%;top:35px!important}
+.nickname-322DbL.size20-2QkeeC .botTag-2WPJ74,.headerTagNoNickname-3ak9o8.headerTag-nSOkYt.size14-3iUx6q.size20-2QkeeC .botTag-2WPJ74{position:relative;top:1px!important}
+.avatarHint-1E3LMl foreignObject{mask:none}
+.profileBadges-3cJaE1{position:absolute;top:72.5px;left:-16px;justify-content:center}
+.setIdentityLink-OpBDR6{margin-left:190px;margin-top:-18px}
+.roleCircle-3xAZ1j {border-radius: 10%;width: 3.5px;height: 20px;padding: 0;margin-left: -5.5px;margin-right: 8px;}
+.role-2irmRk {font-size: 12px;font-weight: 500;border: 0px solid;background-color: #3e434754;border-radius: 0px;-webkit-box-sizing: border-box;box-sizing: border-box;height: 22px;margin: 0 8px 4px 0;padding: 4px;}
+.aboutMeSection-3bipSD {padding-top: 3px;margin-left: 120PX;background-color: transparent;}
