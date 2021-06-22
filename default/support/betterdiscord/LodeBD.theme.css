@@ -43,6 +43,8 @@
 /* Disable if you cant see them in top right (windows) */
 @import url(https://leeprky.github.io/themes/lode/default/support/win-buttons/win-buttons.css);
 
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
+:root {--version: "v1.0.8"; --outdated_lode-463: none;}
 /*  ------------------------------------------
           Lode Customisable Configuration
                      v1.0.9
