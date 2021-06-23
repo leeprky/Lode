@@ -55,7 +55,7 @@
 
 /*  ------------------------------------------
           Lode Customisable Configuration
-                     v1.0.7
+                     v1.0.8
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -101,7 +101,7 @@
 
 /* -- */
 
-:root {--version: "v1.0.8"; --outdated_lode-463: none;}
+:root {--version: "v1.0.8"; --outdated_lode-464: none;}
 #app-mount {background-color: var(--background-tertiary);}
 
 :root {
