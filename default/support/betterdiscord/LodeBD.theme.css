@@ -123,7 +123,7 @@ USRBG Profile Modals by Tropix126.
 }
 
 #app-mount {background-color: var(--background-tertiary);}
-:root {--version: "v1.0.8"; --outdated_lode-464: none;}
+:root {--version: "v1.0.8"; --outdated_lode-464: none; --build: "464"; }
 
 :root {
 
