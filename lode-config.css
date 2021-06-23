@@ -227,7 +227,7 @@
 
 /* Watermark */
 --watermark-text: "LODE";
---watermark-version: "v1.0.8";
+--watermark-version: var(--version);
 --watermark-text-top: 14px;
 --watermark-text-left: 3.4rem;
 --watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
