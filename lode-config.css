@@ -101,7 +101,7 @@
 
 /* -- */
 
-:root {--version: "v1.0.8" !important --build: "464" !important --outdated_lode-464: none !important}
+:root {--version: "v1.0.8" !important; --build: "464" !important --outdated_lode-464: none !important}
 #app-mount {background-color: var(--background-tertiary);}
 
 :root {
