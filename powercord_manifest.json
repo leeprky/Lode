@@ -1,9 +1,12 @@
-{
-    "name": "Lode",
-    "description": "Animated/Bubbly Theme w/ Lots of customisation",
-    "version": "1.0.8",
-    "author": "Leeprky#2063",
-    "splashTheme": "splash.css",
-    "license": "MIT",
-    "theme": "lode-config.css"
+{	
+"name": "Lode",
+"description": "Animated/Bubbly Theme w/ Lots of customisation",
+"version": "1.0.8",
+"author": "Leeprky#2063",
+"license": "MIT",
+"theme": "lode-config.css",
+"splashTheme": "splash.css",
+"consent": "true",
+"preview": ["https://raw.githubusercontent.com/leeprky/Lode/main/default/images/PreviewEdit.jpg"],
+"discord": "Ff3rqAYB89"
 }
