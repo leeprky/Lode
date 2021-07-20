@@ -577,7 +577,7 @@ USRBG Profile Modals by Tropix126.
 
     /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
     .panels-j1Uci_{position:fixed !important;z-index:3}
-    .panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;backdrop-filter:blur(var(--album-blur-amount))}
+    .panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
     [style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
     [style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
     .panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
