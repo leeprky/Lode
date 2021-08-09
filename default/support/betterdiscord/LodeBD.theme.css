@@ -1,7 +1,7 @@
 /**
  * @name LodeTheme
  * @author Leeprky#2063
- * @version 1.0.8
+ * @version 1.0.9
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/Lode
  * @updateUrl https://github.com/leeprky/Lode/blob/main/default/support/betterdiscord/LodeBD.theme.css
@@ -13,7 +13,7 @@
 
 /*  ------------------------------------------
          Lode Theme (POWERCORD/GOOSEMOD)
-                     v1.0.8
+                     v1.0.9
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -123,7 +123,8 @@ USRBG Profile Modals by Tropix126.
 }
 
 #app-mount {background-color: var(--background-tertiary);}
-:root {--version: "v1.0.8" !important; --build: "465" !important; --outdated_lode-465: none !important}
+
+:root {--version: "v1.0.9" !important; --build: "466" !important; --outdated_lode-466: none !important}
 
 :root {
 
@@ -549,39 +550,9 @@ USRBG Profile Modals by Tropix126.
 .button-14-BFJ{transition:.2s}
 .button-14-BFJ:hover{padding-bottom:0;transition:.2}
 
-/* Horizontal Modals OPTION*/
-/*
-.userPopout-3XzG_A{width:500px;-webkit-box-orient:horizontal;flex-direction:row;height:240px}
-.footer-1fjuF6{display:none}
-.header-2BwW8b{width:250px;height:240px;border-radius:var(--modal-border-radius);overflow:hidden auto}
-.header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
-.header-2BwW8b::-webkit-scrollbar-track{background:0 0;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
-.header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
-.user-details-center{text-align:center;margin-bottom:5px}
-
-/* Modal Avatar Size */
-    .footer-1fjuF6{padding-bottom:17.5px;margin-top:-15px}
-    .bodyTitle-Y0qMQz{display:none}
-    .bodyInnerWrapper-Z8WDxe:before{content:"Roles";font-weight:700;font-size:16px;margin-left:85px;color:var(--header-secondary)}
-    .headerTop-3C2Zn0{min-height:250px;padding:0}
-    .headerTop-3C2Zn0 .avatarWrapper-3H_478{left:0;bottom:9px;top:-15px;width:255px}
-    .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA{height:260px!important;width:250px!important;left:-4px}
-    .avatarHint-1qgaV3{width:100%;height:100%;border-radius:0}
-    .avatarHintInner-Dco91E{font-size:.4em;text-shadow:1px 1px 3px #ddd}
-    .headerTop-3C2Zn0 foreignObject{mask:none!important}
-    .headerTop-3C2Zn0 rect{border-radius:0;x:0;y:79.25;width:80px;height:3px;mask:none}
-    .headerText-2sdzFM{padding-bottom:5px}
-
 /* --- */
 /* Optionals End */
 /* ----- */
-
-    /* SPOTIFY FIX FOR THE PLUGIN CTRL+R */
-    .panels-j1Uci_{position:fixed !important;z-index:3}
-    .panels-j1Uci_::after{content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
-    [style*="background-image:"] .powercord-spotify:hover,[style*="background-image:"] .wrapper-24pKcD:hover,[style*="background-image:"]>.container-3baos1:hover{position:relative;z-index:3}
-    [style*="background-image:"] .powercord-spotify:hover::after,[style*="background-image:"] .wrapper-24pKcD:hover::after,[style*="background-image:"]>.container-3baos1:hover::after{backdrop-filter:blur(var(--album-blur-amount-hover));content:'';position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1}
-    .panels-j1Uci_{background-position:center;background-repeat:no-repeat;background-size:cover}
 
     /* Member Dot */
     .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
