@@ -38,7 +38,6 @@
 @import url(https://leeprky.github.io/themes/lode/default/support/gradients);
 @import url(https://leeprky.github.io/themes/lode/default/support/dtm/svg.css); /*
 @import url(https://raw.githack.com/leeprky/Lode/main/default/support/radial/radiusstatus.css);
-
 /* Titlebar */
 /* Disable if you cant see them in top right (windows) */
 @import url(https://leeprky.github.io/themes/lode/default/support/win-buttons/win-buttons.css);
@@ -58,17 +57,14 @@
 
 /* Citric (Yellow & Green / Blue Colour */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/citris.css); 
-
 /* Crimson ( Maroon )*/
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/lode-schemes/crimson.css);
-
 /* My Other Themes */
 
 /* naive */
 /* @import url(https://raw.githack.com/leeprky/Lode/blob/main/default/schemes/NaiveColors.css); 
 /* slook */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/slook.css); 
-
 /* Other User's Themes */
 
 /* midnight mars by #Luckfire */
@@ -83,14 +79,12 @@
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/LilyPichu.css);
 /* Fey-Theme */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/fey.css); 
-
 /* Neptune */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/neptune.css); 
 /* Midnightcord */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/midnightcord.css); 
 /* CTP */
 /* @import url(https://raw.githack.com/leeprky/Lode/main/default/schemes/ctp.css);
-
 /* -- */
 
 /*
@@ -112,7 +106,7 @@ USRBG Profile Modals by Tropix126.
   opacity: .5;
   pointer-events: none;
   background: var(--user-background) center/cover no-repeat;
-  -webkit-mask: linear-gradient(black, transparent 80%);
+  --webkit-mask: linear-gradient(black, transparent 80%);
 }
 
 .headerInfo-30uryT,
@@ -124,7 +118,7 @@ USRBG Profile Modals by Tropix126.
 
 #app-mount {background-color: var(--background-tertiary);}
 
-:root {--version: "v1.0.9" !important; --build: "466" !important; --outdated_lode-466: none !important}
+:root {--version: "v1.0.9" !important;--build: "466" !important; --outdated_lode-466: none !important}
 
 :root {
 
@@ -251,7 +245,7 @@ USRBG Profile Modals by Tropix126.
 /* Watermark */
 --watermark-text: "LODE";
 --watermark-version: var(--version);
---watermark-text-top: 14px;
+--watermark-text-top: 13px;
 --watermark-text-left: 3.4rem;
 --watermark-gradient: 270deg, rgb(132, 174, 253), rgb(80, 253, 172);
 
@@ -418,7 +412,7 @@ USRBG Profile Modals by Tropix126.
 
     /* Watermark */
   --watermark-text: "LODE";
-  --watermark-text-top: 14px;
+  --watermark-text-top: 11px!important;
   --watermark-text-left: 3.4rem;
   --watermark-gradient: 270deg, #79a9d0, #1ddaa1;
 
@@ -591,6 +585,11 @@ USRBG Profile Modals by Tropix126.
   background-color: transparent;
 }
 
+    /*  ----------------------------------------------------
+           Xyhlo
+                  was
+                         here
+    ----------------------------------------------------  */
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
