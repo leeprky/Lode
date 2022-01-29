@@ -96,7 +96,7 @@ USRBG Profile Modals by Tropix126.
 .root-SR8cQa {
   transform: translateZ(0);
 }
-.header-QKLPzZ .wrapper-3t9DeA::before {
+.header-QKLPzZ .wrapper-1VLyxH::before {
   content: '';
   position: fixed;
   top: 0;
@@ -493,14 +493,14 @@ USRBG Profile Modals by Tropix126.
 }
 
 /* Lode Extras */
-.guilds-1SWlCJ{background-color:var(--serverlist-background)}
-.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
-.guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
-.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background-light)}
+.guilds-2JjMmN{background-color:var(--serverlist-background)}
+.members-3WRCEx,.members-3WRCEx>div{background-color:var(--memberlist-background)}
+.guilds-2JjMmN{background-color:var(--serverlist-background-light)}
+.members-3WRCEx,.members-3WRCEx>div{background-color:var(--memberlist-background-light)}
 .powercord-toast .contents{background-color:var(--toast-content)}
 
 /* MemberList Scroller */
-.platform-win .scroller-1Bvpku {padding-top: 16px;}
+.platform-win .scroller-3X7KbA {padding-top: 16px;}
 
 /*  ----------------------------------------------------
                   Optional Features
@@ -514,13 +514,13 @@ USRBG Profile Modals by Tropix126.
 #app-mount>div[class*=titleBar]>div[class*=winButton]{height:unset;display:grid;width:2rem;height:1.72rem;border-radius:4px}
 #app-mount>div[class*=titleBar]>div[class*=winButton]>svg{height:40%;width:100%}
 #app-mount>div[class*=app]{margin-top:-.4rem}
-.messagesPopoutWrap-1MQ1bW{background-color:var(--background-tertiary)!important}
-.titleBar-AC4pGV>:nth-child(2):hover{background-color:var(--win-close-color)}
-.titleBar-AC4pGV>:nth-child(3):hover{background-color:var(--win-minimise-color)}
-.titleBar-AC4pGV>:nth-child(4):hover{background-color:var(--win-maximise-color)}
+.messagesPopoutWrap-3zryHW{background-color:var(--background-tertiary)!important}
+.titleBar-1it3bQ>:nth-child(2):hover{background-color:var(--win-close-color)}
+.titleBar-1it3bQ>:nth-child(3):hover{background-color:var(--win-minimise-color)}
+.titleBar-1it3bQ>:nth-child(4):hover{background-color:var(--win-maximise-color)}
 
 /* --- */
-.withFrame-haYltI {margin-top: 10px;}
+.withFrame-2dL45i {margin-top: 10px;}
 
 /* Settings Modal Under Channels Into Server List */
 .spotify-buttons{width:6em;margin-bottom:-4px}
@@ -531,31 +531,31 @@ USRBG Profile Modals by Tropix126.
 .spotify-seek-bar-cursor{border:none!important;width:15px;height:15px}
 .spotify-title div:first-child{margin-top:-1px!important;margin-bottom:3px}
 .powercord-spotify{background-position-x:center;background-position-y:center;border-radius:var(--borders-radius);background-image:var(--spotify-background-image);background-position:center;z-index:1;background-size:cover}
-.avatar-SmRMf2 .spotify-cover{display:none}
-.panels-j1Uci_{transition:height .5s;z-index:902;position:fixed;right:var(--spotify-right);bottom:5em;border-radius:1em!important;width:240px}
-.bannerImage-3KhIJ6{opacity:1;transition:opacity .5s;}
-.membersWrap-2h-GB4{background-color:var(--background-secondary);height:calc(100% - 160px);transition:height .5s;border-radius:var(--borders-radius);position:absolute;right:1em;top:.5em;overflow:hidden}
-.chatContent-a9vAAp{position:absolute;width:100%;height:100%}
-.divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 290px)}
-.container-2fRDfG{width:calc(100% - 260px)}
-.message-2qnXI6[role=listitem]{width:calc(100% - 365px);border-radius:1em}
-.searchResultsWrap-3-pOjs{z-index:903;height:calc(100% - 100px);position:absolute;right:1em;border-radius:1em}
-.container-3baos1 .noWrap-3jynv6{width:100px;opacity:1}
-.button-14-BFJ{transition:.2s}
-.button-14-BFJ:hover{padding-bottom:0;transition:.2}
+.avatar-1EWyVD .spotify-cover{display:none}
+.panels-3wFtMD{transition:height .5s;z-index:902;position:fixed;right:var(--spotify-right);bottom:5em;border-radius:1em!important;width:240px}
+.bannerImage-ubW8K-{opacity:1;transition:opacity .5s;}
+.membersWrap-3NUR2t{background-color:var(--background-secondary);height:calc(100% - 160px);transition:height .5s;border-radius:var(--borders-radius);position:absolute;right:1em;top:.5em;overflow:hidden}
+.chatContent-3KubbW{position:absolute;width:100%;height:100%}
+.divider-IqmEqJ,.jumpToPresentBar-1cEnH0,.newMessagesBar-1hF-9G{width:calc(100% - 290px)}
+.container-A2jo65{width:calc(100% - 260px)}
+.message-2CShn3[role=listitem]{width:calc(100% - 365px);border-radius:1em}
+.searchResultsWrap-5RVOkx{z-index:903;height:calc(100% - 100px);position:absolute;right:1em;border-radius:1em}
+.container-YkUktl .noWrap-hBpHBz{width:100px;opacity:1}
+.button-12Fmur{transition:.2s}
+.button-12Fmur:hover{padding-bottom:0;transition:.2}
 
 /* --- */
 /* Optionals End */
 /* ----- */
 
     /* Member Dot */
-    .unread-2lAfLh{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
+    .unread-36eUEm{background-color:var(--background-accent);width:7.2px;height:7.2px;margin-top:-3.8px;margin-left:4px;border-radius:4px}
 
     /* Positioning */
-.form-2fGMdU{margin-right: 255px}
-.panels-j1Uci_{bottom: 1.8em}
-.membersWrap-2h-GB4{height: calc(100% - 95px) }
-    .container-2fRDfG {
+.form-3gdLxP{margin-right: 255px}
+.panels-3wFtMD{bottom: 1.8em}
+.membersWrap-3NUR2t{height: calc(100% - 95px) }
+    .container-A2jo65 {
       width: calc(100% - 0px);
       border-radius: 12px;
       margin-bottom: 5px;
@@ -565,7 +565,7 @@ USRBG Profile Modals by Tropix126.
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0);
 }
-.scroller-305q3I {
+.scroller-3_YDR2 {
   border-radius: 12px;
 }
 .theme-dark .perksModal-fSYqOq {
@@ -581,7 +581,7 @@ USRBG Profile Modals by Tropix126.
 #bd-pub-button:hover {
   background-color: var(--bd-color-hover); 
 }
-.cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
+.cozy-VmLDNB .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type::before {
   background-color: transparent;
 }
 
