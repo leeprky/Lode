@@ -1,7 +1,7 @@
 /**
  * @name LodeTheme
  * @author Leeprky#2063
- * @version 1.0.9
+ * @version 1.1.0
  * @description Animated/Bubbly Theme w/ Lots of customisation
  * @source https://github.com/leeprky/Lode
  * @updateUrl https://github.com/leeprky/Lode/blob/main/default/support/betterdiscord/LodeBD.theme.css
@@ -13,7 +13,7 @@
 
 /*  ------------------------------------------
          Lode Theme (POWERCORD/GOOSEMOD)
-                     v1.0.9
+                     v1.1.0
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -117,8 +117,6 @@ USRBG Profile Modals by Tropix126.
 }
 
 #app-mount {background-color: var(--background-tertiary);}
-
-:root {--version: "v1.0.9BD" !important;--build: "466" !important; --outdated_lode-466: none !important}
 
 :root {
 
@@ -585,8 +583,10 @@ USRBG Profile Modals by Tropix126.
   background-color: transparent;
 }
 
+:root {--version: "v1.1.0BD" !important;--build: "503" !important; --outdated_lode-503: none !important}
+
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0.9 (Lode)
+                         v1.1.0 (Lode)
     ----------------------------------------------------  */
