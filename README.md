@@ -17,7 +17,8 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Lode
 
 For **Betterdiscord** Users:
 
-CLick > [Download](https://betterdiscord.app/Download?id=178)
+NO LONGER AVAILBLE ON BETTER DISCORDS SITE
+
 Raw > [Latest](https://raw.githubusercontent.com/leeprky/Lode/main/default/support/betterdiscord/LodeBD.theme.css)
 
 
